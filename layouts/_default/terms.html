@@ -1,0 +1,51 @@
+{{ define "main" }}
+<main>
+
+    <h1>{{ .Title }}</h1>
+
+	<div class="catalogue">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Type a string">
+
+  <ul id="myUL">
+
+    {{ range .Data.Terms.ByCount }}
+          <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+  {{ end }}
+
+        </ul>
+	</div>
+
+	<div class="pagination">
+		{{- if .Paginator.HasPrev -}}
+			<a href="{{ .Paginator.Prev.URL }}" class="left arrow">&#8592;</a>
+		{{- end -}}
+		{{- if .Paginator.HasNext -}}
+			<a href="{{ .Paginator.Next.URL }}" class="right arrow">&#8594;</a>
+		{{- end -}}
+
+		<span>{{ .Paginator.PageNumber }}</span>
+	</div>
+</main>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+	    ul = document.getElementById("myUL");
+//    li = ul.getElementsByTagName("h1");
+      li = ul.getElementsByTagName("li");
+
+			for (i = 0; i < li.length; i++) {
+			    a = li[i].getElementsByTagName("a")[0];
+			    txtValue = a.textContent || a.innerText;
+			    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			      li[i].style.display = "";
+			    } else {
+			      li[i].style.display = "none";
+			    }
+			  }
+}
+</script>
+
+{{ end }}

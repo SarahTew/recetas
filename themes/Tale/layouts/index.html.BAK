@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<main>
+	{{ partial "index/introduction.html" . }}
+
+<div></div>
+<!--<a href="http://mtpo-labs.org/mysterious_stranger/" class="catalogue-item">
+	<h1 class="catalogue-title">The Mysterious Stranger</h1>
+	</a>
+	<p style="font-color:grey;">Mark twain's The Mysterious Stranger, A Romance, as published in 1916 and reprinted since that date, is an editorial fraud perpetrated by Twain's official biographer and literary executor, Albert Bigelow Paine, and Frederick A. Duneka of Harper & Brothers publishing company.</p>
+
+	<a href="http://mtpo-labs.org/3k_years/" class="catalogue-item">
+		<h1 class="catalogue-title">Three Thousand Years among the Microbes</h1>
+		</a>
+		<p>“Three Thousand Years Among the Microbes” was written at Dublin, New Hampshire, between 20 May and 23 June 1905. During that time Mark Twain worked rapidly and exuberantly. On 11 June he wrote to his daughter Clara that he had reached page 240 of the manuscript and exulted, “It beats the record (—oh, all to smash!).”</p>-->
+
+	<div class="catalogue">
+
+
+		{{ range (.Paginate .Site.Sections).Pages }}
+
+			{{ .Render "summary" }}
+		{{ end }}
+	</div>
+
+	<div class="pagination">
+		{{ if .Paginator.HasPrev }}
+			<a href="{{ .Paginator.Prev.URL }}" class="left arrow">&#8592;</a>
+		{{ end }}
+		{{ if .Paginator.HasNext }}
+			<a href="{{ .Paginator.Next.URL }}" class="right arrow">&#8594;</a>
+		{{ end }}
+
+		<!--<span>{{ .Paginator.PageNumber }}</span>-->
+	</div>
+</main>
+
+{{ end }}

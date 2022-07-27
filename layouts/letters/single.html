@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+<main>
+
+	<div id="post" class="post">
+
+<!--		{{ partial "single/post-info.html" . }} -->
+
+		{{ partial "single/header.html" . }}
+
+	
+		<h3 style="text-align: center;">
+			<i>{{ .Params.title }}</i> · <small>{{ .Params.identifier }}</small>
+
+    </h3>
+
+	   <div>
+
+			<p><b>Identifier: </b>{{ .Params.identifier }}</p>
+			
+
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+		{{ .Content }}
+			</div>
+			
+</div>
+		<div class="footer">{{ partial "single/footer.html" . }}
+	</div>
+
+	<div class="pagination">
+		{{- if .NextPage }}
+		<a href="{{ .NextPage.RelPermalink }}" class="left arrow">&#8592;</a>
+		{{- end }}
+		{{- if .PrevPage }}
+		<a href="{{ .PrevPage.RelPermalink }}" class="right arrow">&#8594;</a>
+		{{- end }}
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+{{ end }}

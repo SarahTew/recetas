@@ -1,0 +1,91 @@
+default namespace = "http://www.tei-c.org/ns/1.0"
+
+start =
+  element TEI {
+    element teiHeader {
+      element fileDesc {
+        element titleStmt {
+          element title {
+            attribute type { xsd:NCName },
+            xsd:integer
+          }
+        },
+        element publicationStmt { publisher },
+        element sourceDesc {
+          element bibl { publisher }
+        }
+      }
+    },
+    element text {
+      element body {
+        (element p {
+           element lg {
+             element l {
+               (text
+                | choice
+                | hi
+                | note
+                | orgName
+                | persName
+                | placeName
+                | element foreign {
+                    attribute lang { xsd:NMTOKEN }?,
+                    attribute xml:lang { xsd:NCName }?,
+                    text
+                  }
+                | element rs {
+                    attribute key { text }?,
+                    attribute name { text }?,
+                    attribute ref { xsd:NCName }?,
+                    attribute type { xsd:NCName }?,
+                    attribute wdq { xsd:NCName }?,
+                    (text | note | persName)+
+                  }
+                | element sic { xsd:NCName })+
+             }+
+           }
+         }
+         | element pb {
+             attribute n { xsd:integer }
+           })+
+      }
+    }
+  }
+publisher = element publisher { text }
+placeName =
+  element placeName {
+    attribute key { text }?,
+    attribute name { xsd:NCName }?,
+    attribute ref { xsd:NCName }?,
+    attribute type { xsd:NCName }?,
+    attribute wdq { xsd:NCName }?,
+    (text | hi)+
+  }
+choice =
+  element choice {
+    element expan { text },
+    element abbr { (text | orgName | placeName)+ }
+  }
+persName =
+  element persName {
+    attribute key { text }?,
+    attribute name { text }?,
+    attribute ref { xsd:NCName }?,
+    attribute wdq { xsd:NCName }?,
+    (text | hi | note)+
+  }
+hi =
+  element hi {
+    attribute rend { text },
+    (text | note | orgName | placeName)+
+  }
+note = element note { text }
+orgName =
+  element orgName {
+    attribute key { text }?,
+    attribute name { text }?,
+    attribute ref { xsd:NCName }?,
+    attribute type { xsd:NCName }?,
+    attribute wdq { xsd:NCName }?,
+    (text | choice)+
+  }

@@ -1,0 +1,25 @@
+<a href="{{ .Permalink }}" class="catalogue-item">
+    <div>
+        <!--<time datetime="{{ .PublishDate }}" class="catalogue-time">{{ i18n "publishdate" . }}</time>-->
+        <h1 class="catalogue-title">{{ .Title }}</h1>
+
+        <div class="catalogue-line">{{ .Description }}</div>
+
+        <!--{{ $related := .Site.RegularPages.Related . | first 5 }}
+        {{ with $related }}
+
+<ul>
+          {{ range . }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}-->
+
+        <!--<p>
+            {{ if isset .Params "summary" }}{{ .Params.Summary | markdownify }}{{ else }}{{ .Summary }}{{ end }}
+        </p>-->
+
+    </div>
+
+
+</a>

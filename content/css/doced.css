@@ -1,0 +1,578 @@
+/*  From http://pausepress.net/EpigramMicrophone/EpigramMicrophone.html */
+/* The following code was modified from CSS provided as part of the NLM/NCBI
+   JATS Preview XSLT (cf https://github.com/ncbi/JATSPreviewStylesheets)
+*/
+
+/* --------------- Page setup ------------------------ */
+
+/* page and text defaults */
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Proza+Libre');
+
+main { margin-left: 10%; margin-right: 20% margin-bottom: 2%;
+max-width: 45em;
+font-family: 'Proza Libre', sans-serif;
+font-size: 14pt }
+
+body {
+  max-width: 100%;
+
+}
+
+div > *:first-child { margin-top:0em }
+
+div { margin-top: 0.5em }
+
+
+/*  end */
+
+
+div.shortwork {
+   margin-top: 1em; margin-bottom: 0.5em
+}
+
+div.ss {
+    margin-bottom: 0.5em
+}
+
+div.ab {
+   /*  margin-top: 2em; margin-bottom: 0.5em;*/
+   text-align:center;
+   background-color: lightgrey;
+}
+
+/*  add; followed by insert carat before and after */
+span.add {
+  color: blue;
+  font-size:smaller;
+}
+
+span.add::before {
+ content: '‸';
+}
+
+span.add::after {
+ content: '‸';
+}
+
+
+/*  del */
+span.del {
+  color: red;
+  text-decoration:line-through;
+  font-size: smaller;
+}
+
+/*  unclear, followed by open square bracket before and "?" close square bracket after */
+span.unclear {
+
+    font-size:smaller;
+    color:salmon;
+
+}
+
+span.unclear::before {
+ content: '[';
+}
+
+span.unclear::after {
+ content: '?]';
+}
+
+/* pb */
+span.pb {
+  display:block;
+  text-align:center;
+  font-size:smaller;
+  padding:5px;
+
+}
+
+
+/* style thumb (from xsl), which grabs value of @facs from pb */
+img.thumb {
+
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 50px; /* Set a small width */
+}
+
+img.thumb:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* style img (from xsl), which grabs value of @facs from figure */
+
+ img {
+    width: 50%;
+
+}
+
+
+/*
+span.pb::before {
+   font-size:smaller;
+   content: '[';
+}
+
+span.pb::after {
+   font-size:smaller;
+   content: ']';
+}*/
+
+
+/* p */
+p {
+
+    text-align:justify;
+    text-indent:3em;
+
+
+}
+
+/* prevent p from starting a new line after endnote number */
+
+div.endnote > p:first-of-type {
+
+   display:inline;
+
+}
+
+/* prevent commentary from starting a new line after head */
+
+div.commentary > div p:first-of-type {
+
+    display:inline;
+}
+
+
+/* style p inside of quote with @rend="blockquote" */
+
+span.quote > p {
+
+    text-indent:0em;
+    margin-left:7em;
+}
+
+/* head for divs in body of text */
+div.head {
+
+    text-align:center;
+    font-size:larger;
+    padding:30px;
+
+}
+
+/* style head for commentary sections */
+
+div.commentary > div > div
+
+{
+
+    text-align:left;
+    font-size:larger;
+    font-style:italic;
+    display:inline;
+}
+
+/* style head for enclosure section */
+
+div.enclosure > div {
+
+    text-align:left;
+    font-size:larger;
+    font-style:italic;
+
+}
+
+/* style head for envelope section */
+
+div.envelope > div {
+
+    text-align:left;
+    font-size:larger;
+    font-style:italic;
+
+}
+
+/* style head for endnotes sections */
+
+div.endnotes > div.head
+{
+
+    text-align:left;
+    font-size:larger;
+    font-style:italic;
+}
+
+/* add space between commentary sections */
+
+div.commentary > div {
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+/* add space between endnote sections */
+
+div.endnotes {
+
+    margin-bottom:2em;
+}
+
+/* milestone for letters */
+
+hr.heavyrule {
+
+  display:block;
+  width:4em;
+  margin-top:.5em;
+  margin-bottom:.5em;
+  margin-left:auto;
+  margin-right:auto;
+  height:.1em;
+  border-top:.15em solid #333;
+
+}
+
+hr.lightrule {
+
+  display:block;
+  width:4em;
+  margin-top:.5em;
+  margin-bottom:.5em;
+  margin-left:auto;
+  margin-right:auto;
+  height:.1em;
+  border-top:.06em solid #000;
+
+}
+
+/* style inline editorial note; insert open square bracket before and close square bracket after */
+
+span.note-inline-ed {
+    font-style:italic;
+}
+
+span.note-inline-ed:before {
+    content:"[";
+    font-style: normal;
+
+}
+
+span.note-inline-ed:after {
+    content:"]";
+    font-style: normal
+
+}
+
+
+/* metamark */
+
+span.metamark {
+
+    text-align:center;
+
+}
+
+/* lb */
+
+span.lb {
+    font-size:smaller;
+    text-align:right;
+    margin-right:5em;
+    color: purple;
+}
+
+/* styles for letter-specific elements */
+
+span.dateline {
+    display:block;
+    text-align:right;
+    padding-right:2em;
+}
+
+span.sourceline {
+    display:block;
+}
+
+span.salute {
+    display:block;
+    text-indent:2em;
+}
+
+span.closer {
+    display:block;
+    text-align:right;
+    padding-right:5em;
+}
+
+span.signed {
+    display:block;
+
+}
+
+/* style links to endnotes in body of text */
+
+span.note-ref {
+  vertical-align: super;
+  font-size: 67%;
+}
+
+/* Modal */
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  right: 20px;
+  top: 10px;
+  width: 50%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+/* grid layout */
+
+.item1 { grid-area: top-left; }
+.item2 { grid-area: top-center; }
+.item3 { grid-area: top-right; }
+.item4 { grid-area: left-middle; }
+.item5 { grid-area: main; }
+.item6 { grid-area: right-middle; }
+.item7 { grid-area: bottom-left; }
+.item8 { grid-area: bottom-middle; }
+.item9 { grid-area: bottom-right; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'top-left top-center top-center top-center top-center top-right'
+    'left-middle main main main main right-middle'
+    'bottom-left bottom-middle bottom-middle bottom-middle bottom-middle bottom-right';
+}
+
+.grid-container > div.item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+
+  font-size: 20px;
+}
+
+.grid-container > div.item5 {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: justify;
+
+  font-size: 18px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+
+  font-size: 18px;
+}
+
+/* TableOfContents */
+
+#TableOfContents  {
+
+text-align: left;
+
+
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+span.tocOpen {
+  font-size: 30px;
+
+}
+
+span.tocOpen:hover {
+  font-style: italic;
+}
+
+
+/* Position and style the close button (top right corner) */
+span.tocClose {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+span.tocClose:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* unused styles are below: pop up window and grid layout */
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup)
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}*/

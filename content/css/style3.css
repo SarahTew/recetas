@@ -1,0 +1,111 @@
+.body {
+	height:100vh;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+	height:80vh;
+	overflow: auto;
+	flex: 50%;
+	padding: 1em 1em 1em 1em;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
+.letterhead.center{
+    text-align:center;
+}
+.letterhead.right{
+    text-align: right;
+}
+.pchead{
+    text-align: center;
+    font-family: arial;
+}
+.address{
+    text-align: center; 
+}
+.signed.perpendicular{
+   width: 0em;
+   transform: rotate(-90deg);
+   }
+.signed.inline {
+    padding: 0;
+    display: inline;
+}
+.letterhead {
+    font-family: arial;
+    text-align: right;
+}
+.letterhead.exclude {
+    font-size: 0pt;
+}
+.underline {
+	text-decoration: underline;
+}
+.doubleunderline{
+    text-decoration:underline;
+    border-bottom: 1px solid #000;
+}
+.smallcaps {
+	font-variant: small-caps;
+}
+.overwrite {
+    font-weight: bold;
+}
+
+.dateline {
+	text-align: right;
+	padding-bottom: 1em;
+}
+.dateline.left{
+    text-align: left;
+    padding-bottom:1em;
+}
+
+.overwritten {
+    font-size: 0;
+}
+.add.overwrite {
+    font-weight: bold;
+}
+.above {
+    font-size: .75em;
+    position: relative;
+    top: -.5em;      
+}
+
+.signed {padding-bottom: .5em;
+	padding-top: .5em;
+	padding-left: 2em;
+	}
+.PS {
+	padding-bottom: .5em;
+	padding-top: .5em;
+}
+
+.pb {
+	text-align: center;
+	padding-bottom: .5em;
+	padding-top: .5em;
+}
+.spacing::before {
+    content: "\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 ";
+}
+.spacing2::before {
+    content: "\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0";
+}
+.spacing3::before {
+    content: "\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0"
+}
+.spacing4::before {
+    content: "\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0"
+}
+footer {
+   font-size: 10pt;
+   }
