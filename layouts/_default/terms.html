@@ -2,9 +2,10 @@
 <main>
 
     <h1>{{ .Title }}</h1>
-
-	<div class="catalogue">
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Type a string">
+<div class="container">
+	<div class="row">
+	<div class="catalogue" class="col">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search me..." title="Type a string">
 
   <ul id="myUL">
 
@@ -14,7 +15,12 @@
 
         </ul>
 	</div>
-
+	<div class="col">
+		List of recipes
+		
+	</div>
+	</div>
+</div>
 	<div class="pagination">
 		{{- if .Paginator.HasPrev -}}
 			<a href="{{ .Paginator.Prev.URL }}" class="left arrow">&#8592;</a>
@@ -25,6 +31,7 @@
 
 		<span>{{ .Paginator.PageNumber }}</span>
 	</div>
+
 </main>
 
 <script>
