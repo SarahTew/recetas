@@ -11,19 +11,27 @@
             </div>
         
     </xsl:template>
- 
-    <xsl:template match="id"/>
+     <xsl:template match="title">
+        <h2><xsl:apply-templates/></h2>
+    </xsl:template>
+    <xsl:template match="id">
+        <a target="_blank" href=".pdf">Printable PDF</a>
+    </xsl:template>
     <xsl:template match="paper"/>
     <xsl:template match="state"/>
     <xsl:template match="course"/>
     <xsl:template match="ingredients"/>
-    <xsl:template match="title"/>
-    <xsl:template match="url"/>
+
+    <xsl:template match="url">
+        <a target="_blank" href="url">Link in Chronicling America</a>
+    </xsl:template>
     <xsl:template match="pdf_file_path"/>
     <xsl:template match="tags"/>
     
     <xsl:template match="ingredient_list">
+        <div class="ingredients">
             <xsl:call-template name="ingredients"/>
+        </div>
     </xsl:template>
     
     <xsl:template match="directions">

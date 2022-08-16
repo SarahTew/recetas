@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <row>
+        <id>r3</id>
+        <paper>DLA</paper>
+        <state>FL</state>
+        <course>plato principal; side</course>
+        <tags></tags>
+        <country_of_origin></country_of_origin>
+        <ingredients>sofrito; butifarras; arroz; sal; manteca; achote; agua</ingredients>
+        <ingredient_list>sofrito; 5 butifarras partidas; 1 1-2 libras de arroz; 1 cucharadita de sal; 3 cucharadas de manteca con achote; 3 tazas de agua</ingredient_list>
+        <directions>Añada las butifarras, el arroz y la manteca al sofrito y cueza por dos minutos.; Agregue el agua y sazone a gusto.; Cueza hasta que el arroz esté un poco seco, baje el fuego, revuelva dos o tres veces y conserve tapado hasta el momento de servirlo.</directions>
+        <title>arroz con butifarras</title>
+        <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-24/ed-1/seq-5/</url>
+        <pdf_file_path>r3.pdf</pdf_file_path>
+    </row>
+</root>

@@ -6,9 +6,9 @@
         <xsl:template match="row">
             <xsl:result-document method="text" encoding="utf-8" href="{id}.md">
                 <xsl:call-template name="frontmatter"></xsl:call-template>
-                <xsl:apply-templates select="ingredient_list"></xsl:apply-templates>
+                <!--<xsl:apply-templates select="ingredient_list"></xsl:apply-templates>
                 <xsl:text>&#10;</xsl:text>
-                <xsl:apply-templates select="directions"></xsl:apply-templates>
+                <xsl:apply-templates select="directions"></xsl:apply-templates>-->
             </xsl:result-document>
         </xsl:template>
     <xsl:template name="frontmatter">
@@ -32,6 +32,10 @@
         <xsl:text>&#10;</xsl:text>
           <xsl:text>---</xsl:text>
         <xsl:text>&#10;</xsl:text>
+        <xsl:text>&#10;</xsl:text>
+        <xsl:text>{{&lt; readFile file="./html/recipes/</xsl:text><xsl:value-of select="id"/><xsl:text>.html"&gt;}}</xsl:text>
+        <xsl:text>&#10;</xsl:text>
+        <xsl:text>{{&lt; readFile file="./html/images/</xsl:text><xsl:value-of select="id"/><xsl:text>_image.html"&gt;}}</xsl:text>
     </xsl:template>
     <xsl:template match="ingredient_list">
         <xsl:for-each select="tokenize(.,';')">

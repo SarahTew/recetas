@@ -9,12 +9,21 @@
     <!-- row -->
     <xsl:template match="row">
         <xsl:result-document method="text" encoding="utf-8" href="{id}.html">
-        <xsl:apply-templates select="ingredient_list"></xsl:apply-templates>
-        <xsl:apply-templates select="directions"></xsl:apply-templates>
+         <div class="col recipe">
+             <xsl:text>Is this here???</xsl:text>
+             <xsl:apply-templates/>
+             <xsl:text>test</xsl:text>
+         </div>    
+                
+           <!--<xsl:call-template name="ingredients"></xsl:call-template>
+            <xsl:call-template name="directions"></xsl:call-template> -->
+             
+          
+            
+        <!--<xsl:apply-templates select="ingredient_list"/>-->
+        <!--<xsl:apply-templates select="directions"/>-->
         </xsl:result-document>
-        <div class="col recipe">
-            <xsl:apply-templates/>
-        </div>
+        
     </xsl:template>
     <xsl:template match="id"/>
     <xsl:template match="paper"/>
