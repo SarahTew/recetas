@@ -9,7 +9,17 @@
 
 		<title>{{- if .IsHome }}{{ .Site.Title }}{{- else }}{{ .Title }} &middot; {{ .Site.Title }}{{- end }}</title>
 
-		<!-- CSS -->
+		
+	
+	<!--JS--THIS IS NOT WORKING, APPEARS ON SITE BUT DOESN'T PUT ANY CONTENT IN THERE-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script> 
+		$(function(){
+		$("#includedContent").load("file:/C:/Users/sarahetew/Documents/recetas/layouts/letters/list.html"); 
+		});
+	</script> 
+	
+	<!-- CSS -->
 	
 	<!--<link rel="stylesheet" href="/css/letter.css">-->
 	<link rel="stylesheet" href="/css/style3.css">

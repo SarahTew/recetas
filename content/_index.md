@@ -1,14 +1,14 @@
 ---
 layout: letters
 identifier: Smyly
-title: The Letters of B.P. Grenfell
-author: Grenfell
-description: Incoming and outgoing correspondence.
+title: Recetas del Diario las Américas
+author: Diario las Américas
+description: Recetas del Diario las Américas
 rawDate: 2022-01-01
 source: EXTERNAL
 draft: false
-categories: ["labs", "critical", "documentary"]
-tags: ["letters", "smyly"]
+categories: ["documentary", "newspaper"]
+tags: ["recetas"]
 
 ---
-## Letters of B.P. Grenfell
+## Recetas del Diario las Américas

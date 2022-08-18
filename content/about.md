@@ -1,6 +1,6 @@
 ---
 layout: letters
-identifier: Smyly
+identifier: Recetas
 title: About
 author:
 description: recipes
