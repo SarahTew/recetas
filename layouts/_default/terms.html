@@ -10,7 +10,7 @@
   <ul id="myUL">
 
     {{ range .Data.Terms.ByCount }}
-          <li><input type="checkbox" id="{{ .Page.Title }}" onclick="filter_function"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+  	<li><input type="checkbox" id="{{ .Page.Title }}" onclick="filter_function({{ .Page.Title }})"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
   {{ end }}
 
         </ul>
@@ -18,16 +18,17 @@
 	<div class="col">
 		List of recipes<br>
 		JSON Data <br>
+		<div id="testdiv"></div>
 	{{ range .Site.Data.recipes }}
-	<div class="recipe" id= "{{ .id }}">
-			<h2><a href="{{.id}}">{{ .title }}</a></h2>
-
+		<div class="recipe-card" id= "{{ .id }}">
+			<h2><a href="../letters/{{.id}}">{{ .title }}</a></h2>
+		<h4>Ingredientes</h4>
 			{{ .ingredients}}
-		
+		</div>
 		{{ end }}
 		
 		
-	</div>
+	
 	</div>
 </div>
 	<div class="pagination">
@@ -63,8 +64,22 @@ function myFunction() {
 			  }
 }
 
-function filter_function() {
+function filter_function(query) {
 //function for hiding recipes in the list that do not contain the selected ingredient in their metadata//
+	var checkbox = document.getElementById(query)
+	var recipes = document.getElementsByClassName("recipe-card");
+	var div = document.getElementById("testdiv");
+	div.innerHTML += recipes.length;
+	
+		for (var i = 0; i < recipes.length; i++) {
+			if (recipes[i].textContent.includes(query)){
+			//recipes[i].style.display = 'block';
+}
+else {
+recipes[i].style.display = 'none';
+}
+}
+checkbox.setAttribute("checked","");
 }
 </script>
 

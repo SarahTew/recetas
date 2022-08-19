@@ -1,3 +1,14 @@
+.recipe-card {
+ background: pink;
+ border-style: dashed;
+ margin-bottom: 2em;
+ padding: 2em;
+ }
+
+
+
+
+
 .body {
 	height:100vh;
 }
