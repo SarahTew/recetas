@@ -5,10 +5,10 @@
                 "id": "r1",
                 "paper": "DLA",
                 "state": "FL",
-                "course": [ "plato principal", "side" ]
-                "tags": ["vegetariano"]
+                "course": [ "plato principal", "side" ],
+                "tags": ["vegetariano"],
                 "country_of_origin": "",
-                "ingredients": [ "tomate", "cebolla", "berenjena", "ajo", "vino blanco", "huevo", "perejil", "queso", "polvo de galletas", "sal" ]
+                "ingredients": [ "tomate", "cebolla", "berenjena", "ajo", "vino blanco", "huevo", "perejil", "queso", "polvo de galletas", "sal" ],
                 "ingredient_list": "6 tomates; 1 cebolla; 3 berenjenas; 1 ajo; 1 taza de vino blanco; 3 yemas de huevo; perejil; 1 taza queso rallado; polvo de galletas; sal",
                 "directions": "Se dividen los tomates en dos y se vacian, se sazonan con sal y pimienta. Se fríen con la cebolla cortada en pedacitos pequeños la berenjena en rodajas finas. Se rocían con vino blanco. Se añade la sal a gusto, perejil y el queso rallado. Se deja enfriar y se agregan las tres yemas de huevo. Se rellenan los tomates y se espolvorean con el polvo de galletas. Se colocan en un molde, se rocían con queso parmesano rallado y se gratinan al horno durante 5 minutos. Se sirven en su mismo jugo.",
                 "title": "tomates a la mireille",
@@ -22,7 +22,7 @@
                 "course": "plato principal; side",
                 "tags": "",
                 "country_of_origin": "",
-                "ingredients": "habicuela; chorizo; huevo; cebolla; pimienta; manteca",
+                "ingredients": ["habicuela", "chorizo", "huevo", "cebolla", "pimienta", "manteca"],
                 "ingredient_list": "1 libra de habichuelas; 2 chorizos desmenuzados; 3 huevos batidos; 1 cucharadita de cebolla rallada; 1-4 cucharadita de pimienta; manteca",
                 "directions": "Ablande las habichuelas y májelas. Agregue los demás ingredientes y mezcle. Ponga suficiente manteca en la sartén para cubrir el fondo. Eche en la sartén, tape y cueza a fuego lento, vuelva y dore por ambos lados.",
                 "title": "torta de habichuelas",

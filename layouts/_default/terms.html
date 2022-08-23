@@ -2,7 +2,7 @@
 <main>
 
     <h1>{{ .Title }}</h1>
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 	<div class="catalogue" class="col">
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Type a string">
@@ -10,7 +10,7 @@
   <ul id="myUL">
 
     {{ range .Data.Terms.ByCount }}
-  	<li><input type="checkbox" id="{{ .Page.Title }}" onclick="filter_function({{ .Page.Title }})"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+  	<li><input type="checkbox" id="{{ .Page.Title }}" onclick="filter2({{ .Page.Title }})"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
   {{ end }}
 
         </ul>
@@ -21,9 +21,21 @@
 		<div id="testdiv"></div>
 	{{ range .Site.Data.recipes }}
 		<div class="recipe-card" id= "{{ .id }}">
-			<h2><a href="../letters/{{.id}}">{{ .title }}</a></h2>
+			<h2><a href="../recetas/{{.id}}">{{ .title }}</a></h2>
 		<h4>Ingredientes</h4>
-			{{ .ingredients}}
+			<div class="ingredients">
+				<span id="{{ index .ingredients 0 }}">{{ index .ingredients 0}}</span>
+				<span id="{{ index .ingredients 1 }}">{{ index .ingredients 1}}</span>
+				<span id="{{ index .ingredients 2 }}">{{ index .ingredients 2}}</span>
+				<span id="{{ index .ingredients 3 }}">{{ index .ingredients 3}}</span>
+				<span id="{{ index .ingredients 4 }}">{{ index .ingredients 4}}</span>
+				<span id="{{ index .ingredients 5 }}">{{ index .ingredients 5}}</span>
+				<span id="{{ index .ingredients 6 }}">{{ index .ingredients 6}}</span>
+				<span id="{{ index .ingredients 7 }}">{{ index .ingredients 7}}</span>
+				<span id="{{ index .ingredients 8 }}">{{ index .ingredients 8}}</span>
+				<span id="{{ index .ingredients 9 }}">{{ index .ingredients 9}}</span>
+				<span id="{{ index .ingredients 10 }}">{{ index .ingredients 10}}</span>
+			</div>
 		</div>
 		{{ end }}
 		
@@ -69,18 +81,53 @@ function filter_function(query) {
 	var checkbox = document.getElementById(query)
 	var recipes = document.getElementsByClassName("recipe-card");
 	var div = document.getElementById("testdiv");
-	div.innerHTML += recipes.length;
+	div.innerHTML += recipes.length + terms;
 	
 		for (var i = 0; i < recipes.length; i++) {
 			if (recipes[i].textContent.includes(query)){
-			//recipes[i].style.display = 'block';
+				recipes[i].style.display = 'block';
+			}
+			else {
+				recipes[i].style.display = 'none';
+			}
+		}
+		checkbox.setAttribute("checked","");
 }
-else {
-recipes[i].style.display = 'none';
+
+var terms=[]
+
+function filter2(query) {
+	var checkbox = document.getElementById(query)
+
+	if (checkbox.hasAttribute('checked')){
+			checkbox.removeAttribute('checked');
+			qloc = terms.indexOf(query);
+			terms.splice(qloc, 1);
+	}
+	else {
+		terms.push(query);
+		checkbox.setAttribute("checked","");
+}
+	var recipes = document.getElementsByClassName("recipe-card");
+	for (var i= 0; i < recipes.length; i++) {
+		var rtarget = recipes[i]
+		var itarget = rtarget.children[2]
+		var ings = Array.from(itarget.children);
+		var ids = ings.map(element => {
+		return element.id; });
+		
+		if (terms.every(r => ids.includes(r))){
+			recipes[i].style.display = 'block';
+		}
+		else {
+			recipes[i].style.display = 'none';
+		}
+//var div = document.getElementById("testdiv");
+//div.innerHTML += terms
 }
 }
-checkbox.setAttribute("checked","");
-}
+
+
 </script>
 
 {{ end }}
