@@ -6,8 +6,22 @@
  }
  
  main {
-     background: grey;
+     /*background: grey;*/
  }
+ 
+ input[type="checkbox"]:checked{
+     background: red;
+ }
+ /* Hide the browser's default checkbox */
+
+
+ h2 {
+     text-transform: capitalize;
+ }
+.ingtag {
+    border-style: solid;
+    padding: 2px;
+}
 
 ul {
     list-style-type: none;

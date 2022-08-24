@@ -10,7 +10,7 @@
   <ul id="myUL">
 
     {{ range .Data.Terms.ByCount }}
-  	<li><input type="checkbox" id="{{ .Page.Title }}" onclick="filter2({{ .Page.Title }})"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+  	<li><input type="checkbox" name="{{ .Page.Title }}" id="c{{ .Page.Title }}" onclick="filter2({{ .Page.Title }})"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
   {{ end }}
 
         </ul>
@@ -24,18 +24,18 @@
 			<h2><a href="../recetas/{{.id}}">{{ .title }}</a></h2>
 		<h4>Ingredientes</h4>
 			<div class="ingredients">
-				<span id="{{ index .ingredients 0 }}">{{ index .ingredients 0}}</span>
-				<span id="{{ index .ingredients 1 }}">{{ index .ingredients 1}}</span>
-				<span id="{{ index .ingredients 2 }}">{{ index .ingredients 2}}</span>
-				<span id="{{ index .ingredients 3 }}">{{ index .ingredients 3}}</span>
-				<span id="{{ index .ingredients 4 }}">{{ index .ingredients 4}}</span>
-				<span id="{{ index .ingredients 5 }}">{{ index .ingredients 5}}</span>
-				<span id="{{ index .ingredients 6 }}">{{ index .ingredients 6}}</span>
-				<span id="{{ index .ingredients 7 }}">{{ index .ingredients 7}}</span>
-				<span id="{{ index .ingredients 8 }}">{{ index .ingredients 8}}</span>
-				<span id="{{ index .ingredients 9 }}">{{ index .ingredients 9}}</span>
-				<span id="{{ index .ingredients 10 }}">{{ index .ingredients 10}}</span>
-			</div>
+				<input type="checkbox" name="{{ index .ingredients 0 }}" onclick = "filter2({{ index .ingredients 0 }})" class="ingtag" id="t{{ index .ingredients 0 }}"/>{{ index .ingredients 0}}
+				<input type="checkbox" name="{{ index .ingredients 1 }}" onclick = "filter2({{ index .ingredients 1 }})" class="ingtag" id="t{{ index .ingredients 1 }}"/>{{ index .ingredients 1}}
+				<input type="checkbox" name="{{ index .ingredients 2 }}" onclick = "filter2({{ index .ingredients 2 }})" class="ingtag" id="t{{ index .ingredients 2 }}"/>{{ index .ingredients 2}}
+				<input type="checkbox" name="{{ index .ingredients 3 }}" onclick = "filter2({{ index .ingredients 3 }})" class="ingtag" id="t{{ index .ingredients 3 }}"/>{{ index .ingredients 3}}
+				<input type="checkbox" name="{{ index .ingredients 4 }}" onclick = "filter2({{ index .ingredients 4 }})" class="ingtag" id="t{{ index .ingredients 4 }}"/>{{ index .ingredients 4}}
+				<input type="checkbox" name="{{ index .ingredients 5 }}" onclick = "filter2({{ index .ingredients 5 }})" class="ingtag" id="t{{ index .ingredients 5 }}"/>{{ index .ingredients 5}}
+				<input type="checkbox" name="{{ index .ingredients 6 }}" onclick = "filter2({{ index .ingredients 6 }})" class="ingtag" id="t{{ index .ingredients 6 }}"/>{{ index .ingredients 6}}
+				<input type="checkbox" name="{{ index .ingredients 7 }}" onclick = "filter2({{ index .ingredients 7 }})" class="ingtag" id="t{{ index .ingredients 7 }}"/>{{ index .ingredients 7}}
+				<input type="checkbox" name="{{ index .ingredients 8 }}" onclick = "filter2({{ index .ingredients 8 }})" class="ingtag" id="t{{ index .ingredients 8 }}"/>{{ index .ingredients 8}}
+				<input type="checkbox" name="{{ index .ingredients 9 }}" onclick = "filter2({{ index .ingredients 9 }})" class="ingtag" id="t{{ index .ingredients 9 }}"/>{{ index .ingredients 9}}
+				
+		</div>
 		</div>
 		{{ end }}
 		
@@ -97,16 +97,18 @@ function filter_function(query) {
 var terms=[]
 
 function filter2(query) {
-	var checkbox = document.getElementById(query)
+	var checkboxes = document.getElementsByName(query);
 
-	if (checkbox.hasAttribute('checked')){
-			checkbox.removeAttribute('checked');
-			qloc = terms.indexOf(query);
-			terms.splice(qloc, 1);
+	if (checkboxes[0].hasAttribute('checked')){
+		checkboxes.forEach(a=>a.removeAttribute("checked"));
+		//checkbox.removeAttribute('checked');//
+		qloc = terms.indexOf(query);
+		terms.splice(qloc, 1);
 	}
 	else {
 		terms.push(query);
-		checkbox.setAttribute("checked","");
+		//checkbox.setAttribute("checked","");//
+		checkboxes.forEach(b=>b.setAttribute("checked",""));
 }
 	var recipes = document.getElementsByClassName("recipe-card");
 	for (var i= 0; i < recipes.length; i++) {
@@ -114,14 +116,47 @@ function filter2(query) {
 		var itarget = rtarget.children[2]
 		var ings = Array.from(itarget.children);
 		var ids = ings.map(element => {
-		return element.id; });
-		
-		if (terms.every(r => ids.includes(r))){
-			recipes[i].style.display = 'block';
-		}
-		else {
-			recipes[i].style.display = 'none';
-		}
+		return element.name; });
+
+			if (terms.every(r => ids.includes(r))){
+				recipes[i].style.display = 'block';
+			}
+			else {
+				recipes[i].style.display = 'none';
+			}
+	//var div = document.getElementById("testdiv");
+	//div.innerHTML = terms + checkboxes.length
+}
+}
+
+
+//working except the double inputs don't get marked as checked together.
+function filter3(query) {
+var checkbox = document.getElementById(query)
+
+if (checkbox.hasAttribute('checked')){
+checkbox.removeAttribute('checked');
+qloc = terms.indexOf(query);
+terms.splice(qloc, 1);
+}
+else {
+terms.push(query);
+checkbox.setAttribute("checked","");
+}
+var recipes = document.getElementsByClassName("recipe-card");
+for (var i= 0; i < recipes.length; i++) {
+var rtarget = recipes[i]
+var itarget = rtarget.children[2]
+var ings = Array.from(itarget.children);
+var ids = ings.map(element => {
+return element.id; });
+
+if (terms.every(r => ids.includes(r))){
+recipes[i].style.display = 'block';
+}
+else {
+recipes[i].style.display = 'none';
+}
 //var div = document.getElementById("testdiv");
 //div.innerHTML += terms
 }
