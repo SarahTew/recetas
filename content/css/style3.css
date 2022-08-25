@@ -1,44 +1,53 @@
 .recipe-card {
- background: pink;
+ background: none;
  border-style: dashed;
- margin-bottom: 2em;
+ margin-bottom: 1em;
  padding: 0em 1em 2em 2em;
+ width: 100%;
  }
  
- main {
-     /*background: grey;*/
- }
+
  
- input[type="checkbox"]:checked{
-     background: red;
- }
- /* Hide the browser's default checkbox */
+.selected {
+    background:#97999B;
+}
 
 
  h2 {
      text-transform: capitalize;
+     padding-bottom: 0em;
  }
-.ingtag {
-    border-style: solid;
-    padding: 2px;
+
+h4 {
+    
 }
 
 ul {
     list-style-type: none;
+    columns: 2;
+    padding: 0;
+}
+
+li {
+    padding-bottom: .25em;
 }
 
 .nav {
-    max-width: 100vw;
-    border-bottom: double
+    border-bottom: double;
 }
 
 .row {
   display: flex;
   width: 100%;
+  height: 80vh;
+  overflow: auto;
 }
 
 .col {
 	padding: 1em 1em 1em 1em;
+  width: 80%;
+  height: 80vh;
+  overflow: auto;
 }
 
 footer {
