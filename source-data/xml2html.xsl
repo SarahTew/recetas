@@ -23,7 +23,12 @@
     <xsl:template match="ingredients"/>
 
     <xsl:template match="url">
-        <a target="_blank" href="url">Link in Chronicling America</a>
+        <a target="_blank" href="{url}">
+            <xsl:attribute name="href">
+            <xsl:value-of select="url"/>
+            </xsl:attribute>
+            <xsl:text>Link in Chronicling America</xsl:text>
+        </a>
     </xsl:template>
     <xsl:template match="pdf_file_path"/>
     <xsl:template match="tags"/>
@@ -40,6 +45,11 @@
         </div>
     </xsl:template>
     
+    <!-- urls -->
+    <xsl:template name="make_href">
+        <xsl:value-of select="URL"/>
+    </xsl:template>
+        
     <!--ingredients_list-->
     <xsl:template name="ingredients">
         <ul id="ingredients">

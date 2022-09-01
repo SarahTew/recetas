@@ -1,41 +1,33 @@
 baseURL = "https://stew.reclaim.hosting/"
-languageCode = "es-us"
+defaultContentLanguage = "es"
 title = "Recetas"
 theme = "Tale"
 toc = true
 paginate = 10000
 sectionPagesMenu = "main"
 [taxonomies]
-  category = 'categories'
-  sources = "source"
-  ingredients = "ingredientes"
-  place = "places"
-  course = "plato"
-  tag = 'tags'
-  [[related.indices]]
-  name = 'ingredientes'
-  weight = 100
-  [[related.indices]]
-  name = 'source'
-  weight = 100
-  
+category = 'categories'
+sources = "source"
+ingredients = "ingredientes"
+course = "plato"
+tag = 'tags'
+[[related.indices]]
+name = 'ingredientes'
+weight = 100
+[[related.indices]]
+name = 'source'
+weight = 100
 [menu]
 [[menu.main]]
-  name = 'About'
-  pre = "<i class='fa fa-heart'></i>"
-  url = '/about/'
-  weight = -110
+name = 'Home'
+pre = "<i class='fa fa-heart'></i>"
+url = '/'
+weight = -110
 [[menu.main]]
   name = 'Ingredientes'
   post = "<span class='alert'></span>"
   pre = "<i class='fa fa-road'></i>"
   url = '/ingredientes/'
-  weight = -100
-[[menu.main]]
-  name = 'Places'
-  post = "<span class='alert'></span>"
-  pre = "<i class='fa fa-road'></i>"
-  url = '/places/'
   weight = -100
 [[menu.main]]
   name = 'Plato'

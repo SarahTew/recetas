@@ -1,13 +1,9 @@
-<div class="ingredients">
-    <checkbox onclick = "filter2({{ index .ingredients 0 }})" class="ingtag" id="{{ index .ingredients 0 }}"/>{{ index .ingredients 0}}</checkbox>
-    <checkbox onclick = "filter2({{ index .ingredients 1 }})" class="ingtag" id="{{ index .ingredients 1 }}">{{ index .ingredients 1}}</checkbox>
-    <checkbox onclick = "filter2({{ index .ingredients 2 }})" class="ingtag" id="{{ index .ingredients 2 }}">{{ index .ingredients 2}}</checkbox>
-    <checkbox onclick = "filter2({{ index .ingredients 3 }})" class="ingtag" id="{{ index .ingredients 3 }}">{{ index .ingredients 3}}</checkbox>
-    <checkbox onclick = "filter2({{ index .ingredients 4 }})" class="ingtag" id="{{ index .ingredients 4 }}">{{ index .ingredients 4}}</checkbox>
-    <checkbox onclick = "filter2({{ index .ingredients 5 }})" class="ingtag" id="{{ index .ingredients 5 }}">{{ index .ingredients 5}}</checkbox>
-    <checkbox onclick = "filter2({{ index .ingredients 6 }})" class="ingtag" id="{{ index .ingredients 6 }}">{{ index .ingredients 6}}</checkbox>
-    <checkbox onclick = "filter2({{ index .ingredients 7 }})" class="ingtag" id="{{ index .ingredients 7 }}">{{ index .ingredients 7}}</checkbox>
-    <checkbox onclick = "filter2({{ index .ingredients 8 }})" class="ingtag" id="{{ index .ingredients 8 }}">{{ index .ingredients 8}}</checkbox>
-    <checkbox onclick = "filter2({{ index .ingredients 9 }})" class="ingtag" id="{{ index .ingredients 9 }}">{{ index .ingredients 9}}</checkbox>
-    <checkbox onclick = "filter2({{ index .ingredients 10 }})" class="ingtag" id="{{ index .ingredients 10 }}">{{ index .ingredients 10}}</checkbox>
-</div>
+<section>
+    <ul>
+        {{ range $taxonomyname, $taxonomy := .Site.Taxonomies.plato }}
+        <li><button type="checkbox" name="{{ $taxonomyname }}" id="c{{ $taxonomyname }}" onclick="filter2({{ $taxonomyname }})">{{ $taxonomyname }}</button>
+            
+        </li>
+        {{ end }}
+    </ul>
+</section>

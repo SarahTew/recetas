@@ -1,3 +1,41 @@
+
+
+button {
+  background-color: #a9c993;
+  border: none;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 1.5em;
+  }
+
+/* This take off the blank place between the navbar double lines and the homepage. I do NOT know where this div with class 'post' is being generated from, though */
+.nav {
+    background-image: url("circles.png");
+}
+.post {
+    display: none;
+}
+.nav-title {
+    text-align: center;
+    color: pink;
+}
+.nav-subtitle {
+    text-align: center;
+}
+
+.nav-bar {
+    text-align: right;
+    padding-bottom:2em;
+}
+
+.nav-menu {
+    color: pink;
+}
+
 .recipe-card {
  background: none;
  border-style: dashed;
@@ -9,7 +47,7 @@
 
  
 .selected {
-    background:#97999B;
+    background:#bbe3e3;
 }
 
 
@@ -36,6 +74,7 @@ li {
     border-bottom: double;
 }
 
+
 .row {
   display: flex;
   width: 100%;
@@ -53,4 +92,31 @@ li {
 footer {
    font-size: 10pt;
    }
+   
+.card-gallery {
+  display: flex;
+}
+img {
+width: 20em;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 2em;
+  width: 20em;
+}
 
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.caption {
+  padding: 2px 16px;
+}
+
+.catalogue {
+text-transform: capitalize;
+}

@@ -7,41 +7,52 @@
 	<div class="catalogue" class="col">
 		<div>
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Type a string"></div>
-
+<div id="filterlist">
+<h3 class="subhead">Plato</h3>
+			<ul>
+				{{ range $taxonomyname, $taxonomy := .Site.Taxonomies.plato }}
+				<li><button type="checkbox" name="{{ $taxonomyname }}" id="c{{ $taxonomyname }}" onclick="filter4({{ $taxonomyname }})">{{ $taxonomyname }}</button>
+						
+				</li>
+				{{ end }}
+			</ul>
+		
+		
  <h3 class="subhead">Ingredientes</h3>
-		<ul id="myUL">
-
-    {{ range .Data.Terms.ByCount }}
-    
-  	<li><button type="checkbox" name="{{ .Page.Title }}" id="c{{ .Page.Title }}" onclick="filter2({{ .Page.Title }})"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</button></li>
-  {{ end }}
-  
-        </ul>
+	<ul>
+		{{ range $taxonomyname, $taxonomy := .Site.Taxonomies.ingredientes }}
+		<li><button type="checkbox" name="{{ replace $taxonomyname "-" " " }}" id="d{{ replace $taxonomyname "-" " " }}" onclick="filter2({{ replace $taxonomyname "-" " " }})">{{ replace $taxonomyname "-" " " }}</button>
+			
+		</li>
+		{{ end }}
+	</ul>
+	
+		
+	</div>
 	</div>
 	<div class="col">
-		List of recipes<br>
-		JSON Data <br>
+		
 		<div id="testdiv"></div>
 	{{ range .Site.Data.recipes }}
 		<div class="recipe-card" id= "{{ .id }}">
 			<h2><a href="../recetas/{{.id}}">{{ .title }}</a></h2>
-			
+	
 		<h4>Ingredientes</h4>
-			<div class="ingredients">
-				<button type="checkbox" name="{{ index .ingredients 0 }}" onclick = "filter2({{ index .ingredients 0 }})" class="ingtag" id="t{{ index .ingredients 0 }}">{{ index .ingredients 0}}</button>
-				<button type="checkbox" name="{{ index .ingredients 1 }}" onclick = "filter2({{ index .ingredients 1 }})" class="ingtag" id="t{{ index .ingredients 1 }}">{{ index .ingredients 1}}</button>
-				<button type="checkbox" name="{{ index .ingredients 2 }}" onclick = "filter2({{ index .ingredients 2 }})" class="ingtag" id="t{{ index .ingredients 2 }}">{{ index .ingredients 2}}</button>
-				<button type="checkbox" name="{{ index .ingredients 3 }}" onclick = "filter2({{ index .ingredients 3 }})" class="ingtag" id="t{{ index .ingredients 3 }}">{{ index .ingredients 3}}</button>
-				<button type="checkbox" name="{{ index .ingredients 4 }}" onclick = "filter2({{ index .ingredients 4 }})" class="ingtag" id="t{{ index .ingredients 4 }}">{{ index .ingredients 4}}</button>
-				<button type="checkbox" name="{{ index .ingredients 5 }}" onclick = "filter2({{ index .ingredients 5 }})" class="ingtag" id="t{{ index .ingredients 5 }}">{{ index .ingredients 5}}</button>
-				<button type="checkbox" name="{{ index .ingredients 6 }}" onclick = "filter2({{ index .ingredients 6 }})" class="ingtag" id="t{{ index .ingredients 6 }}">{{ index .ingredients 6}}</button>
-				<button type="checkbox" name="{{ index .ingredients 7 }}" onclick = "filter2({{ index .ingredients 7 }})" class="ingtag" id="t{{ index .ingredients 7 }}">{{ index .ingredients 7}}</button>
-				<button type="checkbox" name="{{ index .ingredients 8 }}" onclick = "filter2({{ index .ingredients 8 }})" class="ingtag" id="t{{ index .ingredients 8 }}">{{ index .ingredients 8}}</button>
-				<button type="checkbox" name="{{ index .ingredients 9 }}" onclick = "filter2({{ index .ingredients 9 }})" class="ingtag" id="t{{ index .ingredients 9 }}">{{ index .ingredients 9}}</button>
-		</div>
+				<div class="ingredients">
+
+					{{ range $item, $list := .ingredients }}
+						<button type="checkbox" name="{{ $list }}" onclick = "filter2({{ $list }})" class="ingtag" id="t{{ $list }}">{{ $list }}</button>
+						{{ end }}
+								
+			</div>
 			<h4>Course</h4>
+			<div class="course">
+
+				{{ range $item, $list := .course }}
+				<button type="checkbox" name="{{ $list }}" onclick = "filter4({{ $list }})" class="ingtag" id="t{{ $list }}">{{ $list }}</button>
+				{{ end }}
 				
-				<span>{{ .course }}</span>
+			</div>	
 				
 		</div>
 		{{ end }}
@@ -50,16 +61,6 @@
 	
 	</div>
 </div>
-	<div class="pagination">
-		{{- if .Paginator.HasPrev -}}
-			<a href="{{ .Paginator.Prev.URL }}" class="left arrow">&#8592;</a>
-		{{- end -}}
-		{{- if .Paginator.HasNext -}}
-			<a href="{{ .Paginator.Next.URL }}" class="right arrow">&#8594;</a>
-		{{- end -}}
-
-		<span>{{ .Paginator.PageNumber }}</span>
-	</div>
 </div>
 </main>
 
@@ -68,12 +69,12 @@ function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
-	    ul = document.getElementById("myUL");
+	    ul = document.getElementById("filterlist");
 //    li = ul.getElementsByTagName("h1");
       li = ul.getElementsByTagName("li");
 
 			for (i = 0; i < li.length; i++) {
-			    a = li[i].getElementsByTagName("a")[0];
+			    a = li[i].getElementsByTagName("button")[0];
 			    txtValue = a.textContent || a.innerText;
 			    if (txtValue.toUpperCase().indexOf(filter) > -1) {
 			      li[i].style.display = "";
@@ -138,7 +139,7 @@ function filter2(query) {
 			}
 	var div = document.getElementById("testdiv");
 	//div.innerHTML += i + "Ings" + ids + ";"
-	div.innerHTML = kids[2].tagName
+	//div.innerHTML = kids[2].tagName
 }
 }
 

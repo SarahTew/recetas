@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <row>
+        <id>r04</id>
+        <paper>DLA</paper>
+        <state>FL</state>
+        <course>entrée</course>
+        <tags>vegetarian</tags>
+        <ingredients>caldo; calabaza; harina; matequilla</ingredients>
+        <ingredient_list>6 tazas de caldo;
+            1-2 libra de calabaza partida
+            en pedazos;
+            2 cucharadas de harina;
+            1 cucharada de mantequi
+            lla</ingredient_list>
+        <directions>Hierva la calabaza en el caldo.;
+            Cuele y maje la calabaza, mez
+            cle la harina con un poco de cal
+            do frío, añada la mantequilla y
+            ponga al fuego, moviendo cons
+            tantemente y añada el resto del
+            caldo.; Sazone a gusto y sirva ca
+            líente.</directions>
+        <title>pure de calabaza</title>
+        <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1960-11-13/ed-1/seq-5/</url>
+        <Heading10></Heading10>
+        <Heading11></Heading11>
+    </row>
+</root>
