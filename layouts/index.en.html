@@ -1,0 +1,51 @@
+{{ define "main" }}
+
+<main>
+    
+    <div id="post" class="post">
+        
+        <!--		{{ partial "single/post-info.html" . }} -->
+        {{ partial "single/header.html" . }}
+        
+        {{ .Content }}
+        
+        {{ partial "single/footer.html" . }}
+    </div>
+    
+    <div>
+       <h1>Welcome to Recetas</h1>
+        
+        <p>Recetas is an experimental project from the <a href="https://ufndnp.domains.uflib.ufl.edu/"> US Caribbean and Ethnic Florida Digital Newspaper Project</a> at the University of Florida.</p>
+        
+        <p>All recipes are from the <a href="https://chroniclingamerica.loc.gov/lccn/sn82001257/"><i>Diario las Américas</i></a>. </p>
+    </div>
+    <div class="card-gallery">
+    <div class="card">
+        <img src="../images/homepage/sarah.jpg" alt="Avatar">
+        <div class="caption">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+        </div>
+    </div>
+        <div class="card">
+            <img src="../images/homepage/jerome.jpg" alt="Avatar">
+            <div class="caption">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="pagination">
+        {{- if .PrevPage }}
+        <a href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8592;</a>
+        {{- end }}
+        {{- if .NextPage }}
+        <a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
+        {{- end }}
+        
+        <a href="#" class="top">Top</a>
+    </div>
+</main>
+
+{{ end }}

@@ -1,9 +1,52 @@
-<section>
-    <ul>
-        {{ range $taxonomyname, $taxonomy := .Site.Taxonomies.plato }}
-        <li><button type="checkbox" name="{{ $taxonomyname }}" id="c{{ $taxonomyname }}" onclick="filter2({{ $taxonomyname }})">{{ $taxonomyname }}</button>
-            
-        </li>
-        {{ end }}
-    </ul>
-</section>
+baseURL = "https://stew.reclaim.hosting/"
+defaultContentLanguage = "es"
+title = "Recetas"
+theme = "Tale"
+toc = true
+paginate = 10000
+sectionPagesMenu = "main"
+[languages]
+[languages.en]
+title = "Recipes"
+languageName = "English"
+weight = 2
+[languages.es]
+title = "Recetas"
+languageName = "español"
+weight = 1
+[taxonomies]
+category = 'categories'
+sources = "source"
+ingredients = "ingredientes"
+course = "plato"
+tag = 'tags'
+[[related.indices]]
+name = 'ingredientes'
+weight = 100
+[[related.indices]]
+name = 'source'
+weight = 100
+[menu]
+[[menu.main]]
+name = 'Home'
+pre = "<i class='fa fa-heart'></i>"
+url = '/'
+weight = -110
+[[menu.main]]
+name = 'Ingredientes'
+post = "<span class='alert'></span>"
+pre = "<i class='fa fa-road'></i>"
+url = '/ingredientes/'
+weight = -100
+[[menu.main]]
+name = 'Filtro'
+post = "<span class='alert'></span>"
+pre = "<i class='fa fa-road'></i>"
+url = '/filtro/'
+weight = -100
+[[menu.main]]
+name = 'Plato'
+post = "<span class='alert'></span>"
+pre = "<i class='fa fa-road'></i>"
+url = '/plato/'
+weight = -100

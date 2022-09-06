@@ -1,9 +1,9 @@
 ---
-layout: letters
+layout: english
 identifier: Recetas
-title: Recetas del Diario las Américas
+title: Filter
 author: Diario las Américas
-description: Recetas del Diario las Américas
+description: Recipes from the Diario las Américas
 rawDate: 2022-01-01
 source: EXTERNAL
 draft: false
@@ -11,5 +11,3 @@ categories: ["documentary", "newspaper"]
 tags: ["recetas"]
 
 ---
-
-{{< readFile file="./html/about.html">}}

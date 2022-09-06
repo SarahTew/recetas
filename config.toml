@@ -5,6 +5,15 @@ theme = "Tale"
 toc = true
 paginate = 10000
 sectionPagesMenu = "main"
+[languages]
+[languages.en]
+title = "Recetas"
+languageName = "English"
+weight = 2
+[languages.es]
+title = "Recetas"
+languageName = "español"
+weight = 1
 [taxonomies]
 category = 'categories'
 sources = "source"
@@ -18,20 +27,49 @@ weight = 100
 name = 'source'
 weight = 100
 [menu]
-[[menu.main]]
-name = 'Home'
+[[languages.es.menu.main]]
+name = 'Inicio'
 pre = "<i class='fa fa-heart'></i>"
 url = '/'
 weight = -110
-[[menu.main]]
+[[languages.es.menu.main]]
   name = 'Ingredientes'
   post = "<span class='alert'></span>"
   pre = "<i class='fa fa-road'></i>"
   url = '/ingredientes/'
   weight = -100
-[[menu.main]]
+  [[languages.es.menu.main]]
+  name = 'Filtro'
+  post = "<span class='alert'></span>"
+pre = "<i class='fa fa-road'></i>"
+url = '/filtro/'
+weight = -100
+[[languages.es.menu.main]]
   name = 'Plato'
   post = "<span class='alert'></span>"
   pre = "<i class='fa fa-road'></i>"
   url = '/plato/'
   weight = -100
+  [[languages.en.menu.main]]
+  name = 'Home'
+  pre = "<i class='fa fa-heart'></i>"
+url = '/'
+weight = -110
+[[languages.en.menu.main]]
+name = 'Ingredients'
+post = "<span class='alert'></span>"
+pre = "<i class='fa fa-road'></i>"
+url = '/ingredientes/'
+weight = -100
+[[languages.en.menu.main]]
+name = 'Filter'
+post = "<span class='alert'></span>"
+pre = "<i class='fa fa-road'></i>"
+url = '/filtro/'
+weight = -100
+[[languages.en.menu.main]]
+name = 'Course'
+post = "<span class='alert'></span>"
+pre = "<i class='fa fa-road'></i>"
+url = '/plato/'
+weight = -100

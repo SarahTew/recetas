@@ -1,0 +1,182 @@
+{{ define "main" }}
+<main>
+
+    <h1>{{ .Title }}</h1>
+<div class="container-fluid">
+	<div class="row">
+	<div class="catalogue" class="col">
+		<div>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Type a string"></div>
+<div id="filterlist">
+<h3 class="subhead">Course</h3>
+			<ul>
+				{{ range $taxonomyname, $taxonomy := .Site.Taxonomies.plato }}
+				<li><button type="checkbox" name="{{ $taxonomyname }}" id="c{{ $taxonomyname }}" onclick="filter4({{ $taxonomyname }})">{{ $taxonomyname }}</button>
+						
+				</li>
+				{{ end }}
+			</ul>
+		
+		
+ <h3 class="subhead">Ingredients</h3>
+	<ul>
+		{{ range $taxonomyname, $taxonomy := .Site.Taxonomies.ingredientes }}
+		<li><button type="checkbox" name="{{ replace $taxonomyname "-" " " }}" id="d{{ replace $taxonomyname "-" " " }}" onclick="filter2({{ replace $taxonomyname "-" " " }})">{{ replace $taxonomyname "-" " " }}</button>
+			
+		</li>
+		{{ end }}
+	</ul>
+	
+		
+	</div>
+	</div>
+	<div class="col">
+		
+		<div id="testdiv"></div>
+	{{ range .Site.Data.recipes }}
+		<div class="recipe-card" id= "{{ .id }}">
+			<h2><a href="../recetas/{{.id}}">{{ .title }}</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					{{ range $item, $list := .ingredients_en }}
+						<button type="checkbox" name="{{ $list }}" onclick = "filter2({{ $list }})" class="ingtag" id="t{{ $list }}">{{ $list }}</button>
+						{{ end }}
+								
+			</div>
+			<h4>Course</h4>
+			<div class="course">
+
+				{{ range $item, $list := .course_en }}
+				<button type="checkbox" name="{{ $list }}" onclick = "filter4({{ $list }})" class="ingtag" id="t{{ $list }}">{{ $list }}</button>
+				{{ end }}
+				
+			</div>	
+				
+		</div>
+		{{ end }}
+		
+		
+	
+	</div>
+</div>
+</div>
+</main>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+	    ul = document.getElementById("filterlist");
+//    li = ul.getElementsByTagName("h1");
+      li = ul.getElementsByTagName("li");
+
+			for (i = 0; i < li.length; i++) {
+			    a = li[i].getElementsByTagName("button")[0];
+			    txtValue = a.textContent || a.innerText;
+			    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			      li[i].style.display = "";
+			    } else {
+			      li[i].style.display = "none";
+			    }
+			  }
+}
+
+function filter_function(query) {
+//function for hiding recipes in the list that do not contain the selected ingredient in their metadata//
+	var checkbox = document.getElementById(query)
+	var recipes = document.getElementsByClassName("recipe-card");
+	var div = document.getElementById("testdiv");
+	div.innerHTML += recipes.length + terms;
+	
+		for (var i = 0; i < recipes.length; i++) {
+			if (recipes[i].textContent.includes(query)){
+				recipes[i].style.display = 'block';
+			}
+			else {
+				recipes[i].style.display = 'none';
+			}
+		}
+		checkbox.setAttribute("checked","");
+}
+
+var terms=[]
+
+function filter2(query) {
+	var checkboxes = document.getElementsByName(query);
+
+	if (checkboxes[0].classList.contains('selected')){
+	checkboxes.forEach(a=>a.classList.remove("selected"));
+	checkboxes.forEach(a=>a.classList.add("deselected"));
+	checkboxes.forEach(a=>a.removeAttribute('checked'));
+		//checkbox.removeAttribute('checked');//
+		qloc = terms.indexOf(query);
+		terms.splice(qloc, 1);
+	}
+	else {
+		terms.push(query);
+		//checkbox.setAttribute("checked","");//
+		checkboxes.forEach(a=>a.classList.remove("deselected"));
+		checkboxes.forEach(b=>b.classList.add("selected"));
+		checkboxes.forEach(b=>b.setAttribute("checked",""));
+}
+	var recipes = document.getElementsByClassName("recipe-card");
+	for (var i= 0; i < recipes.length; i++) {
+		var rtarget = recipes[i]
+		var kids = rtarget.children
+		var itarget = rtarget.children[2]
+		var ings = Array.from(itarget.children);
+		var ids = ings.map(element => {
+		return element.name; });
+
+			if (terms.every(r => ids.includes(r))){
+				recipes[i].style.display = 'block';
+			}
+			else {
+				recipes[i].style.display = 'none';
+			}
+	var div = document.getElementById("testdiv");
+	//div.innerHTML += i + "Ings" + ids + ";"
+	//div.innerHTML = kids[2].tagName
+}
+}
+
+
+//working except the double inputs don't get marked as checked together.
+function filter3(query) {
+var checkbox = document.getElementById(query)
+
+if (checkbox.hasAttribute('checked')){
+checkbox.removeAttribute('checked');
+qloc = terms.indexOf(query);
+terms.splice(qloc, 1);
+}
+else {
+terms.push(query);
+checkbox.setAttribute("checked","");
+}
+var recipes = document.getElementsByClassName("recipe-card");
+for (var i= 0; i < recipes.length; i++) {
+var rtarget = recipes[i]
+var itarget = rtarget.children[2]
+var ings = Array.from(itarget.children);
+var ids = ings.map(element => {
+return element.id; });
+
+if (terms.every(r => ids.includes(r))){
+recipes[i].style.display = 'block';
+}
+else {
+recipes[i].style.display = 'none';
+}
+//var div = document.getElementById("testdiv");
+//div.innerHTML += terms
+}
+}
+
+
+</script>
+
+{{ end }}
