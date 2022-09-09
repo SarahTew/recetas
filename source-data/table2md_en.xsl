@@ -18,38 +18,38 @@
         <xsl:value-of select="id"/>
         <xsl:text>&#10;</xsl:text>
        <xsl:text>title: </xsl:text>
-        <xsl:value-of select="title"/>
+        <xsl:value-of select="title_en"/>
         <xsl:text>&#10;</xsl:text>
-        <xsl:text>etiquettas: </xsl:text>
+        <xsl:text>tags: </xsl:text>
         <xsl:text>[</xsl:text>
-        <xsl:apply-templates select="tags"/>
+        <xsl:apply-templates select="tags_en"/>
         <xsl:text>]</xsl:text>
         <xsl:text>&#10;</xsl:text>
         <xsl:text>ingredientes: </xsl:text>
         <xsl:text>[</xsl:text>
-        <xsl:apply-templates select="ingredients"/>
+        <xsl:apply-templates select="ingredients_en"/>
         <xsl:text>]</xsl:text>
         <xsl:text>&#10;</xsl:text>
         <xsl:text>plato: </xsl:text>
         <xsl:text>[</xsl:text>
-        <xsl:apply-templates select="course"/>
+        <xsl:apply-templates select="course_en"/>
         <xsl:text>]</xsl:text>
         <xsl:text>&#10;</xsl:text>
           <xsl:text>---</xsl:text>
         <xsl:text>&#10;</xsl:text>
         <xsl:text>&#10;</xsl:text>
-        <xsl:text>{{&lt; readFile file="./html/recipes/</xsl:text><xsl:value-of select="id"/><xsl:text>.html"&gt;}}</xsl:text>
+        <xsl:text>{{&lt; readFile file="./html/recipes/</xsl:text><xsl:value-of select="id"/><xsl:text>.en.html"&gt;}}</xsl:text>
         <xsl:text>&#10;</xsl:text>
         <xsl:text>{{&lt; readFile file="./html/images/</xsl:text><xsl:value-of select="id"/><xsl:text>_image.html"&gt;}}</xsl:text>
     </xsl:template>
-    <xsl:template match="ingredient_list">
+    <xsl:template match="ingredient_list_en">
         <xsl:for-each select="tokenize(.,';')">
             <xsl:text>- </xsl:text>
             <xsl:value-of select="."/>
             <xsl:text>&#10;</xsl:text>
         </xsl:for-each>
     </xsl:template>
- <xsl:template match="ingredients">
+ <xsl:template match="ingredients_en">
         <xsl:for-each select="tokenize(.,';')">
             <xsl:text>"</xsl:text>
             <xsl:value-of select="normalize-space(.)"/>
@@ -59,7 +59,17 @@
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="course">
+    <xsl:template match="course_en">
+        <xsl:for-each select="tokenize(.,';')">
+            <xsl:text>"</xsl:text>
+            <xsl:value-of select="normalize-space(.)"/>
+            <xsl:text>"</xsl:text>
+            <xsl:if test="position() != last()">
+                <xsl:text>,</xsl:text>
+            </xsl:if>
+        </xsl:for-each>
+    </xsl:template>
+    <xsl:template match="tags_en">
         <xsl:for-each select="tokenize(.,';')">
             <xsl:text>"</xsl:text>
             <xsl:value-of select="normalize-space(.)"/>
