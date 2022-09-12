@@ -20,7 +20,7 @@
        <xsl:text>title: </xsl:text>
         <xsl:value-of select="title_en"/>
         <xsl:text>&#10;</xsl:text>
-        <xsl:text>tags: </xsl:text>
+        <xsl:text>etiquettas: </xsl:text>
         <xsl:text>[</xsl:text>
         <xsl:apply-templates select="tags_en"/>
         <xsl:text>]</xsl:text>
@@ -35,12 +35,17 @@
         <xsl:apply-templates select="course_en"/>
         <xsl:text>]</xsl:text>
         <xsl:text>&#10;</xsl:text>
+        <xsl:text>chronam: </xsl:text>
+        <xsl:value-of select="url"/>
+        <xsl:text>&#10;</xsl:text>
+        <xsl:text>jpg: </xsl:text>
+        <xsl:value-of select="id"/>
+        <xsl:text>.jpg</xsl:text>
+        <xsl:text>&#10;</xsl:text>
           <xsl:text>---</xsl:text>
         <xsl:text>&#10;</xsl:text>
         <xsl:text>&#10;</xsl:text>
         <xsl:text>{{&lt; readFile file="./html/recipes/</xsl:text><xsl:value-of select="id"/><xsl:text>.en.html"&gt;}}</xsl:text>
-        <xsl:text>&#10;</xsl:text>
-        <xsl:text>{{&lt; readFile file="./html/images/</xsl:text><xsl:value-of select="id"/><xsl:text>_image.html"&gt;}}</xsl:text>
     </xsl:template>
     <xsl:template match="ingredient_list_en">
         <xsl:for-each select="tokenize(.,';')">

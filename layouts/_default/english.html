@@ -8,6 +8,16 @@
 		<div>
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Type a string"></div>
 <div id="filterlist">
+	<h3 class="subhead">tags</h3>
+	<ul>
+		{{ range $taxonomyname, $taxonomy := .Site.Taxonomies.etiquettas }}
+		<li><button type="checkbox" name="{{ $taxonomyname }}" id="c{{ $taxonomyname }}" onclick="filter4({{ $taxonomyname }})">{{ $taxonomyname }}</button>
+			
+		</li>
+		{{ end }}
+	</ul>
+	
+	
 <h3 class="subhead">Course</h3>
 			<ul>
 				{{ range $taxonomyname, $taxonomy := .Site.Taxonomies.plato }}
@@ -35,9 +45,9 @@
 		<div id="testdiv"></div>
 	{{ range .Site.Data.recipes }}
 		<div class="recipe-card" id= "{{ .id }}">
-			<h2><a href="../recetas/{{.id}}">{{ .title }}</a></h2>
+			<h2><a href="../recetas/{{.id}}">{{ .title_en }}</a></h2>
 	
-		<h4>Ingredientes</h4>
+		<h4>Ingredients</h4>
 				<div class="ingredients">
 
 					{{ range $item, $list := .ingredients_en }}
@@ -45,10 +55,16 @@
 						{{ end }}
 								
 			</div>
-			<h4>Course</h4>
 			<div class="course">
-
+				<h4>Course</h4>
 				{{ range $item, $list := .course_en }}
+				<button type="checkbox" name="{{ $list }}" onclick = "filter4({{ $list }})" class="ingtag" id="t{{ $list }}">{{ $list }}</button>
+				{{ end }}
+				
+			</div>
+			<div class="tags">
+				<h4>Tags</h4>
+				{{ range $item, $list := .tags_en }}
 				<button type="checkbox" name="{{ $list }}" onclick = "filter4({{ $list }})" class="ingtag" id="t{{ $list }}">{{ $list }}</button>
 				{{ end }}
 				

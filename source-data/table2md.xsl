@@ -35,12 +35,17 @@
         <xsl:apply-templates select="course"/>
         <xsl:text>]</xsl:text>
         <xsl:text>&#10;</xsl:text>
+        <xsl:text>chronam: </xsl:text>
+        <xsl:value-of select="url"/>
+        <xsl:text>&#10;</xsl:text>
+        <xsl:text>jpg: </xsl:text>
+        <xsl:value-of select="id"/>
+        <xsl:text>.jpg</xsl:text>
+        <xsl:text>&#10;</xsl:text>
           <xsl:text>---</xsl:text>
         <xsl:text>&#10;</xsl:text>
         <xsl:text>&#10;</xsl:text>
         <xsl:text>{{&lt; readFile file="./html/recipes/</xsl:text><xsl:value-of select="id"/><xsl:text>.html"&gt;}}</xsl:text>
-        <xsl:text>&#10;</xsl:text>
-        <xsl:text>{{&lt; readFile file="./html/images/</xsl:text><xsl:value-of select="id"/><xsl:text>_image.html"&gt;}}</xsl:text>
     </xsl:template>
     <xsl:template match="ingredient_list">
         <xsl:for-each select="tokenize(.,';')">
@@ -69,7 +74,7 @@
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="tags_en">
+    <xsl:template match="tags">
         <xsl:for-each select="tokenize(.,';')">
             <xsl:text>"</xsl:text>
             <xsl:value-of select="normalize-space(.)"/>

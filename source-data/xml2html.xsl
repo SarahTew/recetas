@@ -7,37 +7,26 @@
     <!-- row -->
     <xsl:template match="row">
         <xsl:result-document method="text" encoding="utf-8" href="{id}.html"/>
-            <div class="col recipe">
-                <xsl:apply-templates/>
-            </div>      
+        
+        <xsl:apply-templates/>
+        
     </xsl:template>
-     <xsl:template match="title">
-        <h2><xsl:apply-templates/></h2>
-    </xsl:template>
-    <xsl:template match="id">
-        <a target="_blank" href=".pdf">Printable PDF</a>
-    </xsl:template>
+    <xsl:template match="title"/>
+    <xsl:template match="id"/>
     <xsl:template match="paper"/>
     <xsl:template match="state"/>
     <xsl:template match="course"/>
     <xsl:template match="course_en"/>
     <xsl:template match="ingredients"/>
     <xsl:template match="ingredients_en"/>
-    <xsl:template match="ingredients_list_en"/>
+    <xsl:template match="ingredient_list_en"/>
     <xsl:template match="directions_en"/>
     <xsl:template match="title_en"/>
     <xsl:template match="tags_en"/>
-    <xsl:template match="url">
-        <a target="_blank" href="{url}">
-            <xsl:attribute name="href">
-            <xsl:value-of select="url"/>
-            </xsl:attribute>
-            <xsl:text>Link in Chronicling America</xsl:text>
-        </a>
-    </xsl:template>
+    <xsl:template match="url"/>
     <xsl:template match="pdf_file_path"/>
     <xsl:template match="tags"/>
-    <xsl:template match="ingredients_list">
+    <xsl:template match="ingredient_list">
         <div class="ingredients">
             <xsl:call-template name="ingredients"/>
         </div>
@@ -49,7 +38,7 @@
     </xsl:template>
     <!-- urls -->
     <xsl:template name="make_href">
-        <xsl:value-of select="URL"/>
+        <xsl:value-of select="url"/>
     </xsl:template>    
     <!--ingredients_list-->
     <xsl:template name="ingredients">
@@ -64,11 +53,11 @@
     
     <xsl:template name="directions">
         <ol id="directions">
-        <xsl:for-each select="tokenize(.,';')">
-            <li>
-                <xsl:value-of select="normalize-space(.)"/>
-            </li>
-        </xsl:for-each>
+            <xsl:for-each select="tokenize(.,';')">
+                <li>
+                    <xsl:value-of select="normalize-space(.)"/>
+                </li>
+            </xsl:for-each>
         </ol>  
     </xsl:template>
     
@@ -79,5 +68,5 @@
             <xsl:value-of select="local-name()"/>
         </xsl:message>
     </xsl:template>
-
+    
 </xsl:stylesheet>

@@ -19,7 +19,7 @@ category = 'categories'
 sources = "source"
 ingredients = "ingredientes"
 course = "plato"
-tag = 'tags'
+tag = 'etiquettas'
 [[related.indices]]
 name = 'ingredientes'
 weight = 100

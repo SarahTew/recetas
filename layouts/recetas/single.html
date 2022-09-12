@@ -2,28 +2,23 @@
 
 <main>
 
-	<div id="post" class="post">
 
-<!--		{{ partial "single/post-info.html" . }} -->
-
-		{{ partial "single/header.html" . }}
-
-	
-		<h3 style="text-align: center;">
-			<i>{{ .Params.title }}</i> · <small>{{ .Params.identifier }}</small>
-
-    </h3>
-
-	   <div>
-
-			<p><b>Identifier: </b>{{ .Params.identifier }}</p>
-			
+	<div class="container-fluid">
+		<div class="rhead">
+		<h3 id="t{{.Params.title}}">{{ .Params.title }}
+			</h3>
+			<i class="fas fa-external-link-alt"></i><a target="_blank" href="{{.Params.chronam}}">Recipe in Chronicling America</a>
 
 		</div>
-	</div>
-	<div class="container-fluid">
 		<div class="row">
-		{{ .Content }}
+			<div class="col recipe">
+				{{ .Content }}
+			</div>
+			<div class="col image">
+			{{$path := .Page.Params.jpg}}
+			<img src= {{ printf "../../images/recetas/%s" $path | urlize | absLangURL}}/>
+				
+			</div>
 			</div>
 			
 </div>
@@ -38,7 +33,7 @@
 		<a href="{{ .PrevPage.RelPermalink }}" class="right arrow">&#8594;</a>
 		{{- end }}
 
-		<a href="#" class="top">Top</a>
+		<a href="#" class="top"></a>
 	</div>
 </main>
 
