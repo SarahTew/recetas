@@ -4,7 +4,7 @@
     exclude-result-prefixes="xs"
     version="2.0">
         <xsl:template match="row">
-            <xsl:result-document method="text" encoding="utf-8" href="{id}.md">
+            <xsl:result-document method="text" encoding="utf-8" href="{id}.en.md">
                 <xsl:call-template name="frontmatter"></xsl:call-template>
                 <!--<xsl:apply-templates select="ingredient_list"></xsl:apply-templates>
                 <xsl:text>&#10;</xsl:text>

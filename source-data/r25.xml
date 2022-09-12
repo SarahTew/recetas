@@ -1,27 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <row>
+<?xml version="1.0" encoding="UTF-8"?><row>
         <id>r25</id>
         <paper>DLA</paper>
         <state>FL</state>
         <course>postre</course>
-        <tags></tags>
-        <ingredients>leche; coco; huevos; fécula de maíz; chocolate; azúcar</ingredients>
-        <ingredient_list>1-2 litro de leche; 1 taza de coco rallado; 6 yemas batidas; 2 cucharadas de fécula de maíz; 5 cucharadas de chocolate ralla
-            do; 6 cucharadas de azúcar molida</ingredient_list>
-        <directions>Ponga a remojar el coco con
-            leche para que se humedezca.
-            En un tazón mezcle el coco con
-            las yemas, la fécula de maíz y el
-            chocolate.;Bata y una poco a poco el azúcar y la leche, vierta
-            en una cacerola y ponga a cocer
-            a fuego lento.;Para que no se adhiera al fondo de la cacerola debe moverse continuamente.
-            Cuando la preparación comience a despegarse del recipiente, retírela del fuego y déjela enfriar.;Echela dentro de un recipiente de cristal o porcelana, que labra humedecido con leche fria y
-            colóquela en la refrigeradora
-            hasta qué se congele.</directions>
+        <course_en>dessert</course_en>
+        <tags>vegetariano</tags>
+        <tags_en>vegetarian</tags_en>
+        <ingredients>leche; coco; huevo; fécula de maíz; chocolate; azúcar</ingredients>
+        <ingredients_en>milk; coconut; eggs; cornstarch; chocolate; sugar</ingredients_en>
+        <ingredient_list>1-2 litro de leche; 1 taza de coco rallado; 6 yemas batidas; 2 cucharadas de fécula de maíz; 5 cucharadas de chocolate rallado; 6 cucharadas de azúcar molida</ingredient_list>
+        <ingredient_list_en>1-2 liter of milk; 1 cup grated coconut; 6 beaten egg yolks; 2 tablespoons cornstarch; 5 tablespoons grated chocolate; 6 tablespoons powdered sugar</ingredient_list_en>
+        <directions>Ponga a remojar el coco con leche para que se humedezca.; En un tazón mezcle el coco con las yemas, la fécula de maíz y el chocolate.;Bata y una poco a poco el azúcar y la leche, vierta en una cacerola y ponga a cocer a fuego lento.; Para que no se adhiera al fondo de la cacerola debe moverse continuamente.; Cuando la preparación comience a despegarse del recipiente, retírela del fuego y déjela enfriar.;Echela dentro de un recipiente de cristal o porcelana, que labra humedecido con leche fria y colóquela en la refrigeradora hasta qué se congele.</directions>
+        <directions_en>Soak the coconut with milk to moisten.; In a bowl mix the coconut with yolks, cornstarch and chocolate.; Beat and a little by little the sugar and milk, pour in a saucepan and cook over low heat.; In order for it not to adhere to the bottom of the saucepan it must be continuously moved.; When the preparation begins to peel off the container, remove it from the heat and let it cool.; Pour it into a glass or porcelain container, which is carved moistened with cold milk and place it in the refrigerator until it freezes.</directions_en>
         <title>delicia de chocolate</title>
+        <title_en>chocolate delight</title_en>
         <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-06-22/ed-1/seq-5/</url>
-        <Heading10>receta05</Heading10>
-        <Heading11>RECETA CARD CREATED</Heading11>
     </row>
-</root>

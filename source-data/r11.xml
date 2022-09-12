@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <row>
+<?xml version="1.0" encoding="UTF-8"?><row>
         <id>r11</id>
         <paper>DLA</paper>
         <state>FL</state>
-        <course>entree; side</course>
-        <tags></tags>
+        <course>plato principal; acompañamiento</course>
+        <course_en>main; side</course_en>
+        <tags/>
+        <tags_en/>
         <ingredients>habichuela; chorizo; huevo; cebolla; pimienta; manteca</ingredients>
+        <ingredients_en>beans; chorizo; egg; onion; pepper; butter</ingredients_en>
         <ingredient_list>1 libra de habichuelas; 2 chorizos desmenuzados; 3 huevos batidos; 1 cucharadita de cebolla rallada; 1-4 cucharadita de pimienta; manteca</ingredient_list>
-        <directions>Ablande las habichuelas y májelas.; Agregue los demás ingredientes y mezcle.; Ponga suficiente manteca en la sartén para cubrir el fondo.;Eche en la sartén, tape y cueza a fuego lento, vuelva y dore por ambos lados.</directions>
+        <ingredient_list_en>1 pound of beans; 2 crumbled chorizos; 3 beaten eggs; 1 teaspoon grated onion; 1-4 teaspoon pepper; butter</ingredient_list_en>
+        <directions>Ablande las habichuelas y májelas.;Agregue los demás ingredientes y mezcle.;Ponga suficiente manteca en la sartén para cubrir el fondo.;Eche en la sartén, tape y cueza a fuego lento, vuelva y dore por ambos lados.</directions>
+        <directions_en>Soften the beans and mash them.; Add the other ingredients and mix.; Put enough butter in the pan to cover the bottom.; Pour into the pan, cover and simmer, come back and brown on both sides.</directions_en>
         <title>torta de habichuelas</title>
+        <title_en>bean omelette</title_en>
         <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-01/ed-1/seq-5/</url>
-        <Heading10>receta02</Heading10>
-        <Heading11>RECETA CARD CREATED</Heading11>
     </row>
-</root>

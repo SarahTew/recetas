@@ -1,19 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <row>
+<?xml version="1.0" encoding="UTF-8"?><row>
         <id>r08</id>
         <paper>DLA</paper>
         <state>FL</state>
-        <course>entree; side</course>
-        <tags>vegetarian</tags>
+        <course>plato principal; acompañamiento</course>
+        <course_en>main; side</course_en>
+        <tags>vegetariano</tags>
+        <tags_en>vegetarian</tags_en>
         <ingredients>tomate; cebolla; berenjena; ajo; vino blanco; huevo; perejil; queso; polvo de galletas; sal</ingredients>
+        <ingredients_en>tomato; onion; eggplant; garlic; white wine; egg; parsley; cheese; cracker meal; salt</ingredients_en>
         <ingredient_list>6 tomates; 1 cebolla; 3 berenjenas; 1 ajo; 1 taza de vino blanco; 3 yemas de huevo; perejil; 1 taza queso rallado; polvo de galletas; sal</ingredient_list>
+        <ingredient_list_en>6 tomatoes; 1 onion; 3 eggplants; 1 garlic; 1 cup white wine; 3 egg yolks; parsley; 1 cup grated cheese; cookie powder; salt</ingredient_list_en>
         <directions>Se dividen los tomates en dos
-            y se vacian, se sazonan con sal
-            y pimienta.;Se fríen con la cebolla cortada en pedacitos pequeños la berenjena en rodajas finas.;Se rocían con vino blanco.;Se añade la sal a gusto, perejil y el queso rallado.;Se deja enfriar y se agregan las tres yemas de huevo.;Se rellenan los tomates y se espolvorean con el polvo de galletas.;Se colocan en un molde, se rocían con queso parmesano rallado y se gratinan al horno durante 5 minutos.;Se sirven en su mismo jugo.</directions>
+y se vacian, se sazonan con sal
+y pimienta.;Se fríen con la cebolla cortada en pedacitos pequeños la berenjena en rodajas finas.;Se rocían con vino blanco.;Se añade la sal a gusto, perejil y el queso rallado.;Se deja enfriar y se agregan las tres yemas de huevo.;Se rellenan los tomates y se espolvorean con el polvo de galletas.;Se colocan en un molde, se rocían con queso parmesano rallado y se gratinan al horno durante 5 minutos.;Se sirven en su mismo jugo.</directions>
+        <directions_en>Tomatoes are divided into two and are emptied, seasoned with salt and pepper.; They are fried with the onion cut into small pieces the eggplant in thin slices.; They are sprinkled with white wine.; Add the salt to taste, parsley and grated cheese.; Let it cool and add the three egg yolks; Tomatoes are stuffed and sprinkled with cookie powder; They are placed in a mold, sprinkled with grated Parmesan cheese and au gratin in the oven for 5 minutes.; They are served in the same juice.</directions_en>
         <title>tomates a la mireille</title>
+        <title_en>tomatoes a la mireille</title_en>
         <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-10-13/ed-1/seq-5/</url>
-        <Heading10>receta01</Heading10>
-        <Heading11>RECETA CARD CREATED</Heading11>
     </row>
-</root>

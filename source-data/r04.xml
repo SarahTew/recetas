@@ -1,29 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <row>
+<?xml version="1.0" encoding="UTF-8"?><row>
         <id>r04</id>
         <paper>DLA</paper>
         <state>FL</state>
-        <course>entrée</course>
-        <tags>vegetarian</tags>
-        <ingredients>caldo; calabaza; harina; matequilla</ingredients>
+        <course>plato principal</course>
+        <course_en>main</course_en>
+        <tags>vegetariano</tags>
+        <tags_en>vegetarian</tags_en>
+        <ingredients>caldo; calabaza; harina; mantequilla</ingredients>
+        <ingredients_en>broth; pumpkin; flour; butter</ingredients_en>
         <ingredient_list>6 tazas de caldo;
-            1-2 libra de calabaza partida
-            en pedazos;
-            2 cucharadas de harina;
-            1 cucharada de mantequi
-            lla</ingredient_list>
-        <directions>Hierva la calabaza en el caldo.;
-            Cuele y maje la calabaza, mez
-            cle la harina con un poco de cal
-            do frío, añada la mantequilla y
-            ponga al fuego, moviendo cons
-            tantemente y añada el resto del
-            caldo.; Sazone a gusto y sirva ca
-            líente.</directions>
+1-2 libra de calabaza partida
+en pedazos;
+2 cucharadas de harina;
+1 cucharada de mantequi
+lla</ingredient_list>
+        <ingredient_list_en>6 cups broth; 1-2 pound split pumpkin in pieces; 2 tablespoons flour; 1 tablespoon mantequi at</ingredient_list_en>
+        <directions>Hierva la calabaza en el caldo.; Cuele y maje la calabaza, mezcle la harina con un poco de caldo frío, añada la mantequilla y ponga al fuego, moviendo constantemente y añada el resto del caldo.; Sazone a gusto y sirva calíente.</directions>
+        <directions_en>Boil the pumpkin in the broth.; Strain and mash the pumpkin, mix the flour with a little cold broth, add the butter and put on the fire, stirring constantly and add the rest of the broth.; Season to taste and serve warm.</directions_en>
         <title>pure de calabaza</title>
+        <title_en>pumpkin purée</title_en>
         <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1960-11-13/ed-1/seq-5/</url>
-        <Heading10></Heading10>
-        <Heading11></Heading11>
     </row>
-</root>

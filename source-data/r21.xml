@@ -1,23 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <row>
+<?xml version="1.0" encoding="UTF-8"?><row>
         <id>r21</id>
         <paper>DLA</paper>
         <state>FL</state>
-        <course>entree</course>
-        <tags></tags>
+        <course>plato principal</course>
+        <course_en>main</course_en>
+        <tags>sin gluten</tags>
+        <tags_en>gluten-free</tags_en>
         <ingredients>pollo; sal; ajo; orégano; cebolla; cerdo; jamón; mantequilla; salsa de tomate; pasas</ingredients>
+        <ingredients_en>chicken; salt; garlic; oregano; onion; pork; ham; butter; tomato sauce; raisins</ingredients_en>
         <ingredient_list>1 pollo de 4 libras; 3 cucharaditas de sal; 3 dientes de ajo machacado; media cucharadita de orégano en polvo; 1 cebolla picada; 1-1-2 libras de carne de cerdo; un cuarto libra de jamón; 3 cucharadas de mantequilla; 2 cucharadas de salsa de tomate; 1 cucharada de pasas</ingredient_list>
+        <ingredient_list_en>1 4-pound chicken; 3 teaspoons salt; 3 cloves of crushed garlic; half a teaspoon of oregano powder; 1 chopped onion; 1-1-2 pounds of pork; a quarter pound of ham; 3 tablespoons butter; 2 tablespoons tomato sauce; 1 tablespoon raisins</ingredient_list_en>
         <directions>Adobe el pollo por dentro y
-            por fuera varias horas antes de
-            rellenarlo.;Muela el jamón y la
-            carne de cerdo y añádale los
-            demás ingredientes sazone y re
-            llane el pollo.;Cosa la abertura
-            y engráselo por fuera con mantequilla.;Cueza en el horno en un molde destapado y cuando esté dorado cubra con la tapa y cueza a fuego lento por espacio de 2 horas.</directions>
+por fuera varias horas antes de
+rellenarlo.;Muela el jamón y la
+carne de cerdo y añádale los
+demás ingredientes sazone y re
+llane el pollo.;Cosa la abertura
+y engráselo por fuera con mantequilla.;Cueza en el horno en un molde destapado y cuando esté dorado cubra con la tapa y cueza a fuego lento por espacio de 2 horas.</directions>
+        <directions_en>Marinate  the chicken inside and outside several hours before filling it.; Grind the ham and the pork and add the other ingredients seasoning and re llane the chicken.; Thing the opening and grease it on the outside with butter.; Cook in the oven in an uncovered mold and when golden cover with the lid and simmer for 2 hours.</directions_en>
         <title>pollo relleno</title>
+        <title_en>stuffed chicken</title_en>
         <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-02-23/ed-1/seq-5/</url>
-        <Heading10>receta04</Heading10>
-        <Heading11>RECETA CARD CREATED</Heading11>
     </row>
-</root>

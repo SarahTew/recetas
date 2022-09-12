@@ -6,10 +6,10 @@
     
     <!-- row -->
     <xsl:template match="row">
+        <xsl:result-document method="text" encoding="utf-8" href="{id}.html"/>
             <div class="col recipe">
                 <xsl:apply-templates/>
-            </div>
-        
+            </div>      
     </xsl:template>
      <xsl:template match="title">
         <h2><xsl:apply-templates/></h2>
@@ -20,8 +20,13 @@
     <xsl:template match="paper"/>
     <xsl:template match="state"/>
     <xsl:template match="course"/>
+    <xsl:template match="course_en"/>
     <xsl:template match="ingredients"/>
-
+    <xsl:template match="ingredients_en"/>
+    <xsl:template match="ingredients_list_en"/>
+    <xsl:template match="directions_en"/>
+    <xsl:template match="title_en"/>
+    <xsl:template match="tags_en"/>
     <xsl:template match="url">
         <a target="_blank" href="{url}">
             <xsl:attribute name="href">
@@ -32,24 +37,20 @@
     </xsl:template>
     <xsl:template match="pdf_file_path"/>
     <xsl:template match="tags"/>
-    
-    <xsl:template match="ingredient_list">
+    <xsl:template match="ingredients_list">
         <div class="ingredients">
             <xsl:call-template name="ingredients"/>
         </div>
     </xsl:template>
-    
     <xsl:template match="directions">
         <div class="directions">
             <xsl:call-template name="directions"/>
         </div>
     </xsl:template>
-    
     <!-- urls -->
     <xsl:template name="make_href">
         <xsl:value-of select="URL"/>
-    </xsl:template>
-        
+    </xsl:template>    
     <!--ingredients_list-->
     <xsl:template name="ingredients">
         <ul id="ingredients">
@@ -71,8 +72,6 @@
         </ol>  
     </xsl:template>
     
-    
-
     <!--default that tells what elements are not defined in this document-->
     <xsl:template match="tei:*">
         <xsl:message>

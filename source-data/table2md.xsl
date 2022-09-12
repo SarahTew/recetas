@@ -69,4 +69,14 @@
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
+    <xsl:template match="tags_en">
+        <xsl:for-each select="tokenize(.,';')">
+            <xsl:text>"</xsl:text>
+            <xsl:value-of select="normalize-space(.)"/>
+            <xsl:text>"</xsl:text>
+            <xsl:if test="position() != last()">
+                <xsl:text>,</xsl:text>
+            </xsl:if>
+        </xsl:for-each>
+    </xsl:template>
 </xsl:stylesheet>
