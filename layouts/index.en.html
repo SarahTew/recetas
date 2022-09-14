@@ -2,17 +2,8 @@
 
 <main>
     
-    <div id="post" class="post">
-        
-        <!--		{{ partial "single/post-info.html" . }} -->
-        {{ partial "single/header.html" . }}
-        
-        {{ .Content }}
-        
-        {{ partial "single/footer.html" . }}
-    </div>
     
-    <div>
+    <div class="welcome">
        <h1>Welcome to Recetas</h1>
         
         <p>Recetas is an experimental project from the <a href="https://ufndnp.domains.uflib.ufl.edu/"> US Caribbean and Ethnic Florida Digital Newspaper Project</a> at the University of Florida.</p>
@@ -23,15 +14,15 @@
     <div class="card">
         <img src="../images/homepage/sarah.jpg" alt="Avatar">
         <div class="caption">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
+            <h4><b>Name (optional)</b></h4>
+            <p>Receta with link</p>
         </div>
     </div>
         <div class="card">
             <img src="../images/homepage/jerome.jpg" alt="Avatar">
             <div class="caption">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
+                <h4><b>Name (optional)</b></h4>
+                <p>Receta with link</p>
             </div>
         </div>
     </div>
@@ -44,7 +35,6 @@
         <a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
         {{- end }}
         
-        <a href="#" class="top">Top</a>
     </div>
 </main>
 

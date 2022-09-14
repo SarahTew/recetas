@@ -1,0 +1,3075 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Ingredientes &middot; Recipes</title>
+
+		
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script> 
+		$(function(){
+		$("#includedContent").load("file:/C:/Users/sarahetew/Documents/recetas/layouts/letters/list.html"); 
+		});
+	</script> 
+	
+	
+	
+	
+	<link rel="stylesheet" href="/css/style3.css">
+	
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/fonts.css">
+	
+		
+
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+		
+		<link href="/en/ingredientes/index.xml" rel="alternate" type="application/rss+xml" title="Recipes" />
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				
+				<h1 class="nav-title"><a class="black" href="https://recetas.domains.uflib.ufl.edu/en/">Recetas</a></h1>
+				
+				<h2 class="nav-subtitle"></h2>
+
+				<div class= "nav-bar">
+
+			
+<ul class="row nav-menu">
+  
+ 
+        <li class="menupage">
+            <a class="black" href="https://recetas.domains.uflib.ufl.edu/en/">
+                <i class='fa fa-heart'></i>
+                <span>Home</span>
+                
+            </a>
+        </li>
+    
+ 
+        <li class="menupage">
+            <a class="black" href="https://recetas.domains.uflib.ufl.edu/en/filtro/">
+                <i class='fa fa-road'></i>
+                <span>Filter</span>
+                <span class='alert'></span>
+            </a>
+        </li>
+    
+ 
+        <li class="menupage">
+            <a class="black" href="https://recetas.domains.uflib.ufl.edu/en/recetas/">
+                
+                <span>Recetas</span>
+                
+            </a>
+        </li>
+    
+    
+    <div>
+        <ul class="language-list">
+            
+            <li><a class="black" href="https://recetas.domains.uflib.ufl.edu/">español</a></li>
+            
+            <li><a class="black" href="https://recetas.domains.uflib.ufl.edu/en/">English</a></li>
+            
+        </ul>
+    </div>
+</ul>
+ 
+			</div>
+		</nav>
+
+        
+<main>
+
+    <h2>Ingredientes</h2>
+<div class="container-fluid">
+	<div class="row">
+	<div class="catalogue col">
+		<div>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Busca..." title="Type a string"></div>
+<div id="filterlist">
+	<h3 class="subhead">etiquettas</h3>
+	<ul class="container-fluid filterlist">
+		
+		<li class="button"><button type="checkbox" name="gluten free" id="dgluten free" onclick="filter3(&#34;gluten free&#34;)">gluten free</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="shellfish" id="dshellfish" onclick="filter3(&#34;shellfish&#34;)">shellfish</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="vegan" id="dvegan" onclick="filter3(&#34;vegan&#34;)">vegan</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="vegeetarian" id="dvegeetarian" onclick="filter3(&#34;vegeetarian&#34;)">vegeetarian</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="vegetarian" id="dvegetarian" onclick="filter3(&#34;vegetarian&#34;)">vegetarian</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="vegetarian gluten free" id="dvegetarian gluten free" onclick="filter3(&#34;vegetarian gluten free&#34;)">vegetarian gluten free</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="vegetariano" id="dvegetariano" onclick="filter3(&#34;vegetariano&#34;)">vegetariano</button>
+			
+		</li>
+		
+	</ul>
+<h3 class="subhead">Plato</h3>
+	<ul class="container-fluid filterlist">
+				
+				<li class="button"><button type="checkbox" name="beverage" id="dbeverage" onclick="filter3(&#34;beverage&#34;)">beverage</button>
+						
+				</li>
+				
+				<li class="button"><button type="checkbox" name="dessert" id="ddessert" onclick="filter3(&#34;dessert&#34;)">dessert</button>
+						
+				</li>
+				
+				<li class="button"><button type="checkbox" name="drink" id="ddrink" onclick="filter3(&#34;drink&#34;)">drink</button>
+						
+				</li>
+				
+				<li class="button"><button type="checkbox" name="main" id="dmain" onclick="filter3(&#34;main&#34;)">main</button>
+						
+				</li>
+				
+				<li class="button"><button type="checkbox" name="side" id="dside" onclick="filter3(&#34;side&#34;)">side</button>
+						
+				</li>
+				
+			</ul>
+		
+		
+ <h3 class="subhead">Ingredientes</h3>
+	<ul class="container-fluid filterlist">
+		
+		<li class="button"><button type="checkbox" name="aciete" id="daciete" onclick="filter3(&#34;aciete&#34;)">aciete</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="almond" id="dalmond" onclick="filter3(&#34;almond&#34;)">almond</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="almonds" id="dalmonds" onclick="filter3(&#34;almonds&#34;)">almonds</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="anchovy" id="danchovy" onclick="filter3(&#34;anchovy&#34;)">anchovy</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="annatto" id="dannatto" onclick="filter3(&#34;annatto&#34;)">annatto</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="apple cider vinegar" id="dapple cider vinegar" onclick="filter3(&#34;apple cider vinegar&#34;)">apple cider vinegar</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="bacon" id="dbacon" onclick="filter3(&#34;bacon&#34;)">bacon</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="baking powder" id="dbaking powder" onclick="filter3(&#34;baking powder&#34;)">baking powder</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="baking soda" id="dbaking soda" onclick="filter3(&#34;baking soda&#34;)">baking soda</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="barley" id="dbarley" onclick="filter3(&#34;barley&#34;)">barley</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="bay leaf" id="dbay leaf" onclick="filter3(&#34;bay leaf&#34;)">bay leaf</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="beans" id="dbeans" onclick="filter3(&#34;beans&#34;)">beans</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="bechamel" id="dbechamel" onclick="filter3(&#34;bechamel&#34;)">bechamel</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="beef" id="dbeef" onclick="filter3(&#34;beef&#34;)">beef</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="black pepper" id="dblack pepper" onclick="filter3(&#34;black pepper&#34;)">black pepper</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="brain" id="dbrain" onclick="filter3(&#34;brain&#34;)">brain</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="bread" id="dbread" onclick="filter3(&#34;bread&#34;)">bread</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="broth" id="dbroth" onclick="filter3(&#34;broth&#34;)">broth</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="butter" id="dbutter" onclick="filter3(&#34;butter&#34;)">butter</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="caper" id="dcaper" onclick="filter3(&#34;caper&#34;)">caper</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="caramel salt" id="dcaramel salt" onclick="filter3(&#34;caramel salt&#34;)">caramel salt</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="celery" id="dcelery" onclick="filter3(&#34;celery&#34;)">celery</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="chard" id="dchard" onclick="filter3(&#34;chard&#34;)">chard</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="chayote" id="dchayote" onclick="filter3(&#34;chayote&#34;)">chayote</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="cheese" id="dcheese" onclick="filter3(&#34;cheese&#34;)">cheese</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="cherries" id="dcherries" onclick="filter3(&#34;cherries&#34;)">cherries</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="chicken" id="dchicken" onclick="filter3(&#34;chicken&#34;)">chicken</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="chicken bouillón" id="dchicken bouillón" onclick="filter3(&#34;chicken bouillón&#34;)">chicken bouillón</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="chicken broth" id="dchicken broth" onclick="filter3(&#34;chicken broth&#34;)">chicken broth</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="chili powder" id="dchili powder" onclick="filter3(&#34;chili powder&#34;)">chili powder</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="chocolate" id="dchocolate" onclick="filter3(&#34;chocolate&#34;)">chocolate</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="chorizo" id="dchorizo" onclick="filter3(&#34;chorizo&#34;)">chorizo</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="chorizos" id="dchorizos" onclick="filter3(&#34;chorizos&#34;)">chorizos</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="cinnamon" id="dcinnamon" onclick="filter3(&#34;cinnamon&#34;)">cinnamon</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="coarse salt" id="dcoarse salt" onclick="filter3(&#34;coarse salt&#34;)">coarse salt</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="coconut" id="dcoconut" onclick="filter3(&#34;coconut&#34;)">coconut</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="cod" id="dcod" onclick="filter3(&#34;cod&#34;)">cod</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="coffee" id="dcoffee" onclick="filter3(&#34;coffee&#34;)">coffee</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="cognac" id="dcognac" onclick="filter3(&#34;cognac&#34;)">cognac</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="corn flour" id="dcorn flour" onclick="filter3(&#34;corn flour&#34;)">corn flour</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="cornstarch" id="dcornstarch" onclick="filter3(&#34;cornstarch&#34;)">cornstarch</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="cracker meal" id="dcracker meal" onclick="filter3(&#34;cracker meal&#34;)">cracker meal</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="crackermeal or toast" id="dcrackermeal or toast" onclick="filter3(&#34;crackermeal or toast&#34;)">crackermeal or toast</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="croutons" id="dcroutons" onclick="filter3(&#34;croutons&#34;)">croutons</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="cumin" id="dcumin" onclick="filter3(&#34;cumin&#34;)">cumin</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="dried thyme" id="ddried thyme" onclick="filter3(&#34;dried thyme&#34;)">dried thyme</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="dulce de coco" id="ddulce de coco" onclick="filter3(&#34;dulce de coco&#34;)">dulce de coco</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="egg" id="degg" onclick="filter3(&#34;egg&#34;)">egg</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="eggplant" id="deggplant" onclick="filter3(&#34;eggplant&#34;)">eggplant</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="eggs" id="deggs" onclick="filter3(&#34;eggs&#34;)">eggs</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="flour" id="dflour" onclick="filter3(&#34;flour&#34;)">flour</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="french sauce" id="dfrench sauce" onclick="filter3(&#34;french sauce&#34;)">french sauce</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="frogs legs" id="dfrogs legs" onclick="filter3(&#34;frogs legs&#34;)">frogs legs</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="fruit" id="dfruit" onclick="filter3(&#34;fruit&#34;)">fruit</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="garlic" id="dgarlic" onclick="filter3(&#34;garlic&#34;)">garlic</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="gelatin" id="dgelatin" onclick="filter3(&#34;gelatin&#34;)">gelatin</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="ground beef" id="dground beef" onclick="filter3(&#34;ground beef&#34;)">ground beef</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="ground pork" id="dground pork" onclick="filter3(&#34;ground pork&#34;)">ground pork</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="ham" id="dham" onclick="filter3(&#34;ham&#34;)">ham</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="jackfruit" id="djackfruit" onclick="filter3(&#34;jackfruit&#34;)">jackfruit</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="lard" id="dlard" onclick="filter3(&#34;lard&#34;)">lard</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="laurel" id="dlaurel" onclick="filter3(&#34;laurel&#34;)">laurel</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="lemon" id="dlemon" onclick="filter3(&#34;lemon&#34;)">lemon</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="lemon juice" id="dlemon juice" onclick="filter3(&#34;lemon juice&#34;)">lemon juice</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="lettuce" id="dlettuce" onclick="filter3(&#34;lettuce&#34;)">lettuce</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="lobster" id="dlobster" onclick="filter3(&#34;lobster&#34;)">lobster</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="macaroni" id="dmacaroni" onclick="filter3(&#34;macaroni&#34;)">macaroni</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="marsala wine" id="dmarsala wine" onclick="filter3(&#34;marsala wine&#34;)">marsala wine</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="mayonnaise" id="dmayonnaise" onclick="filter3(&#34;mayonnaise&#34;)">mayonnaise</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="meat" id="dmeat" onclick="filter3(&#34;meat&#34;)">meat</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="milk" id="dmilk" onclick="filter3(&#34;milk&#34;)">milk</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="milk cream" id="dmilk cream" onclick="filter3(&#34;milk cream&#34;)">milk cream</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="mushroom" id="dmushroom" onclick="filter3(&#34;mushroom&#34;)">mushroom</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="mustard sauce" id="dmustard sauce" onclick="filter3(&#34;mustard sauce&#34;)">mustard sauce</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="nutmeg" id="dnutmeg" onclick="filter3(&#34;nutmeg&#34;)">nutmeg</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="oatmeal" id="doatmeal" onclick="filter3(&#34;oatmeal&#34;)">oatmeal</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="oil" id="doil" onclick="filter3(&#34;oil&#34;)">oil</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="olive" id="dolive" onclick="filter3(&#34;olive&#34;)">olive</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="olive oil" id="dolive oil" onclick="filter3(&#34;olive oil&#34;)">olive oil</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="olives" id="dolives" onclick="filter3(&#34;olives&#34;)">olives</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="onion" id="donion" onclick="filter3(&#34;onion&#34;)">onion</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="onion or garlic salt" id="donion or garlic salt" onclick="filter3(&#34;onion or garlic salt&#34;)">onion or garlic salt</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="onions" id="donions" onclick="filter3(&#34;onions&#34;)">onions</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="orange" id="dorange" onclick="filter3(&#34;orange&#34;)">orange</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="orange juice" id="dorange juice" onclick="filter3(&#34;orange juice&#34;)">orange juice</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="oregano" id="doregano" onclick="filter3(&#34;oregano&#34;)">oregano</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="overassed" id="doverassed" onclick="filter3(&#34;overassed&#34;)">overassed</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="parsley" id="dparsley" onclick="filter3(&#34;parsley&#34;)">parsley</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="peas" id="dpeas" onclick="filter3(&#34;peas&#34;)">peas</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="pepper" id="dpepper" onclick="filter3(&#34;pepper&#34;)">pepper</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="peppercorn" id="dpeppercorn" onclick="filter3(&#34;peppercorn&#34;)">peppercorn</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="peppers" id="dpeppers" onclick="filter3(&#34;peppers&#34;)">peppers</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="peppert" id="dpeppert" onclick="filter3(&#34;peppert&#34;)">peppert</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="pickles" id="dpickles" onclick="filter3(&#34;pickles&#34;)">pickles</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="plantain" id="dplantain" onclick="filter3(&#34;plantain&#34;)">plantain</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="pork" id="dpork" onclick="filter3(&#34;pork&#34;)">pork</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="potato" id="dpotato" onclick="filter3(&#34;potato&#34;)">potato</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="potatoes" id="dpotatoes" onclick="filter3(&#34;potatoes&#34;)">potatoes</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="pumpkin" id="dpumpkin" onclick="filter3(&#34;pumpkin&#34;)">pumpkin</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="raisins" id="draisins" onclick="filter3(&#34;raisins&#34;)">raisins</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="rice" id="drice" onclick="filter3(&#34;rice&#34;)">rice</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="rice starch" id="drice starch" onclick="filter3(&#34;rice starch&#34;)">rice starch</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="rum" id="drum" onclick="filter3(&#34;rum&#34;)">rum</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="saffron" id="dsaffron" onclick="filter3(&#34;saffron&#34;)">saffron</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="salmon" id="dsalmon" onclick="filter3(&#34;salmon&#34;)">salmon</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="salt" id="dsalt" onclick="filter3(&#34;salt&#34;)">salt</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="sausage" id="dsausage" onclick="filter3(&#34;sausage&#34;)">sausage</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="sausages" id="dsausages" onclick="filter3(&#34;sausages&#34;)">sausages</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="sobrasada" id="dsobrasada" onclick="filter3(&#34;sobrasada&#34;)">sobrasada</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="sofrito" id="dsofrito" onclick="filter3(&#34;sofrito&#34;)">sofrito</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="spinach" id="dspinach" onclick="filter3(&#34;spinach&#34;)">spinach</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="sugar" id="dsugar" onclick="filter3(&#34;sugar&#34;)">sugar</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="sweet potato" id="dsweet potato" onclick="filter3(&#34;sweet potato&#34;)">sweet potato</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="tomato" id="dtomato" onclick="filter3(&#34;tomato&#34;)">tomato</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="tomato dressing" id="dtomato dressing" onclick="filter3(&#34;tomato dressing&#34;)">tomato dressing</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="tomato paste" id="dtomato paste" onclick="filter3(&#34;tomato paste&#34;)">tomato paste</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="tomato puree" id="dtomato puree" onclick="filter3(&#34;tomato puree&#34;)">tomato puree</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="tomato sauce" id="dtomato sauce" onclick="filter3(&#34;tomato sauce&#34;)">tomato sauce</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="vanilla" id="dvanilla" onclick="filter3(&#34;vanilla&#34;)">vanilla</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="vanilla essence" id="dvanilla essence" onclick="filter3(&#34;vanilla essence&#34;)">vanilla essence</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="vinegar" id="dvinegar" onclick="filter3(&#34;vinegar&#34;)">vinegar</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="water" id="dwater" onclick="filter3(&#34;water&#34;)">water</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="white wine" id="dwhite wine" onclick="filter3(&#34;white wine&#34;)">white wine</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="wine" id="dwine" onclick="filter3(&#34;wine&#34;)">wine</button>
+			
+		</li>
+		
+		<li class="button"><button type="checkbox" name="worcestershire sauce" id="dworcestershire sauce" onclick="filter3(&#34;worcestershire sauce&#34;)">worcestershire sauce</button>
+			
+		</li>
+		
+	</ul>
+	
+		
+	</div>
+	</div>
+	<div class="col recipeslist">
+		
+		<div id="testdiv"></div>
+	
+		<div class="recipe-card" id= "r01">
+			<h2><a href="../recetas/r01">chayote a la crema</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="chayote" onclick = "filter3(&#34;chayote&#34;)" class="ingtag" id="tchayote">chayote</button>
+						
+						<button type="checkbox" name="maicena" onclick = "filter3(&#34;maicena&#34;)" class="ingtag" id="tmaicena">maicena</button>
+						
+						<button type="checkbox" name="azúcar" onclick = "filter3(&#34;azúcar&#34;)" class="ingtag" id="tazúcar">azúcar</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="leche" onclick = "filter3(&#34;leche&#34;)" class="ingtag" id="tleche">leche</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="pasas" onclick = "filter3(&#34;pasas&#34;)" class="ingtag" id="tpasas">pasas</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+						<button type="checkbox" name="polvo de galletas" onclick = "filter3(&#34;polvo de galletas&#34;)" class="ingtag" id="tpolvo de galletas">polvo de galletas</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="postre" onclick = "filter3(&#34;postre&#34;)" class="coursetag" id="tpostre">postre</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r11">
+			<h2><a href="../recetas/r11">torta de habichuelas</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="habichuela" onclick = "filter3(&#34;habichuela&#34;)" class="ingtag" id="thabichuela">habichuela</button>
+						
+						<button type="checkbox" name="chorizo" onclick = "filter3(&#34;chorizo&#34;)" class="ingtag" id="tchorizo">chorizo</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+						<button type="checkbox" name="manteca" onclick = "filter3(&#34;manteca&#34;)" class="ingtag" id="tmanteca">manteca</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r02">
+			<h2><a href="../recetas/r02">refresco espumoso de café</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="café" onclick = "filter3(&#34;café&#34;)" class="ingtag" id="tcafé">café</button>
+						
+						<button type="checkbox" name="azúcar" onclick = "filter3(&#34;azúcar&#34;)" class="ingtag" id="tazúcar">azúcar</button>
+						
+						<button type="checkbox" name="vainilla" onclick = "filter3(&#34;vainilla&#34;)" class="ingtag" id="tvainilla">vainilla</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="bebida" onclick = "filter3(&#34;bebida&#34;)" class="coursetag" id="tbebida">bebida</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				<button type="checkbox" name="vegano" onclick = "filter3(&#34;vegano&#34;)" class="tagtag" id="tvegano">vegano</button>
+				
+				<button type="checkbox" name="
+sin gluten" onclick = "filter3(&#34;\nsin gluten&#34;)" class="tagtag" id="t
+sin gluten">
+sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r03">
+			<h2><a href="../recetas/r03">pollo a la marengo</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="pollo" onclick = "filter3(&#34;pollo&#34;)" class="ingtag" id="tpollo">pollo</button>
+						
+						<button type="checkbox" name="aceite de oliva" onclick = "filter3(&#34;aceite de oliva&#34;)" class="ingtag" id="taceite de oliva">aceite de oliva</button>
+						
+						<button type="checkbox" name="coñac;
+cebolla;
+harina;
+vino blanco;
+bouillón de pollo;
+puré de tomates;
+perejil;
+tomillo seco;
+laurel;
+hongo;
+pan" onclick = "filter3(&#34;coñac;\ncebolla;\nharina;\nvino blanco;\nbouillón de pollo;\npuré de tomates;\nperejil;\ntomillo seco;\nlaurel;\nhongo;\npan&#34;)" class="ingtag" id="tcoñac;
+cebolla;
+harina;
+vino blanco;
+bouillón de pollo;
+puré de tomates;
+perejil;
+tomillo seco;
+laurel;
+hongo;
+pan">coñac;
+cebolla;
+harina;
+vino blanco;
+bouillón de pollo;
+puré de tomates;
+perejil;
+tomillo seco;
+laurel;
+hongo;
+pan</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r04">
+			<h2><a href="../recetas/r04">pure de calabaza</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="caldo" onclick = "filter3(&#34;caldo&#34;)" class="ingtag" id="tcaldo">caldo</button>
+						
+						<button type="checkbox" name="calabaza" onclick = "filter3(&#34;calabaza&#34;)" class="ingtag" id="tcalabaza">calabaza</button>
+						
+						<button type="checkbox" name="harina" onclick = "filter3(&#34;harina&#34;)" class="ingtag" id="tharina">harina</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r05">
+			<h2><a href="../recetas/r05">pollo asado </a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="pollo" onclick = "filter3(&#34;pollo&#34;)" class="ingtag" id="tpollo">pollo</button>
+						
+						<button type="checkbox" name="harina" onclick = "filter3(&#34;harina&#34;)" class="ingtag" id="tharina">harina</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="pimienta;
+grasa" onclick = "filter3(&#34;pimienta;\ngrasa&#34;)" class="ingtag" id="tpimienta;
+grasa">pimienta;
+grasa</button>
+						
+						<button type="checkbox" name="polvo de hornear" onclick = "filter3(&#34;polvo de hornear&#34;)" class="ingtag" id="tpolvo de hornear">polvo de hornear</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="leche" onclick = "filter3(&#34;leche&#34;)" class="ingtag" id="tleche">leche</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r07">
+			<h2><a href="../recetas/r07">pollo al horno con puré duquesa</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="pollo" onclick = "filter3(&#34;pollo&#34;)" class="ingtag" id="tpollo">pollo</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+						<button type="checkbox" name="cognac" onclick = "filter3(&#34;cognac&#34;)" class="ingtag" id="tcognac">cognac</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+						<button type="checkbox" name="papa" onclick = "filter3(&#34;papa&#34;)" class="ingtag" id="tpapa">papa</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="nuez moscada" onclick = "filter3(&#34;nuez moscada&#34;)" class="ingtag" id="tnuez moscada">nuez moscada</button>
+						
+						<button type="checkbox" name="egg" onclick = "filter3(&#34;egg&#34;)" class="ingtag" id="tegg">egg</button>
+						
+						<button type="checkbox" name="crema de leche" onclick = "filter3(&#34;crema de leche&#34;)" class="ingtag" id="tcrema de leche">crema de leche</button>
+						
+						<button type="checkbox" name="queso" onclick = "filter3(&#34;queso&#34;)" class="ingtag" id="tqueso">queso</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r08">
+			<h2><a href="../recetas/r08">tomates a la mireille</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="tomate" onclick = "filter3(&#34;tomate&#34;)" class="ingtag" id="ttomate">tomate</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="berenjena" onclick = "filter3(&#34;berenjena&#34;)" class="ingtag" id="tberenjena">berenjena</button>
+						
+						<button type="checkbox" name="ajo" onclick = "filter3(&#34;ajo&#34;)" class="ingtag" id="tajo">ajo</button>
+						
+						<button type="checkbox" name="vino blanco" onclick = "filter3(&#34;vino blanco&#34;)" class="ingtag" id="tvino blanco">vino blanco</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="perejil" onclick = "filter3(&#34;perejil&#34;)" class="ingtag" id="tperejil">perejil</button>
+						
+						<button type="checkbox" name="queso" onclick = "filter3(&#34;queso&#34;)" class="ingtag" id="tqueso">queso</button>
+						
+						<button type="checkbox" name="polvo de galletas" onclick = "filter3(&#34;polvo de galletas&#34;)" class="ingtag" id="tpolvo de galletas">polvo de galletas</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r12">
+			<h2><a href="../recetas/r12">tortitas de panapén</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="panapén" onclick = "filter3(&#34;panapén&#34;)" class="ingtag" id="tpanapén">panapén</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="queso" onclick = "filter3(&#34;queso&#34;)" class="ingtag" id="tqueso">queso</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				<button type="checkbox" name="
+sin gluten" onclick = "filter3(&#34;\nsin gluten&#34;)" class="tagtag" id="t
+sin gluten">
+sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r13">
+			<h2><a href="../recetas/r13">ancas de rana a la bearnesa</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="anca de rana" onclick = "filter3(&#34;anca de rana&#34;)" class="ingtag" id="tanca de rana">anca de rana</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+						<button type="checkbox" name="aceite" onclick = "filter3(&#34;aceite&#34;)" class="ingtag" id="taceite">aceite</button>
+						
+						<button type="checkbox" name="tomate" onclick = "filter3(&#34;tomate&#34;)" class="ingtag" id="ttomate">tomate</button>
+						
+						<button type="checkbox" name="vino blanco" onclick = "filter3(&#34;vino blanco&#34;)" class="ingtag" id="tvino blanco">vino blanco</button>
+						
+						<button type="checkbox" name="limón" onclick = "filter3(&#34;limón&#34;)" class="ingtag" id="tlimón">limón</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="
+sin gluten" onclick = "filter3(&#34;\nsin gluten&#34;)" class="tagtag" id="t
+sin gluten">
+sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r14">
+			<h2><a href="../recetas/r14">amarillo al horno</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="amarillo (plátano)" onclick = "filter3(&#34;amarillo (plátano)&#34;)" class="ingtag" id="tamarillo (plátano)">amarillo (plátano)</button>
+						
+						<button type="checkbox" name="queso" onclick = "filter3(&#34;queso&#34;)" class="ingtag" id="tqueso">queso</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r15">
+			<h2><a href="../recetas/r15">arroz con butifarras</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="sofrito" onclick = "filter3(&#34;sofrito&#34;)" class="ingtag" id="tsofrito">sofrito</button>
+						
+						<button type="checkbox" name="butifarras" onclick = "filter3(&#34;butifarras&#34;)" class="ingtag" id="tbutifarras">butifarras</button>
+						
+						<button type="checkbox" name="arroz" onclick = "filter3(&#34;arroz&#34;)" class="ingtag" id="tarroz">arroz</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="manteca" onclick = "filter3(&#34;manteca&#34;)" class="ingtag" id="tmanteca">manteca</button>
+						
+						<button type="checkbox" name="achote" onclick = "filter3(&#34;achote&#34;)" class="ingtag" id="tachote">achote</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r16">
+			<h2><a href="../recetas/r16">serenata</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="bacalao" onclick = "filter3(&#34;bacalao&#34;)" class="ingtag" id="tbacalao">bacalao</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="aceituna" onclick = "filter3(&#34;aceituna&#34;)" class="ingtag" id="taceituna">aceituna</button>
+						
+						<button type="checkbox" name="tomate" onclick = "filter3(&#34;tomate&#34;)" class="ingtag" id="ttomate">tomate</button>
+						
+						<button type="checkbox" name="salsa francesa" onclick = "filter3(&#34;salsa francesa&#34;)" class="ingtag" id="tsalsa francesa">salsa francesa</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r18">
+			<h2><a href="../recetas/r18">bocadillos de seso</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="seso" onclick = "filter3(&#34;seso&#34;)" class="ingtag" id="tseso">seso</button>
+						
+						<button type="checkbox" name="harina" onclick = "filter3(&#34;harina&#34;)" class="ingtag" id="tharina">harina</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="leche" onclick = "filter3(&#34;leche&#34;)" class="ingtag" id="tleche">leche</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r19">
+			<h2><a href="../recetas/r19">arroz con higados de pollo a la salvadorena</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="arroz" onclick = "filter3(&#34;arroz&#34;)" class="ingtag" id="tarroz">arroz</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="hoja de laurel" onclick = "filter3(&#34;hoja de laurel&#34;)" class="ingtag" id="thoja de laurel">hoja de laurel</button>
+						
+						<button type="checkbox" name="limon" onclick = "filter3(&#34;limon&#34;)" class="ingtag" id="tlimon">limon</button>
+						
+						<button type="checkbox" name="hígados de ave" onclick = "filter3(&#34;hígados de ave&#34;)" class="ingtag" id="thígados de ave">hígados de ave</button>
+						
+						<button type="checkbox" name="manteca" onclick = "filter3(&#34;manteca&#34;)" class="ingtag" id="tmanteca">manteca</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="vino marsala" onclick = "filter3(&#34;vino marsala&#34;)" class="ingtag" id="tvino marsala">vino marsala</button>
+						
+						<button type="checkbox" name="pimienta negra" onclick = "filter3(&#34;pimienta negra&#34;)" class="ingtag" id="tpimienta negra">pimienta negra</button>
+						
+						<button type="checkbox" name="sal gruesa" onclick = "filter3(&#34;sal gruesa&#34;)" class="ingtag" id="tsal gruesa">sal gruesa</button>
+						
+						<button type="checkbox" name="canela" onclick = "filter3(&#34;canela&#34;)" class="ingtag" id="tcanela">canela</button>
+						
+						<button type="checkbox" name="fécula de arroz" onclick = "filter3(&#34;fécula de arroz&#34;)" class="ingtag" id="tfécula de arroz">fécula de arroz</button>
+						
+						<button type="checkbox" name="leche" onclick = "filter3(&#34;leche&#34;)" class="ingtag" id="tleche">leche</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r20">
+			<h2><a href="../recetas/r20">macarrones con sobreasada</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="macarrones" onclick = "filter3(&#34;macarrones&#34;)" class="ingtag" id="tmacarrones">macarrones</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="jamón" onclick = "filter3(&#34;jamón&#34;)" class="ingtag" id="tjamón">jamón</button>
+						
+						<button type="checkbox" name="aceite" onclick = "filter3(&#34;aceite&#34;)" class="ingtag" id="taceite">aceite</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="ajo" onclick = "filter3(&#34;ajo&#34;)" class="ingtag" id="tajo">ajo</button>
+						
+						<button type="checkbox" name="sobreasada" onclick = "filter3(&#34;sobreasada&#34;)" class="ingtag" id="tsobreasada">sobreasada</button>
+						
+						<button type="checkbox" name="pasta de tomate" onclick = "filter3(&#34;pasta de tomate&#34;)" class="ingtag" id="tpasta de tomate">pasta de tomate</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r21">
+			<h2><a href="../recetas/r21">pollo relleno</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="pollo" onclick = "filter3(&#34;pollo&#34;)" class="ingtag" id="tpollo">pollo</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="ajo" onclick = "filter3(&#34;ajo&#34;)" class="ingtag" id="tajo">ajo</button>
+						
+						<button type="checkbox" name="orégano" onclick = "filter3(&#34;orégano&#34;)" class="ingtag" id="torégano">orégano</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="cerdo" onclick = "filter3(&#34;cerdo&#34;)" class="ingtag" id="tcerdo">cerdo</button>
+						
+						<button type="checkbox" name="jamón" onclick = "filter3(&#34;jamón&#34;)" class="ingtag" id="tjamón">jamón</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+						<button type="checkbox" name="salsa de tomate" onclick = "filter3(&#34;salsa de tomate&#34;)" class="ingtag" id="tsalsa de tomate">salsa de tomate</button>
+						
+						<button type="checkbox" name="pasas" onclick = "filter3(&#34;pasas&#34;)" class="ingtag" id="tpasas">pasas</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r22">
+			<h2><a href="../recetas/r22">medallones de carne empanizados</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="carne" onclick = "filter3(&#34;carne&#34;)" class="ingtag" id="tcarne">carne</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+						<button type="checkbox" name="nuez moscada" onclick = "filter3(&#34;nuez moscada&#34;)" class="ingtag" id="tnuez moscada">nuez moscada</button>
+						
+						<button type="checkbox" name="huevos" onclick = "filter3(&#34;huevos&#34;)" class="ingtag" id="thuevos">huevos</button>
+						
+						<button type="checkbox" name="galleta en polvo" onclick = "filter3(&#34;galleta en polvo&#34;)" class="ingtag" id="tgalleta en polvo">galleta en polvo</button>
+						
+						<button type="checkbox" name="grasa" onclick = "filter3(&#34;grasa&#34;)" class="ingtag" id="tgrasa">grasa</button>
+						
+						<button type="checkbox" name="pan" onclick = "filter3(&#34;pan&#34;)" class="ingtag" id="tpan">pan</button>
+						
+						<button type="checkbox" name="salsa mostaza" onclick = "filter3(&#34;salsa mostaza&#34;)" class="ingtag" id="tsalsa mostaza">salsa mostaza</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r23">
+			<h2><a href="../recetas/r23">salsa sencilla para espaghetti</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="aceite" onclick = "filter3(&#34;aceite&#34;)" class="ingtag" id="taceite">aceite</button>
+						
+						<button type="checkbox" name="ajo" onclick = "filter3(&#34;ajo&#34;)" class="ingtag" id="tajo">ajo</button>
+						
+						<button type="checkbox" name="tomate" onclick = "filter3(&#34;tomate&#34;)" class="ingtag" id="ttomate">tomate</button>
+						
+						<button type="checkbox" name="hoja de laurel" onclick = "filter3(&#34;hoja de laurel&#34;)" class="ingtag" id="thoja de laurel">hoja de laurel</button>
+						
+						<button type="checkbox" name="azúcar" onclick = "filter3(&#34;azúcar&#34;)" class="ingtag" id="tazúcar">azúcar</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegeteriano" onclick = "filter3(&#34;vegeteriano&#34;)" class="tagtag" id="tvegeteriano">vegeteriano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r25">
+			<h2><a href="../recetas/r25">delicia de chocolate</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="leche" onclick = "filter3(&#34;leche&#34;)" class="ingtag" id="tleche">leche</button>
+						
+						<button type="checkbox" name="coco" onclick = "filter3(&#34;coco&#34;)" class="ingtag" id="tcoco">coco</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="fécula de maíz" onclick = "filter3(&#34;fécula de maíz&#34;)" class="ingtag" id="tfécula de maíz">fécula de maíz</button>
+						
+						<button type="checkbox" name="chocolate" onclick = "filter3(&#34;chocolate&#34;)" class="ingtag" id="tchocolate">chocolate</button>
+						
+						<button type="checkbox" name="azúcar" onclick = "filter3(&#34;azúcar&#34;)" class="ingtag" id="tazúcar">azúcar</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="postre" onclick = "filter3(&#34;postre&#34;)" class="coursetag" id="tpostre">postre</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r26">
+			<h2><a href="../recetas/r26">horchata de almendras</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="almendra" onclick = "filter3(&#34;almendra&#34;)" class="ingtag" id="talmendra">almendra</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="azúcar" onclick = "filter3(&#34;azúcar&#34;)" class="ingtag" id="tazúcar">azúcar</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="bebida" onclick = "filter3(&#34;bebida&#34;)" class="coursetag" id="tbebida">bebida</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r27">
+			<h2><a href="../recetas/r27">ensalada de acelgas</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="acelga" onclick = "filter3(&#34;acelga&#34;)" class="ingtag" id="tacelga">acelga</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="aceite" onclick = "filter3(&#34;aceite&#34;)" class="ingtag" id="taceite">aceite</button>
+						
+						<button type="checkbox" name="vinagre" onclick = "filter3(&#34;vinagre&#34;)" class="ingtag" id="tvinagre">vinagre</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r29">
+			<h2><a href="../recetas/r29">tortas de naranjas</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="harina" onclick = "filter3(&#34;harina&#34;)" class="ingtag" id="tharina">harina</button>
+						
+						<button type="checkbox" name="azúcar, polve de hornear" onclick = "filter3(&#34;azúcar, polve de hornear&#34;)" class="ingtag" id="tazúcar, polve de hornear">azúcar, polve de hornear</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="bicarbonata de soda" onclick = "filter3(&#34;bicarbonata de soda&#34;)" class="ingtag" id="tbicarbonata de soda">bicarbonata de soda</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+						<button type="checkbox" name="naranja" onclick = "filter3(&#34;naranja&#34;)" class="ingtag" id="tnaranja">naranja</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="postre" onclick = "filter3(&#34;postre&#34;)" class="coursetag" id="tpostre">postre</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r30">
+			<h2><a href="../recetas/r30">macarrones con salchichas a lo viena</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="macarrones" onclick = "filter3(&#34;macarrones&#34;)" class="ingtag" id="tmacarrones">macarrones</button>
+						
+						<button type="checkbox" name="queso" onclick = "filter3(&#34;queso&#34;)" class="ingtag" id="tqueso">queso</button>
+						
+						<button type="checkbox" name="salsa blanca" onclick = "filter3(&#34;salsa blanca&#34;)" class="ingtag" id="tsalsa blanca">salsa blanca</button>
+						
+						<button type="checkbox" name="salchicas" onclick = "filter3(&#34;salchicas&#34;)" class="ingtag" id="tsalchicas">salchicas</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r31">
+			<h2><a href="../recetas/r31">cocada</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="dulce de coco" onclick = "filter3(&#34;dulce de coco&#34;)" class="ingtag" id="tdulce de coco">dulce de coco</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+						<button type="checkbox" name="2 huevo" onclick = "filter3(&#34;2 huevo&#34;)" class="ingtag" id="t2 huevo">2 huevo</button>
+						
+						<button type="checkbox" name="almendra" onclick = "filter3(&#34;almendra&#34;)" class="ingtag" id="talmendra">almendra</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="postre" onclick = "filter3(&#34;postre&#34;)" class="coursetag" id="tpostre">postre</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r32">
+			<h2><a href="../recetas/r32">panetela portena</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="panetela" onclick = "filter3(&#34;panetela&#34;)" class="ingtag" id="tpanetela">panetela</button>
+						
+						<button type="checkbox" name="ron" onclick = "filter3(&#34;ron&#34;)" class="ingtag" id="tron">ron</button>
+						
+						<button type="checkbox" name="coco" onclick = "filter3(&#34;coco&#34;)" class="ingtag" id="tcoco">coco</button>
+						
+						<button type="checkbox" name="guindas" onclick = "filter3(&#34;guindas&#34;)" class="ingtag" id="tguindas">guindas</button>
+						
+						<button type="checkbox" name="dulce de leche" onclick = "filter3(&#34;dulce de leche&#34;)" class="ingtag" id="tdulce de leche">dulce de leche</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="postre" onclick = "filter3(&#34;postre&#34;)" class="coursetag" id="tpostre">postre</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r33">
+			<h2><a href="../recetas/r33">huevos rellenos con tocineta</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+						<button type="checkbox" name="tocineta" onclick = "filter3(&#34;tocineta&#34;)" class="ingtag" id="ttocineta">tocineta</button>
+						
+						<button type="checkbox" name="queso" onclick = "filter3(&#34;queso&#34;)" class="ingtag" id="tqueso">queso</button>
+						
+						<button type="checkbox" name="bechamel" onclick = "filter3(&#34;bechamel&#34;)" class="ingtag" id="tbechamel">bechamel</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r34">
+			<h2><a href="../recetas/r34">frituras de papa</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="papas" onclick = "filter3(&#34;papas&#34;)" class="ingtag" id="tpapas">papas</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="queso" onclick = "filter3(&#34;queso&#34;)" class="ingtag" id="tqueso">queso</button>
+						
+						<button type="checkbox" name="manteca" onclick = "filter3(&#34;manteca&#34;)" class="ingtag" id="tmanteca">manteca</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				<button type="checkbox" name="gluten-free" onclick = "filter3(&#34;gluten-free&#34;)" class="tagtag" id="tgluten-free">gluten-free</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r35">
+			<h2><a href="../recetas/r35">pastelon de papas</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="papas" onclick = "filter3(&#34;papas&#34;)" class="ingtag" id="tpapas">papas</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="harina" onclick = "filter3(&#34;harina&#34;)" class="ingtag" id="tharina">harina</button>
+						
+						<button type="checkbox" name="carne" onclick = "filter3(&#34;carne&#34;)" class="ingtag" id="tcarne">carne</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r36">
+			<h2><a href="../recetas/r36">refresco de cebada</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="cebada" onclick = "filter3(&#34;cebada&#34;)" class="ingtag" id="tcebada">cebada</button>
+						
+						<button type="checkbox" name="azúcar;
+jugo de limón" onclick = "filter3(&#34;azúcar;\njugo de limón&#34;)" class="ingtag" id="tazúcar;
+jugo de limón">azúcar;
+jugo de limón</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="bebida" onclick = "filter3(&#34;bebida&#34;)" class="coursetag" id="tbebida">bebida</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				<button type="checkbox" name="vegano" onclick = "filter3(&#34;vegano&#34;)" class="tagtag" id="tvegano">vegano</button>
+				
+				<button type="checkbox" name="
+sin gluten" onclick = "filter3(&#34;\nsin gluten&#34;)" class="tagtag" id="t
+sin gluten">
+sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r37">
+			<h2><a href="../recetas/r37">potaje campesino</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="garbanzos" onclick = "filter3(&#34;garbanzos&#34;)" class="ingtag" id="tgarbanzos">garbanzos</button>
+						
+						<button type="checkbox" name="guisantes" onclick = "filter3(&#34;guisantes&#34;)" class="ingtag" id="tguisantes">guisantes</button>
+						
+						<button type="checkbox" name="chorizos" onclick = "filter3(&#34;chorizos&#34;)" class="ingtag" id="tchorizos">chorizos</button>
+						
+						<button type="checkbox" name="orégano" onclick = "filter3(&#34;orégano&#34;)" class="ingtag" id="torégano">orégano</button>
+						
+						<button type="checkbox" name="laurel" onclick = "filter3(&#34;laurel&#34;)" class="ingtag" id="tlaurel">laurel</button>
+						
+						<button type="checkbox" name="perejil" onclick = "filter3(&#34;perejil&#34;)" class="ingtag" id="tperejil">perejil</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="pimiento" onclick = "filter3(&#34;pimiento&#34;)" class="ingtag" id="tpimiento">pimiento</button>
+						
+						<button type="checkbox" name="aceite" onclick = "filter3(&#34;aceite&#34;)" class="ingtag" id="taceite">aceite</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r38">
+			<h2><a href="../recetas/r38">croquetas de arroz</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="arroz" onclick = "filter3(&#34;arroz&#34;)" class="ingtag" id="tarroz">arroz</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+						<button type="checkbox" name="perejil" onclick = "filter3(&#34;perejil&#34;)" class="ingtag" id="tperejil">perejil</button>
+						
+						<button type="checkbox" name="leche" onclick = "filter3(&#34;leche&#34;)" class="ingtag" id="tleche">leche</button>
+						
+						<button type="checkbox" name="polvo de galletas o pan tostado" onclick = "filter3(&#34;polvo de galletas o pan tostado&#34;)" class="ingtag" id="tpolvo de galletas o pan tostado">polvo de galletas o pan tostado</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r39">
+			<h2><a href="../recetas/r39">gaspacho</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="ajo" onclick = "filter3(&#34;ajo&#34;)" class="ingtag" id="tajo">ajo</button>
+						
+						<button type="checkbox" name="pimienta en grano" onclick = "filter3(&#34;pimienta en grano&#34;)" class="ingtag" id="tpimienta en grano">pimienta en grano</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="aceite" onclick = "filter3(&#34;aceite&#34;)" class="ingtag" id="taceite">aceite</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="vinagre" onclick = "filter3(&#34;vinagre&#34;)" class="ingtag" id="tvinagre">vinagre</button>
+						
+						<button type="checkbox" name="tomate" onclick = "filter3(&#34;tomate&#34;)" class="ingtag" id="ttomate">tomate</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="pepinillos" onclick = "filter3(&#34;pepinillos&#34;)" class="ingtag" id="tpepinillos">pepinillos</button>
+						
+						<button type="checkbox" name="pimiento" onclick = "filter3(&#34;pimiento&#34;)" class="ingtag" id="tpimiento">pimiento</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetaariano" onclick = "filter3(&#34;vegetaariano&#34;)" class="tagtag" id="tvegetaariano">vegetaariano</button>
+				
+				<button type="checkbox" name="vegano" onclick = "filter3(&#34;vegano&#34;)" class="tagtag" id="tvegano">vegano</button>
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r40">
+			<h2><a href="../recetas/r40">carne a la parisienne</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="carne" onclick = "filter3(&#34;carne&#34;)" class="ingtag" id="tcarne">carne</button>
+						
+						<button type="checkbox" name="ajo" onclick = "filter3(&#34;ajo&#34;)" class="ingtag" id="tajo">ajo</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="pimienta
+negra" onclick = "filter3(&#34;pimienta\nnegra&#34;)" class="ingtag" id="tpimienta
+negra">pimienta
+negra</button>
+						
+						<button type="checkbox" name="
+jugo de limón" onclick = "filter3(&#34;\njugo de limón&#34;)" class="ingtag" id="t
+jugo de limón">
+jugo de limón</button>
+						
+						<button type="checkbox" name="vinagre de sidra;
+polvos de
+chili" onclick = "filter3(&#34;vinagre de sidra;\npolvos de\nchili&#34;)" class="ingtag" id="tvinagre de sidra;
+polvos de
+chili">vinagre de sidra;
+polvos de
+chili</button>
+						
+						<button type="checkbox" name="orégano" onclick = "filter3(&#34;orégano&#34;)" class="ingtag" id="torégano">orégano</button>
+						
+						<button type="checkbox" name=" salsa de tomate" onclick = "filter3(&#34; salsa de tomate&#34;)" class="ingtag" id="t salsa de tomate"> salsa de tomate</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r41">
+			<h2><a href="../recetas/r41">budin de seso</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="seso" onclick = "filter3(&#34;seso&#34;)" class="ingtag" id="tseso">seso</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="pan" onclick = "filter3(&#34;pan&#34;)" class="ingtag" id="tpan">pan</button>
+						
+						<button type="checkbox" name="queso" onclick = "filter3(&#34;queso&#34;)" class="ingtag" id="tqueso">queso</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r42">
+			<h2><a href="../recetas/r42">bacalo a la vizcaina</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="bacalao" onclick = "filter3(&#34;bacalao&#34;)" class="ingtag" id="tbacalao">bacalao</button>
+						
+						<button type="checkbox" name="aceite de oliva" onclick = "filter3(&#34;aceite de oliva&#34;)" class="ingtag" id="taceite de oliva">aceite de oliva</button>
+						
+						<button type="checkbox" name="cebollas" onclick = "filter3(&#34;cebollas&#34;)" class="ingtag" id="tcebollas">cebollas</button>
+						
+						<button type="checkbox" name="salsa de tomate" onclick = "filter3(&#34;salsa de tomate&#34;)" class="ingtag" id="tsalsa de tomate">salsa de tomate</button>
+						
+						<button type="checkbox" name="aceituna" onclick = "filter3(&#34;aceituna&#34;)" class="ingtag" id="taceituna">aceituna</button>
+						
+						<button type="checkbox" name="alcaparra" onclick = "filter3(&#34;alcaparra&#34;)" class="ingtag" id="talcaparra">alcaparra</button>
+						
+						<button type="checkbox" name="ajo" onclick = "filter3(&#34;ajo&#34;)" class="ingtag" id="tajo">ajo</button>
+						
+						<button type="checkbox" name="papas" onclick = "filter3(&#34;papas&#34;)" class="ingtag" id="tpapas">papas</button>
+						
+						<button type="checkbox" name="pimientos" onclick = "filter3(&#34;pimientos&#34;)" class="ingtag" id="tpimientos">pimientos</button>
+						
+						<button type="checkbox" name="pasas" onclick = "filter3(&#34;pasas&#34;)" class="ingtag" id="tpasas">pasas</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r43">
+			<h2><a href="../recetas/r43">creole beef gumpo</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="apio" onclick = "filter3(&#34;apio&#34;)" class="ingtag" id="tapio">apio</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+						<button type="checkbox" name="tomate" onclick = "filter3(&#34;tomate&#34;)" class="ingtag" id="ttomate">tomate</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="arroz" onclick = "filter3(&#34;arroz&#34;)" class="ingtag" id="tarroz">arroz</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="azúcar" onclick = "filter3(&#34;azúcar&#34;)" class="ingtag" id="tazúcar">azúcar</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="salsa Worcestershire" onclick = "filter3(&#34;salsa Worcestershire&#34;)" class="ingtag" id="tsalsa Worcestershire">salsa Worcestershire</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r44">
+			<h2><a href="../recetas/r44">ponche de naranjas</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="azúcar" onclick = "filter3(&#34;azúcar&#34;)" class="ingtag" id="tazúcar">azúcar</button>
+						
+						<button type="checkbox" name="jugo de naranja" onclick = "filter3(&#34;jugo de naranja&#34;)" class="ingtag" id="tjugo de naranja">jugo de naranja</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="bebida" onclick = "filter3(&#34;bebida&#34;)" class="coursetag" id="tbebida">bebida</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r45">
+			<h2><a href="../recetas/r45">pastelillos de maiz</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="harina de maís" onclick = "filter3(&#34;harina de maís&#34;)" class="ingtag" id="tharina de maís">harina de maís</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="carne de cerdo" onclick = "filter3(&#34;carne de cerdo&#34;)" class="ingtag" id="tcarne de cerdo">carne de cerdo</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="jamón" onclick = "filter3(&#34;jamón&#34;)" class="ingtag" id="tjamón">jamón</button>
+						
+						<button type="checkbox" name="manteca" onclick = "filter3(&#34;manteca&#34;)" class="ingtag" id="tmanteca">manteca</button>
+						
+						<button type="checkbox" name="pimiento" onclick = "filter3(&#34;pimiento&#34;)" class="ingtag" id="tpimiento">pimiento</button>
+						
+						<button type="checkbox" name="tomate" onclick = "filter3(&#34;tomate&#34;)" class="ingtag" id="ttomate">tomate</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r46">
+			<h2><a href="../recetas/r46">budin de batata</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="batata" onclick = "filter3(&#34;batata&#34;)" class="ingtag" id="tbatata">batata</button>
+						
+						<button type="checkbox" name="azúcar" onclick = "filter3(&#34;azúcar&#34;)" class="ingtag" id="tazúcar">azúcar</button>
+						
+						<button type="checkbox" name="canela" onclick = "filter3(&#34;canela&#34;)" class="ingtag" id="tcanela">canela</button>
+						
+						<button type="checkbox" name=" harina" onclick = "filter3(&#34; harina&#34;)" class="ingtag" id="t harina"> harina</button>
+						
+						<button type="checkbox" name=" leche" onclick = "filter3(&#34; leche&#34;)" class="ingtag" id="t leche"> leche</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				<button type="checkbox" name="postre" onclick = "filter3(&#34;postre&#34;)" class="coursetag" id="tpostre">postre</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r47">
+			<h2><a href="../recetas/r47">rosca de naranja</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="gelatina" onclick = "filter3(&#34;gelatina&#34;)" class="ingtag" id="tgelatina">gelatina</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="jugo de naranja" onclick = "filter3(&#34;jugo de naranja&#34;)" class="ingtag" id="tjugo de naranja">jugo de naranja</button>
+						
+						<button type="checkbox" name="fruta" onclick = "filter3(&#34;fruta&#34;)" class="ingtag" id="tfruta">fruta</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="postre" onclick = "filter3(&#34;postre&#34;)" class="coursetag" id="tpostre">postre</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r48">
+			<h2><a href="../recetas/r48">ensalada de papas</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="papas" onclick = "filter3(&#34;papas&#34;)" class="ingtag" id="tpapas">papas</button>
+						
+						<button type="checkbox" name="apio" onclick = "filter3(&#34;apio&#34;)" class="ingtag" id="tapio">apio</button>
+						
+						<button type="checkbox" name="pimiento" onclick = "filter3(&#34;pimiento&#34;)" class="ingtag" id="tpimiento">pimiento</button>
+						
+						<button type="checkbox" name="mayonesa" onclick = "filter3(&#34;mayonesa&#34;)" class="ingtag" id="tmayonesa">mayonesa</button>
+						
+						<button type="checkbox" name="sal de cebolla o ajo" onclick = "filter3(&#34;sal de cebolla o ajo&#34;)" class="ingtag" id="tsal de cebolla o ajo">sal de cebolla o ajo</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+						<button type="checkbox" name="lechuga" onclick = "filter3(&#34;lechuga&#34;)" class="ingtag" id="tlechuga">lechuga</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="salchichón" onclick = "filter3(&#34;salchichón&#34;)" class="ingtag" id="tsalchichón">salchichón</button>
+						
+						<button type="checkbox" name="aderezo de tomate" onclick = "filter3(&#34;aderezo de tomate&#34;)" class="ingtag" id="taderezo de tomate">aderezo de tomate</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r49">
+			<h2><a href="../recetas/r49">arroz a la italiana</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="manteca" onclick = "filter3(&#34;manteca&#34;)" class="ingtag" id="tmanteca">manteca</button>
+						
+						<button type="checkbox" name="jamón" onclick = "filter3(&#34;jamón&#34;)" class="ingtag" id="tjamón">jamón</button>
+						
+						<button type="checkbox" name="tomate" onclick = "filter3(&#34;tomate&#34;)" class="ingtag" id="ttomate">tomate</button>
+						
+						<button type="checkbox" name="anchoa" onclick = "filter3(&#34;anchoa&#34;)" class="ingtag" id="tanchoa">anchoa</button>
+						
+						<button type="checkbox" name="arroz" onclick = "filter3(&#34;arroz&#34;)" class="ingtag" id="tarroz">arroz</button>
+						
+						<button type="checkbox" name="caldo de gallina" onclick = "filter3(&#34;caldo de gallina&#34;)" class="ingtag" id="tcaldo de gallina">caldo de gallina</button>
+						
+						<button type="checkbox" name="gallina" onclick = "filter3(&#34;gallina&#34;)" class="ingtag" id="tgallina">gallina</button>
+						
+						<button type="checkbox" name="queso" onclick = "filter3(&#34;queso&#34;)" class="ingtag" id="tqueso">queso</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r50">
+			<h2><a href="../recetas/r50">sopa de papa a la crema</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+						<button type="checkbox" name="harina" onclick = "filter3(&#34;harina&#34;)" class="ingtag" id="tharina">harina</button>
+						
+						<button type="checkbox" name="leche" onclick = "filter3(&#34;leche&#34;)" class="ingtag" id="tleche">leche</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="papas" onclick = "filter3(&#34;papas&#34;)" class="ingtag" id="tpapas">papas</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r51">
+			<h2><a href="../recetas/r51">filetes de higado</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="hígado" onclick = "filter3(&#34;hígado&#34;)" class="ingtag" id="thígado">hígado</button>
+						
+						<button type="checkbox" name="harina" onclick = "filter3(&#34;harina&#34;)" class="ingtag" id="tharina">harina</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="aceite" onclick = "filter3(&#34;aceite&#34;)" class="ingtag" id="taceite">aceite</button>
+						
+						<button type="checkbox" name="laurel" onclick = "filter3(&#34;laurel&#34;)" class="ingtag" id="tlaurel">laurel</button>
+						
+						<button type="checkbox" name="manteca" onclick = "filter3(&#34;manteca&#34;)" class="ingtag" id="tmanteca">manteca</button>
+						
+						<button type="checkbox" name="vino" onclick = "filter3(&#34;vino&#34;)" class="ingtag" id="tvino">vino</button>
+						
+						<button type="checkbox" name="espinaca" onclick = "filter3(&#34;espinaca&#34;)" class="ingtag" id="tespinaca">espinaca</button>
+						
+						<button type="checkbox" name="papa" onclick = "filter3(&#34;papa&#34;)" class="ingtag" id="tpapa">papa</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r52">
+			<h2><a href="../recetas/r52">sopa de calabaza a la crema</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="calabaza" onclick = "filter3(&#34;calabaza&#34;)" class="ingtag" id="tcalabaza">calabaza</button>
+						
+						<button type="checkbox" name="salsa blanca" onclick = "filter3(&#34;salsa blanca&#34;)" class="ingtag" id="tsalsa blanca">salsa blanca</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r53">
+			<h2><a href="../recetas/r53">refresco de avena</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="avena" onclick = "filter3(&#34;avena&#34;)" class="ingtag" id="tavena">avena</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="azúcar" onclick = "filter3(&#34;azúcar&#34;)" class="ingtag" id="tazúcar">azúcar</button>
+						
+						<button type="checkbox" name="vainilla" onclick = "filter3(&#34;vainilla&#34;)" class="ingtag" id="tvainilla">vainilla</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="bebida" onclick = "filter3(&#34;bebida&#34;)" class="coursetag" id="tbebida">bebida</button>
+				
+				<button type="checkbox" name="postre" onclick = "filter3(&#34;postre&#34;)" class="coursetag" id="tpostre">postre</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				<button type="checkbox" name="vegano" onclick = "filter3(&#34;vegano&#34;)" class="tagtag" id="tvegano">vegano</button>
+				
+				<button type="checkbox" name="
+sin gluten" onclick = "filter3(&#34;\nsin gluten&#34;)" class="tagtag" id="t
+sin gluten">
+sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r54">
+			<h2><a href="../recetas/r54">langosta a la parilla</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="langosta" onclick = "filter3(&#34;langosta&#34;)" class="ingtag" id="tlangosta">langosta</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="mariscos" onclick = "filter3(&#34;mariscos&#34;)" class="tagtag" id="tmariscos">mariscos</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r55">
+			<h2><a href="../recetas/r55">huevos a la gitanila</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="aceite" onclick = "filter3(&#34;aceite&#34;)" class="ingtag" id="taceite">aceite</button>
+						
+						<button type="checkbox" name="ajo" onclick = "filter3(&#34;ajo&#34;)" class="ingtag" id="tajo">ajo</button>
+						
+						<button type="checkbox" name="almendra" onclick = "filter3(&#34;almendra&#34;)" class="ingtag" id="talmendra">almendra</button>
+						
+						<button type="checkbox" name="pan" onclick = "filter3(&#34;pan&#34;)" class="ingtag" id="tpan">pan</button>
+						
+						<button type="checkbox" name="azafrán" onclick = "filter3(&#34;azafrán&#34;)" class="ingtag" id="tazafrán">azafrán</button>
+						
+						<button type="checkbox" name="cominos" onclick = "filter3(&#34;cominos&#34;)" class="ingtag" id="tcominos">cominos</button>
+						
+						<button type="checkbox" name="canela" onclick = "filter3(&#34;canela&#34;)" class="ingtag" id="tcanela">canela</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r56">
+			<h2><a href="../recetas/r56">salchichas a la veneciana</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="salchicha" onclick = "filter3(&#34;salchicha&#34;)" class="ingtag" id="tsalchicha">salchicha</button>
+						
+						<button type="checkbox" name="aciete" onclick = "filter3(&#34;aciete&#34;)" class="ingtag" id="taciete">aciete</button>
+						
+						<button type="checkbox" name="agua" onclick = "filter3(&#34;agua&#34;)" class="ingtag" id="tagua">agua</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="papas" onclick = "filter3(&#34;papas&#34;)" class="ingtag" id="tpapas">papas</button>
+						
+						<button type="checkbox" name="mantequilla" onclick = "filter3(&#34;mantequilla&#34;)" class="ingtag" id="tmantequilla">mantequilla</button>
+						
+						<button type="checkbox" name="leche" onclick = "filter3(&#34;leche&#34;)" class="ingtag" id="tleche">leche</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r57">
+			<h2><a href="../recetas/r57">ensalada marinera</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="salmón" onclick = "filter3(&#34;salmón&#34;)" class="ingtag" id="tsalmón">salmón</button>
+						
+						<button type="checkbox" name="papa" onclick = "filter3(&#34;papa&#34;)" class="ingtag" id="tpapa">papa</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="aceituna" onclick = "filter3(&#34;aceituna&#34;)" class="ingtag" id="taceituna">aceituna</button>
+						
+						<button type="checkbox" name="cebolla" onclick = "filter3(&#34;cebolla&#34;)" class="ingtag" id="tcebolla">cebolla</button>
+						
+						<button type="checkbox" name="lechuga" onclick = "filter3(&#34;lechuga&#34;)" class="ingtag" id="tlechuga">lechuga</button>
+						
+						<button type="checkbox" name="aceite" onclick = "filter3(&#34;aceite&#34;)" class="ingtag" id="taceite">aceite</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="jugo de un limón" onclick = "filter3(&#34;jugo de un limón&#34;)" class="ingtag" id="tjugo de un limón">jugo de un limón</button>
+						
+						<button type="checkbox" name="tomate" onclick = "filter3(&#34;tomate&#34;)" class="ingtag" id="ttomate">tomate</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				<button type="checkbox" name="acompañamiento" onclick = "filter3(&#34;acompañamiento&#34;)" class="coursetag" id="tacompañamiento">acompañamiento</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r58">
+			<h2><a href="../recetas/r58">isla flotante</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="Maizena" onclick = "filter3(&#34;Maizena&#34;)" class="ingtag" id="tMaizena">Maizena</button>
+						
+						<button type="checkbox" name="leche" onclick = "filter3(&#34;leche&#34;)" class="ingtag" id="tleche">leche</button>
+						
+						<button type="checkbox" name="esencia de vainilla" onclick = "filter3(&#34;esencia de vainilla&#34;)" class="ingtag" id="tesencia de vainilla">esencia de vainilla</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="azúcar" onclick = "filter3(&#34;azúcar&#34;)" class="ingtag" id="tazúcar">azúcar</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="postre" onclick = "filter3(&#34;postre&#34;)" class="coursetag" id="tpostre">postre</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				<button type="checkbox" name="vegetariano" onclick = "filter3(&#34;vegetariano&#34;)" class="tagtag" id="tvegetariano">vegetariano</button>
+				
+				<button type="checkbox" name="sin gluten" onclick = "filter3(&#34;sin gluten&#34;)" class="tagtag" id="tsin gluten">sin gluten</button>
+				
+				
+			</div>	
+				
+		</div>
+		
+		<div class="recipe-card" id= "r59">
+			<h2><a href="../recetas/r59">embutido relleno</a></h2>
+	
+		<h4>Ingredientes</h4>
+				<div class="ingredients">
+
+					
+						<button type="checkbox" name="carne" onclick = "filter3(&#34;carne&#34;)" class="ingtag" id="tcarne">carne</button>
+						
+						<button type="checkbox" name="cerdo" onclick = "filter3(&#34;cerdo&#34;)" class="ingtag" id="tcerdo">cerdo</button>
+						
+						<button type="checkbox" name="sal" onclick = "filter3(&#34;sal&#34;)" class="ingtag" id="tsal">sal</button>
+						
+						<button type="checkbox" name="nuez moscada" onclick = "filter3(&#34;nuez moscada&#34;)" class="ingtag" id="tnuez moscada">nuez moscada</button>
+						
+						<button type="checkbox" name="pimienta" onclick = "filter3(&#34;pimienta&#34;)" class="ingtag" id="tpimienta">pimienta</button>
+						
+						<button type="checkbox" name="huevo" onclick = "filter3(&#34;huevo&#34;)" class="ingtag" id="thuevo">huevo</button>
+						
+						<button type="checkbox" name="coñac" onclick = "filter3(&#34;coñac&#34;)" class="ingtag" id="tcoñac">coñac</button>
+						
+						<button type="checkbox" name="polvo de galletas" onclick = "filter3(&#34;polvo de galletas&#34;)" class="ingtag" id="tpolvo de galletas">polvo de galletas</button>
+						
+						<button type="checkbox" name="jamón" onclick = "filter3(&#34;jamón&#34;)" class="ingtag" id="tjamón">jamón</button>
+						
+								
+			</div>
+			<h4>Plato</h4>
+			<div class="course">
+
+				
+				<button type="checkbox" name="plato principal" onclick = "filter3(&#34;plato principal&#34;)" class="coursetag" id="tplato principal">plato principal</button>
+				
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				
+				
+			</div>	
+				
+		</div>
+		
+		
+		
+	
+	</div>
+</div>
+</div>
+</main>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+	    ul = document.getElementById("filterlist");
+
+      li = ul.getElementsByTagName("li");
+
+			for (i = 0; i < li.length; i++) {
+			    a = li[i].getElementsByTagName("button")[0];
+			    txtValue = a.textContent || a.innerText;
+			    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			      li[i].style.display = "";
+			    } else {
+			      li[i].style.display = "none";
+			    }
+			  }
+}
+
+var total_terms=[]
+
+function filter3(query) {
+var checkboxes = document.getElementsByName(query);
+
+if (checkboxes[0].classList.contains('selected')){
+checkboxes.forEach(a=>a.classList.remove("selected"));
+checkboxes.forEach(a=>a.classList.add("deselected"));
+checkboxes.forEach(a=>a.removeAttribute('checked'));
+
+qloc = total_terms.indexOf(query);
+total_terms.splice(qloc, 1);
+}
+else {
+total_terms.push(query);
+
+checkboxes.forEach(a=>a.classList.remove("deselected"));
+checkboxes.forEach(b=>b.classList.add("selected"));
+checkboxes.forEach(b=>b.setAttribute("checked",""));
+}
+var recipes = document.getElementsByClassName("recipe-card");
+for (var i= 0; i < recipes.length; i++) {
+var rtarget = recipes[i]
+var kids = rtarget.children
+var itarget = rtarget.children[2]
+var ctarget = rtarget.children[4]
+var ttarget = rtarget.children[6]
+
+var ings = Array.from(itarget.children);
+var ids1 = ings.map(element => {
+return element.name; });
+
+var courses = Array.from(ctarget.children);
+var ids2 = courses.map(element => {
+return element.name; });
+
+var tags = Array.from(ttarget.children);
+var ids3 = tags.map(element => {
+return element.name; });
+
+var ids = ids1.concat(ids2, ids3);
+
+if (total_terms.every(r => ids.includes(r))){
+recipes[i].style.display = 'block';
+}
+else {
+recipes[i].style.display = 'none';
+}
+var div = document.getElementById("testdiv");
+
+
+}
+}
+
+
+</script>
+
+
+        		<footer>
+			<p><span>
+			&copy; <time datetime="2022-09-13 16:23:04.9651942 -0400 EDT m=&#43;0.392098101">2022</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.</span></p>
+		</footer>
+
+    </body>
+</html>

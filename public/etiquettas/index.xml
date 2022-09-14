@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Etiquettas on Recetas</title>
+    <link>https://recetas.domains.uflib.ufl.edu/etiquettas/</link>
+    <description>Recent content in Etiquettas on Recetas</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://recetas.domains.uflib.ufl.edu/etiquettas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gluten-free</title>
+      <link>https://recetas.domains.uflib.ufl.edu/etiquettas/gluten-free/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://recetas.domains.uflib.ufl.edu/etiquettas/gluten-free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mariscos</title>
+      <link>https://recetas.domains.uflib.ufl.edu/etiquettas/mariscos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://recetas.domains.uflib.ufl.edu/etiquettas/mariscos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sin gluten</title>
+      <link>https://recetas.domains.uflib.ufl.edu/etiquettas/sin-gluten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://recetas.domains.uflib.ufl.edu/etiquettas/sin-gluten/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vegano</title>
+      <link>https://recetas.domains.uflib.ufl.edu/etiquettas/vegano/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://recetas.domains.uflib.ufl.edu/etiquettas/vegano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vegetaariano</title>
+      <link>https://recetas.domains.uflib.ufl.edu/etiquettas/vegetaariano/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://recetas.domains.uflib.ufl.edu/etiquettas/vegetaariano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vegetariano</title>
+      <link>https://recetas.domains.uflib.ufl.edu/etiquettas/vegetariano/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://recetas.domains.uflib.ufl.edu/etiquettas/vegetariano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vegeteriano</title>
+      <link>https://recetas.domains.uflib.ufl.edu/etiquettas/vegeteriano/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://recetas.domains.uflib.ufl.edu/etiquettas/vegeteriano/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

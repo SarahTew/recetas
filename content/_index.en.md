@@ -1,6 +1,6 @@
 ---
 layout: letters
-identifier: Recetas
+identifier: Recipes
 title: Recipes from the Diario las Américas
 author: Diario las Américas
 description: Recipes from the Diario las Américas

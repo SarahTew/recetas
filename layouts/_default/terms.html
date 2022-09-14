@@ -1,17 +1,25 @@
 {{ define "main" }}
 <main>
 
-    <h1>{{ .Title }}</h1>
+    <h2>{{ .Title }}</h2>
 <div class="container-fluid">
 	<div class="row">
-	<div class="catalogue" class="col">
+	<div class="catalogue col">
 		<div>
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Type a string"></div>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Busca..." title="Type a string"></div>
 <div id="filterlist">
+	<h3 class="subhead">etiquettas</h3>
+	<ul class="container-fluid filterlist">
+		{{ range $taxonomyname, $taxonomy := .Site.Taxonomies.etiquettas }}
+		<li class="button"><button type="checkbox" name="{{ replace $taxonomyname "-" " " }}" id="d{{ replace $taxonomyname "-" " " }}" onclick="filter3({{ replace $taxonomyname "-" " " }})">{{ replace $taxonomyname "-" " " }}</button>
+			
+		</li>
+		{{ end }}
+	</ul>
 <h3 class="subhead">Plato</h3>
-			<ul>
+	<ul class="container-fluid filterlist">
 				{{ range $taxonomyname, $taxonomy := .Site.Taxonomies.plato }}
-				<li><button type="checkbox" name="{{ $taxonomyname }}" id="c{{ $taxonomyname }}" onclick="filter4({{ $taxonomyname }})">{{ $taxonomyname }}</button>
+				<li class="button"><button type="checkbox" name="{{ replace $taxonomyname "-" " " }}" id="d{{ replace $taxonomyname "-" " " }}" onclick="filter3({{ replace $taxonomyname "-" " " }})">{{ replace $taxonomyname "-" " " }}</button>
 						
 				</li>
 				{{ end }}
@@ -19,9 +27,9 @@
 		
 		
  <h3 class="subhead">Ingredientes</h3>
-	<ul>
+	<ul class="container-fluid filterlist">
 		{{ range $taxonomyname, $taxonomy := .Site.Taxonomies.ingredientes }}
-		<li><button type="checkbox" name="{{ replace $taxonomyname "-" " " }}" id="d{{ replace $taxonomyname "-" " " }}" onclick="filter2({{ replace $taxonomyname "-" " " }})">{{ replace $taxonomyname "-" " " }}</button>
+		<li class="button"><button type="checkbox" name="{{ replace $taxonomyname "-" " " }}" id="d{{ replace $taxonomyname "-" " " }}" onclick="filter3({{ replace $taxonomyname "-" " " }})">{{ replace $taxonomyname "-" " " }}</button>
 			
 		</li>
 		{{ end }}
@@ -30,7 +38,7 @@
 		
 	</div>
 	</div>
-	<div class="col">
+	<div class="col recipeslist">
 		
 		<div id="testdiv"></div>
 	{{ range .Site.Data.recipes }}
@@ -41,15 +49,23 @@
 				<div class="ingredients">
 
 					{{ range $item, $list := .ingredients }}
-						<button type="checkbox" name="{{ $list }}" onclick = "filter2({{ $list }})" class="ingtag" id="t{{ $list }}">{{ $list }}</button>
+						<button type="checkbox" name="{{ $list }}" onclick = "filter3({{ $list }})" class="ingtag" id="t{{ $list }}">{{ $list }}</button>
 						{{ end }}
 								
 			</div>
-			<h4>Course</h4>
+			<h4>Plato</h4>
 			<div class="course">
 
 				{{ range $item, $list := .course }}
-				<button type="checkbox" name="{{ $list }}" onclick = "filter4({{ $list }})" class="ingtag" id="t{{ $list }}">{{ $list }}</button>
+				<button type="checkbox" name="{{ $list }}" onclick = "filter3({{ $list }})" class="coursetag" id="t{{ $list }}">{{ $list }}</button>
+				{{ end }}
+				
+			</div>	
+			<h4>Etiquettas</h4>
+			<div class="tags">
+				
+				{{ range $item, $list := .tags }}
+				<button type="checkbox" name="{{ $list }}" onclick = "filter3({{ $list }})" class="tagtag" id="t{{ $list }}">{{ $list }}</button>
 				{{ end }}
 				
 			</div>	
@@ -84,95 +100,57 @@ function myFunction() {
 			  }
 }
 
-function filter_function(query) {
-//function for hiding recipes in the list that do not contain the selected ingredient in their metadata//
-	var checkbox = document.getElementById(query)
-	var recipes = document.getElementsByClassName("recipe-card");
-	var div = document.getElementById("testdiv");
-	div.innerHTML += recipes.length + terms;
-	
-		for (var i = 0; i < recipes.length; i++) {
-			if (recipes[i].textContent.includes(query)){
-				recipes[i].style.display = 'block';
-			}
-			else {
-				recipes[i].style.display = 'none';
-			}
-		}
-		checkbox.setAttribute("checked","");
-}
+var total_terms=[]
 
-var terms=[]
-
-function filter2(query) {
-	var checkboxes = document.getElementsByName(query);
-
-	if (checkboxes[0].classList.contains('selected')){
-	checkboxes.forEach(a=>a.classList.remove("selected"));
-	checkboxes.forEach(a=>a.classList.add("deselected"));
-	checkboxes.forEach(a=>a.removeAttribute('checked'));
-		//checkbox.removeAttribute('checked');//
-		qloc = terms.indexOf(query);
-		terms.splice(qloc, 1);
-	}
-	else {
-		terms.push(query);
-		//checkbox.setAttribute("checked","");//
-		checkboxes.forEach(a=>a.classList.remove("deselected"));
-		checkboxes.forEach(b=>b.classList.add("selected"));
-		checkboxes.forEach(b=>b.setAttribute("checked",""));
-}
-	var recipes = document.getElementsByClassName("recipe-card");
-	for (var i= 0; i < recipes.length; i++) {
-		var rtarget = recipes[i]
-		var kids = rtarget.children
-		var itarget = rtarget.children[2]
-		var ings = Array.from(itarget.children);
-		var ids = ings.map(element => {
-		return element.name; });
-
-			if (terms.every(r => ids.includes(r))){
-				recipes[i].style.display = 'block';
-			}
-			else {
-				recipes[i].style.display = 'none';
-			}
-	var div = document.getElementById("testdiv");
-	//div.innerHTML += i + "Ings" + ids + ";"
-	//div.innerHTML = kids[2].tagName
-}
-}
-
-
-//working except the double inputs don't get marked as checked together.
 function filter3(query) {
-var checkbox = document.getElementById(query)
+var checkboxes = document.getElementsByName(query);
 
-if (checkbox.hasAttribute('checked')){
-checkbox.removeAttribute('checked');
-qloc = terms.indexOf(query);
-terms.splice(qloc, 1);
+if (checkboxes[0].classList.contains('selected')){
+checkboxes.forEach(a=>a.classList.remove("selected"));
+checkboxes.forEach(a=>a.classList.add("deselected"));
+checkboxes.forEach(a=>a.removeAttribute('checked'));
+//checkbox.removeAttribute('checked');//
+qloc = total_terms.indexOf(query);
+total_terms.splice(qloc, 1);
 }
 else {
-terms.push(query);
-checkbox.setAttribute("checked","");
+total_terms.push(query);
+//checkbox.setAttribute("checked","");//
+checkboxes.forEach(a=>a.classList.remove("deselected"));
+checkboxes.forEach(b=>b.classList.add("selected"));
+checkboxes.forEach(b=>b.setAttribute("checked",""));
 }
 var recipes = document.getElementsByClassName("recipe-card");
 for (var i= 0; i < recipes.length; i++) {
 var rtarget = recipes[i]
+var kids = rtarget.children
 var itarget = rtarget.children[2]
-var ings = Array.from(itarget.children);
-var ids = ings.map(element => {
-return element.id; });
+var ctarget = rtarget.children[4]
+var ttarget = rtarget.children[6]
 
-if (terms.every(r => ids.includes(r))){
+var ings = Array.from(itarget.children);
+var ids1 = ings.map(element => {
+return element.name; });
+
+var courses = Array.from(ctarget.children);
+var ids2 = courses.map(element => {
+return element.name; });
+
+var tags = Array.from(ttarget.children);
+var ids3 = tags.map(element => {
+return element.name; });
+
+var ids = ids1.concat(ids2, ids3);
+
+if (total_terms.every(r => ids.includes(r))){
 recipes[i].style.display = 'block';
 }
 else {
 recipes[i].style.display = 'none';
 }
-//var div = document.getElementById("testdiv");
-//div.innerHTML += terms
+var div = document.getElementById("testdiv");
+//div.innerHTML += i + "tags " + ids + ";"//
+
 }
 }
 
