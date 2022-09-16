@@ -26,13 +26,15 @@
     <xsl:template match="url"/>
     <xsl:template match="pdf_file_path"/>
     <xsl:template match="tags"/>
-    <xsl:template match="ingredient_list">
+    <xsl:template match="ingredients_list">
         <div class="ingredients">
+            <h4 id="ingredhead">Ingredientes</h4>
             <xsl:call-template name="ingredients"/>
         </div>
     </xsl:template>
     <xsl:template match="directions">
         <div class="directions">
+            <h4 id="dirhead">Direcciones</h4>
             <xsl:call-template name="directions"/>
         </div>
     </xsl:template>

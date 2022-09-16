@@ -78,8 +78,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/baking-soda/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/barley/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r36/</loc>
     <xhtml:link
                 rel="alternate"
@@ -436,8 +434,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/eggplant/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/eggs/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/</loc>
     <xhtml:link
                 rel="alternate"
@@ -503,6 +499,18 @@
                 />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/frogs-legs/</loc>
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r02/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://recetas.domains.uflib.ufl.edu/recetas/r02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://recetas.domains.uflib.ufl.edu/en/recetas/r02/"
+                />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/fruit/</loc>
   </url><url>
@@ -1054,18 +1062,6 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/source/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r02/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/recetas/r02/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/recetas/r02/"
-                />
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/spinach/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r21/</loc>
@@ -1132,8 +1128,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/vanilla/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/vanilla-essence/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/vegan/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/vegeetarian/</loc>
@@ -1169,6 +1163,8 @@
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/vinegar/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/water/</loc>
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/water-barley-sugar-lemon-juice/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/white-wine/</loc>
   </url><url>

@@ -10,12 +10,9 @@
             </a>
         </li>
     {{ end }}
-    
-    <div>
-        <ul class="language-list">
-            {{ range $.Site.Home.AllTranslations }}
-            <li><a class="black" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+    {{ range $.Site.Home.AllTranslations }}
+    <li class="menupage"><a class="black" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
             {{ end }}
-        </ul>
-    </div>
+    
+
 </ul>

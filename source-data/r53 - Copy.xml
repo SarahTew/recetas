@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><row>
+        <id>r53</id>
+        <paper>DLA</paper>
+        <state>FL</state>
+        <course>bebida; postre</course>
+        <course_en>beverage; dessert</course_en>
+        <tags>vegetariano; vegano; 
+sin gluten</tags>
+        <tags_en>vegetarian; vegan; gluten-free</tags_en>
+        <ingredients>avena; agua; azúcar; vainilla</ingredients>
+        <ingredients_en>oatmeal; water; sugar; vanilla</ingredients_en>
+        <ingredients_list>3-4 taza de avena; 7 tazas de agua; 1 taza de azúcar; 1 cucharadita de vainilla</ingredients_list>
+        <ingredient_list_en>3-4 cup oatmeal; 7 cups of water; 1 cup sugar; 1 teaspoon vanilla</ingredient_list_en>
+        <directions>Ponga la avena en el agua por inedia hora y cuele.; Endulce y añada la vainilla.; Sirva bien frío adornado con ruedas de limón.</directions>
+        <directions_en>Put the oatmeal in the water for an inedia hour and strain.; Sweeten and add the vanilla.; Serve very cold garnished with lemon wedges.
+</directions_en>
+        <title>refresco de avena</title>
+        <title_en>oatmeal soda</title_en>
+        <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-28/ed-1/seq-5/</url>
+    </row>

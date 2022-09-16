@@ -19,9 +19,9 @@ a {
     margin: 0 auto;
 }
 button {
-  background-color: #a985c1;
+  background-color:#dbc9ff;
   border: none;
-  font-weight: normal;
+  font-weight: bold;
   color: #222222;
   padding: .6em;
   margin: .1em;
@@ -49,7 +49,15 @@ button {
     margin-bottom: .5vw;
     font-size: 2.5vw;
     padding-top: .5vw;
-
+}
+.pagination {
+    text-align: left;
+    font-size: 14pt;
+    margin-top: .5em;
+}
+.arrow {
+    font-size: 24pt;
+    margin: 1em;
 }
 .nav-subtitle {
     text-align: center;
@@ -125,6 +133,38 @@ h3 {
     margin-top: .2em;
     margin-bottom: 0;
     padding: 0;
+}
+.rtitle {
+    text-transform: capitalize;
+}
+.rhead {
+    margin-top: 1em;
+}
+.recimg {
+    max-width: 100%;
+    max-height: 100%;
+}
+.reciperow{
+    max-height: 70vh;
+
+}
+.col-recipe {
+    font-size: 16pt;
+    float: left;
+    width: 50%;
+    overflow: auto;
+    overflow-x: hidden;
+   margin: .75em;
+}
+
+.col-image {
+    float: left;
+    width: 50%;
+}
+img {
+}
+.rhead {
+    font-size: 20pt;
 }
 h4 {
 margin: .2em;

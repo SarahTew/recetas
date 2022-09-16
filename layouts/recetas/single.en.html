@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<main>
+
+
+	<div class="container-fluid">
+		<div class="rhead">
+		<h3 class="rtitle" id="t{{.Params.title}}">{{ .Params.title }}
+			</h3>
+			<i class="fas fa-external-link-alt"></i><a target="_blank" href="{{.Params.chronam}}">Recipe in Chronicling America</a> | 
+			{{$path := .Page.Params.pdf}}
+			<!--<i class="fas fa-external-link-alt"></i><a target="_blank" href={{printf "../../pdf/%s" $path | urlize | absLangURL}}>Printable Recipe (PDF)</a>-->
+		</div>
+		<div class="row">
+			<div class="col-recipe">
+				{{ .Content }}
+			</div>
+			<div class="col-image">
+			{{$path := .Page.Params.jpg}}
+			<img alt="newspaper recipe of {{ .Params.title}}" src= {{ printf "../../images/recetas/%s" $path | urlize | absLangURL}}/>
+				
+			</div>
+			</div>
+			
+</div>
+		<div class="footer">{{ partial "single/footer.html" . }}
+	</div>
+
+	<div class="pagination">
+		{{- if .NextPage }}
+		<a href="{{ .NextPage.RelPermalink }}" class="left arrow">&#8592;</a>
+		{{- end }}
+		More recipes
+		{{- if .PrevPage }}
+		<a href="{{ .PrevPage.RelPermalink }}" class="right arrow">&#8594;</a>
+		{{- end }}
+	</div>
+</main>
+
+{{ end }}

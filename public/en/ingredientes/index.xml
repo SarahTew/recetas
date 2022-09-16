@@ -87,15 +87,6 @@
     </item>
     
     <item>
-      <title>barley</title>
-      <link>https://recetas.domains.uflib.ufl.edu/en/ingredientes/barley/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://recetas.domains.uflib.ufl.edu/en/ingredientes/barley/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>bay leaf</title>
       <link>https://recetas.domains.uflib.ufl.edu/en/ingredientes/bay-leaf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -443,15 +434,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://recetas.domains.uflib.ufl.edu/en/ingredientes/eggplant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>eggs</title>
-      <link>https://recetas.domains.uflib.ufl.edu/en/ingredientes/eggs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://recetas.domains.uflib.ufl.edu/en/ingredientes/eggs/</guid>
       <description></description>
     </item>
     
@@ -1077,15 +1059,6 @@
     </item>
     
     <item>
-      <title>vanilla essence</title>
-      <link>https://recetas.domains.uflib.ufl.edu/en/ingredientes/vanilla-essence/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://recetas.domains.uflib.ufl.edu/en/ingredientes/vanilla-essence/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>vinegar</title>
       <link>https://recetas.domains.uflib.ufl.edu/en/ingredientes/vinegar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1100,6 +1073,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://recetas.domains.uflib.ufl.edu/en/ingredientes/water/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>water, barley, sugar, lemon juice</title>
+      <link>https://recetas.domains.uflib.ufl.edu/en/ingredientes/water-barley-sugar-lemon-juice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://recetas.domains.uflib.ufl.edu/en/ingredientes/water-barley-sugar-lemon-juice/</guid>
       <description></description>
     </item>
     

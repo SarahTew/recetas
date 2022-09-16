@@ -42,6 +42,10 @@
         <xsl:value-of select="id"/>
         <xsl:text>.jpg</xsl:text>
         <xsl:text>&#10;</xsl:text>
+        <xsl:text>pdf: </xsl:text>
+        <xsl:value-of select="id"/>
+        <xsl:text>.pdf</xsl:text>
+        <xsl:text>&#10;</xsl:text>
           <xsl:text>---</xsl:text>
         <xsl:text>&#10;</xsl:text>
         <xsl:text>&#10;</xsl:text>

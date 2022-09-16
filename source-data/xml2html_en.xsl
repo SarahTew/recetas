@@ -19,7 +19,7 @@
     <xsl:template match="course_en"/>
     <xsl:template match="ingredients"/>
     <xsl:template match="ingredients_en"/>
-    <xsl:template match="ingredient_list"/>
+    <xsl:template match="ingredients_list"/>
     <xsl:template match="directions"/>
     <xsl:template match="title"/>
     <xsl:template match="tags_en"/>
@@ -28,11 +28,13 @@
     <xsl:template match="tags"/>
     <xsl:template match="ingredient_list_en">
         <div class="ingredients">
+            <h4 id="ingredhead">Ingredients</h4>
             <xsl:call-template name="ingredients"/>
         </div>
     </xsl:template>
     <xsl:template match="directions_en">
         <div class="directions">
+            <h4 id="dirhead">Directions</h4>
             <xsl:call-template name="directions"/>
         </div>
     </xsl:template>
