@@ -8,7 +8,7 @@
         <tags_en>vegetarian</tags_en>
         <ingredients>calabaza; salsa blanca; cebolla</ingredients>
         <ingredients_en>pumpkin; bechamel; onion</ingredients_en>
-        <ingredients_list>3 tazas de calabaza majada; 3 tazas de salsa blanca; 1 cebolla pequeña, rallada</ingredients_list>
+        <ingredient_list>3 tazas de calabaza majada; 3 tazas de salsa blanca; 1 cebolla pequeña, rallada</ingredient_list>
         <ingredient_list_en>3 cups of mashed pumpkin; 3 cups bechamel sauce; 1 small onion, grated</ingredient_list_en>
         <directions>Añada a la calabaza majada, la cebolla y la salsa blanca.; Deje hervir y sazone a gusto.; Cuele y
 o caldo.; Sirva callente con galletas saladas o tostadas de pan.</directions>
@@ -18,4 +18,7 @@ or broth.; Serve callente with crackers or toasted bread.
         <title>sopa de calabaza a la crema</title>
         <title_en>creamy pumpkin soup</title_en>
         <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-27/ed-1/seq-5/</url>
+        <Heading16/>
+        <Heading17/>
+        <Heading18/>
     </row>

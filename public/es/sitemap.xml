@@ -2,29 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/2-huevo/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/aceite/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/aceite-de-oliva/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/aceituna/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/acelga/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/achote/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/aciete/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/aciete/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/ingredientes/aciete/"
-                />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/plato/acompa%C3%B1amiento/</loc>
   </url><url>
@@ -114,7 +98,7 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/az%C3%BAcar/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/az%C3%BAcar-polve-de-hornear/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/az%C3%BAcar-polvo-de-hornear/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/bacalao/</loc>
   </url><url>
@@ -162,7 +146,17 @@
                 href="https://recetas.domains.uflib.ufl.edu/recetas/r18/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/bouill%C3%B3n-de-pollo/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/bouill%C3%B3n/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/bouill%C3%B3n/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://recetas.domains.uflib.ufl.edu/ingredientes/bouill%C3%B3n/"
+                />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/recetas/r46/</loc>
     <xhtml:link
@@ -188,7 +182,7 @@
                 href="https://recetas.domains.uflib.ufl.edu/recetas/r41/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/butifarras/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/butifarra/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/caf%C3%A9/</loc>
   </url><url>
@@ -322,7 +316,7 @@
                 href="https://recetas.domains.uflib.ufl.edu/ingredientes/cognac/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/cominos/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/comino/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/co%C3%B1ac/</loc>
   </url><url>
@@ -377,29 +371,17 @@
                 />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/dulce-de-coco/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/dulce-de-coco/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/ingredientes/dulce-de-coco/"
-                />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/dulce-de-leche/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/egg/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/egg/"
+                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/dulce-de-leche/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/ingredientes/egg/"
+                href="https://recetas.domains.uflib.ufl.edu/ingredientes/dulce-de-leche/"
                 />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/recetas/r59/</loc>
@@ -584,8 +566,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/huevo/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/huevos/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/recetas/r55/</loc>
     <xhtml:link
                 rel="alternate"
@@ -639,8 +619,6 @@
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/jugo-de-lim%C3%B3n/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/jugo-de-naranja/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/jugo-de-un-lim%C3%B3n/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/langosta/</loc>
   </url><url>
@@ -704,8 +682,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/maicena/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/maizena/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/manteca/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/mantequilla/</loc>
@@ -746,6 +722,8 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pan/</loc>
   </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pan-tostado/</loc>
+  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/panap%C3%A9n/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/panetela/</loc>
@@ -763,8 +741,6 @@
                 />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/papa/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/papas/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pasas/</loc>
   </url><url>
@@ -805,8 +781,6 @@
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pimienta-negra/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pimiento/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pimientos/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/plato/</loc>
     <xhtml:link
@@ -872,9 +846,9 @@
                 href="https://recetas.domains.uflib.ufl.edu/recetas/r21/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/polvo-de-galletas/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/polvo-de-ajo/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/polvo-de-galletas-o-pan-tostado/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/polvo-de-galletas/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/polvo-de-hornear/</loc>
   </url><url>
@@ -1002,7 +976,7 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/sal/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/sal-de-cebolla-o-ajo/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/sal-de-cebolla/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/sal-gruesa/</loc>
   </url><url>
@@ -1172,21 +1146,7 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/etiquettas/vegano/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/etiquettas/vegetaariano/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/etiquettas/vegetariano/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/etiquettas/vegetariano/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/etiquettas/vegetariano/"
-                />
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/etiquettas/vegeteriano/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/vinagre/</loc>
   </url><url>

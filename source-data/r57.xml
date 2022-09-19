@@ -6,14 +6,17 @@
         <course_en>main; side</course_en>
         <tags>sin gluten</tags>
         <tags_en>gluten-free</tags_en>
-        <ingredients>salmón; papa; huevo; aceituna; cebolla; lechuga; aceite; sal; jugo de un limón; tomate</ingredients>
-        <ingredients_en>salmon; potato; egg; olives; onion; lettuce; oil; salt; lemon juice; tomato
+        <ingredients>salmón; papa; huevo; aceituna; cebolla; lechuga; aceite; sal; jugo de limón; tomate</ingredients>
+        <ingredients_en>salmon; potato; egg; olive; onion; lettuce; oil; salt; lemon juice; tomato
 </ingredients_en>
-        <ingredients_list>1 lata de salmón; 3 papas cocidas; 2 huevos duros; 6 aceitunas verdes y 6 negras; rodajas finas de cebolla; hojas de lechuga; 1-2 taza de aceite; 1 cucharadita de sal; el jugo de un limón; 1 tomate</ingredients_list>
-        <ingredient_list_en>1 can of salmon; 3 cooked potatoes; 2 hard-boiled eggs; 6 green and 6 black olives; thin slices of onion; lettuce leaves; 1-2 cup oil; 1 teaspoon salt; the juice of a lemon; 1 tomato</ingredient_list_en>
+        <ingredient_list>1 lata de salmón; 3 papas cocidas; 2 huevos duros; 6 aceitunas verdes y 6 negras; rodajas finas de cebolla; hojas de lechuga; 1/2 taza de aceite; 1 cucharadita de sal; el jugo de un limón; 1 tomate</ingredient_list>
+        <ingredient_list_en>1 can of salmon; 3 cooked potatoes; 2 hard-boiled eggs; 6 green and 6 black olives; thin slices of onion; lettuce leaves; 1/2 cup oil; 1 teaspoon salt; the juice of a lemon; 1 tomato</ingredient_list_en>
         <directions>Ponga en una fuente, las hojas de lechuga, encima las papas cortadas en rodajas finas, la cebolla, el salmón; condimente con sal, aceite y limón y adorne con tomate, rodajas de huevo duro y las aceitunas.</directions>
         <directions_en> in a dish, lettuce leaves, on top of thinly sliced potatoes, onion, salmon; season with salt, oil and lemon and garnish with tomato, hard-boiled egg slices and olives.</directions_en>
         <title>ensalada marinera</title>
         <title_en>seafood salad</title_en>
         <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-08/ed-1/seq-5/</url>
+        <Heading16/>
+        <Heading17/>
+        <Heading18/>
     </row>

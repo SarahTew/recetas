@@ -7,11 +7,11 @@
         <tags>vegetariano</tags>
         <tags_en>vegetarian</tags_en>
         <ingredients>panetela; ron; coco; guindas; dulce de leche</ingredients>
-        <ingredients_en>rum; coconut; cherries; caramel salt</ingredients_en>
-        <ingredients_list>1 panetela; 1 copa de ron; 8 cucharadas de coco ralla
+        <ingredients_en>pound cake; rum; coconut; cherries; dulce de leche</ingredients_en>
+        <ingredient_list>1 panetela; 1 copa de ron; 8 cucharadas de coco ralla
 do; 10 guindas confitadas;
-1 kilogramo de dulce de leche</ingredients_list>
-        <ingredient_list_en>1 panetela; 1 glass of rum; 8 tablespoons grated coconut
+1 kilogramo de dulce de leche</ingredient_list>
+        <ingredient_list_en>1 pound cake; 1 glass of rum; 8 tablespoons grated coconut
 do; 10 candied cherries;
 1 kilogram of dulce de leche</ingredient_list_en>
         <directions>Se corta la panetela en capas
@@ -19,6 +19,9 @@ finas y se le rocía con ron, cubriendo con dulce de leche.; Se forma de nuevo y
         <directions_en>The panetela is cut into layers fine and sprinkled with rum, covering with dulce de leche.; It is formed again and covered above and around with the same sweet.; It sticks striped coconut around and is decorated on top with the rest of the sweet.; Garnish with candied cherries split in half.
 </directions_en>
         <title>panetela portena</title>
-        <title_en>panetela portena</title_en>
+        <title_en>layered pound cake</title_en>
         <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1959-04-14/ed-1/seq-4/</url>
+        <Heading16/>
+        <Heading17/>
+        <Heading18/>
     </row>

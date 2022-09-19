@@ -6,7 +6,7 @@
     
     <!-- row -->
     <xsl:template match="row">
-        <xsl:result-document method="text" encoding="utf-8" href="{id}.html"/>
+
         
         <xsl:apply-templates/>
         
@@ -26,7 +26,7 @@
     <xsl:template match="url"/>
     <xsl:template match="pdf_file_path"/>
     <xsl:template match="tags"/>
-    <xsl:template match="ingredients_list">
+    <xsl:template match="ingredient_list">
         <div class="ingredients">
             <h4 id="ingredhead">Ingredientes</h4>
             <xsl:call-template name="ingredients"/>

@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/aciete/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/ingredientes/aciete/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/aciete/"
-                />
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/almond/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r26/</loc>
@@ -27,8 +15,6 @@
                 hreflang="en"
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r26/"
                 />
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/almonds/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/anchovy/</loc>
   </url><url>
@@ -77,6 +63,8 @@
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/baking-powder/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/baking-soda/</loc>
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/barley/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r36/</loc>
     <xhtml:link
@@ -136,19 +124,19 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/black-pepper/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/brain/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r41/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/bouill%C3%B3n/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/recetas/r41/"
+                href="https://recetas.domains.uflib.ufl.edu/ingredientes/bouill%C3%B3n/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/recetas/r41/"
+                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/bouill%C3%B3n/"
                 />
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/brain/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r18/</loc>
     <xhtml:link
@@ -160,6 +148,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r18/"
+                />
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r41/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://recetas.domains.uflib.ufl.edu/recetas/r41/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://recetas.domains.uflib.ufl.edu/en/recetas/r41/"
                 />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/bread/</loc>
@@ -181,8 +181,6 @@
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/butter/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/caper/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/caramel-salt/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/categories/</loc>
     <xhtml:link
@@ -242,9 +240,9 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/chicken/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/chicken-bouill%C3%B3n/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/chicken-broth/</loc>
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/chicken-live/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/chili-powder/</loc>
   </url><url>
@@ -300,18 +298,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/coarse-salt/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r31/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/recetas/r31/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/recetas/r31/"
-                />
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/coconut/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/cod/</loc>
@@ -360,7 +346,9 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/cracker-meal/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/crackermeal-or-toast/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/crackermeal/</loc>
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/cream/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r52/</loc>
     <xhtml:link
@@ -404,33 +392,19 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/categories/documentary/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/dried-thyme/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/plato/drink/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/dulce-de-coco/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/dulce-de-leche/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/ingredientes/dulce-de-coco/"
+                href="https://recetas.domains.uflib.ufl.edu/ingredientes/dulce-de-leche/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/dulce-de-coco/"
+                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/dulce-de-leche/"
                 />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/egg/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/ingredientes/egg/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/egg/"
-                />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/eggplant/</loc>
   </url><url>
@@ -486,6 +460,8 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/french-sauce/</loc>
   </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/frog-leg/</loc>
+  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r13/</loc>
     <xhtml:link
                 rel="alternate"
@@ -497,8 +473,6 @@
                 hreflang="en"
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r13/"
                 />
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/frogs-legs/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r02/</loc>
     <xhtml:link
@@ -514,7 +488,11 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/fruit/</loc>
   </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/garbanzo/</loc>
+  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/garlic/</loc>
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/garlic-powder/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r39/</loc>
     <xhtml:link
@@ -542,6 +520,8 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/etiquettas/gluten-free/"
                 />
   </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/green-peas/</loc>
+  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r54/</loc>
     <xhtml:link
                 rel="alternate"
@@ -553,10 +533,6 @@
                 hreflang="en"
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r54/"
                 />
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/ground-beef/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/ground-pork/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r55/</loc>
     <xhtml:link
@@ -624,11 +600,25 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/laurel/"
                 />
   </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r32/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://recetas.domains.uflib.ufl.edu/recetas/r32/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://recetas.domains.uflib.ufl.edu/en/recetas/r32/"
+                />
+  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/lemon/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/lemon-juice/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/lettuce/</loc>
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/liver/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r51/</loc>
     <xhtml:link
@@ -692,8 +682,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/milk/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/milk-cream/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/mushroom/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/mustard-sauce/</loc>
@@ -730,15 +718,9 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/olive/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/olive-oil/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/olives/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/onion/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/onion-or-garlic-salt/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/onions/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/onion-powder/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/orange/</loc>
   </url><url>
@@ -782,23 +764,7 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/oregano/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/overassed/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r32/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/recetas/r32/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/recetas/r32/"
-                />
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/parsley/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/peas/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r37/</loc>
     <xhtml:link
@@ -815,10 +781,6 @@
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/pepper/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/peppercorn/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/peppers/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/peppert/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/pickles/</loc>
   </url><url>
@@ -839,18 +801,6 @@
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/pork/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/potato/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r35/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/recetas/r35/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/recetas/r35/"
-                />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r50/</loc>
     <xhtml:link
@@ -876,6 +826,18 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r34/"
                 />
   </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r35/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://recetas.domains.uflib.ufl.edu/recetas/r35/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://recetas.domains.uflib.ufl.edu/en/recetas/r35/"
+                />
+  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r48/</loc>
     <xhtml:link
                 rel="alternate"
@@ -888,7 +850,7 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r48/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/potatoes/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/pound-cake/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/pumpkin/</loc>
   </url><url>
@@ -904,7 +866,7 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r04/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/raisins/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/raisin/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/</loc>
     <xhtml:link
@@ -994,7 +956,7 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/sausage/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/sausages/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/seafood/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r57/</loc>
     <xhtml:link
@@ -1020,7 +982,7 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r16/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/shellfish/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/shredded-coconut/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/plato/side/</loc>
   </url><url>
@@ -1036,7 +998,7 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r23/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/sobrasada/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/sobrassada/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/sofrito/</loc>
     <xhtml:link
@@ -1090,6 +1052,18 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/sugar/</loc>
   </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r31/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://recetas.domains.uflib.ufl.edu/recetas/r31/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://recetas.domains.uflib.ufl.edu/en/recetas/r31/"
+                />
+  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/sweet-potato/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r46/</loc>
@@ -1104,9 +1078,9 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r46/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/tomato/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/thyme/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/tomato-dressing/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/tomato/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/tomato-paste/</loc>
   </url><url>
@@ -1130,23 +1104,7 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/vegan/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/vegeetarian/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/vegetarian/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/vegetarian-gluten-free/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/vegetariano/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/etiquettas/vegetariano/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/etiquettas/vegetariano/"
-                />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r56/</loc>
     <xhtml:link
@@ -1164,7 +1122,7 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/water/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/water-barley-sugar-lemon-juice/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/white-sauce/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/white-wine/</loc>
   </url><url>

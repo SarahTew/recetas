@@ -6,7 +6,6 @@
     
     <!-- row -->
     <xsl:template match="row">
-        <xsl:result-document method="text" encoding="utf-8" href="{id}.en.html"/>
 
             <xsl:apply-templates/>
               
@@ -19,7 +18,7 @@
     <xsl:template match="course_en"/>
     <xsl:template match="ingredients"/>
     <xsl:template match="ingredients_en"/>
-    <xsl:template match="ingredients_list"/>
+    <xsl:template match="ingredient_list"/>
     <xsl:template match="directions"/>
     <xsl:template match="title"/>
     <xsl:template match="tags_en"/>
