@@ -20,6 +20,8 @@
        <xsl:text>title: </xsl:text>
         <xsl:value-of select="title_en"/>
         <xsl:text>&#10;</xsl:text>
+        <xsl:text>description: Recipes de las Américas</xsl:text>
+        <xsl:text>&#10;</xsl:text>
         <xsl:text>etiquettas: </xsl:text>
         <xsl:text>[</xsl:text>
         <xsl:apply-templates select="tags_en"/>

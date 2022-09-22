@@ -242,8 +242,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/chicken-broth/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/chicken-live/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/chili-powder/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/chocolate/</loc>
@@ -280,18 +278,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/chorizo/"
-                />
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/chorizos/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/ingredientes/chorizos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/chorizos/"
                 />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/cinnamon/</loc>
@@ -392,6 +378,8 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/categories/documentary/"
                 />
   </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/dried-thyme/</loc>
+  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/dulce-de-leche/</loc>
     <xhtml:link
                 rel="alternate"
@@ -488,7 +476,7 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/fruit/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/garbanzo/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/garbanzo-beans/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/garlic/</loc>
   </url><url>
@@ -509,18 +497,6 @@
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/gelatin/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/gluten-free/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/etiquettas/gluten-free/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/etiquettas/gluten-free/"
-                />
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/green-peas/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r54/</loc>
     <xhtml:link
@@ -766,6 +742,8 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/parsley/</loc>
   </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/peas/</loc>
+  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r37/</loc>
     <xhtml:link
                 rel="alternate"
@@ -779,8 +757,6 @@
                 />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/pepper/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/peppercorn/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/pickles/</loc>
   </url><url>
@@ -880,8 +856,6 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/1recetas/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/</loc>
     <xhtml:link
                 rel="alternate"
@@ -956,8 +930,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/sausage/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/seafood/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/recetas/r57/</loc>
     <xhtml:link
                 rel="alternate"
@@ -982,7 +954,7 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r16/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/shredded-coconut/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/etiquettas/shellfish/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/plato/side/</loc>
   </url><url>
@@ -998,7 +970,17 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r23/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/sobrassada/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/sobreasada/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://recetas.domains.uflib.ufl.edu/ingredientes/sobreasada/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/sobreasada/"
+                />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/sofrito/</loc>
     <xhtml:link
@@ -1078,9 +1060,9 @@
                 href="https://recetas.domains.uflib.ufl.edu/en/recetas/r46/"
                 />
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/thyme/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/tomato/</loc>
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/tomato-dressing/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/tomato-paste/</loc>
   </url><url>
@@ -1121,8 +1103,6 @@
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/vinegar/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/water/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/white-sauce/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/en/ingredientes/white-wine/</loc>
   </url><url>

@@ -65,6 +65,7 @@ button {
     border-bottom: 1em;
 }
 
+
 .nav-bar {
     text-align: center;
     padding-bottom: .2em;
@@ -178,6 +179,11 @@ ul {
     padding: 0;
 }
 
+#ingredients {
+    columns: 1;
+    list-style-type: square;
+}
+
 li {
     padding-bottom: .25em;
 }
@@ -189,6 +195,13 @@ li {
 
 .row {
   display: flex;
+}
+.catalogue {
+    display: flex;
+    max-width: 95vw;
+}
+#myInput {
+    margin-bottom: 1em;
 }
 
 .col {

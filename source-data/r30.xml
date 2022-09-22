@@ -6,8 +6,8 @@
         <course_en>main</course_en>
         <tags/>
         <tags_en/>
-        <ingredients>macarrones; queso; salsa blanca; salchicas</ingredients>
-        <ingredients_en>macaroni; cheese; white sauce; sausage</ingredients_en>
+        <ingredients>macarrones; queso; salsa blanca; salchica</ingredients>
+        <ingredients_en>macaroni; cheese; white sauce; sausages</ingredients_en>
         <ingredient_list>1/2 libra de macarrones; 
 1/2 libra de queso americano rallado; 2 tazas de salsa blanca; 2 latas de salchichas estilo Viena.</ingredient_list>
         <ingredient_list_en>1/2 pound macaroni; 1/2 pounds of grated American cheese; 2 cups white sauce; 2 cans of Vienna sausages</ingredient_list_en>
@@ -16,7 +16,4 @@
         <title>macarrones con salchichas a lo viena</title>
         <title_en>macaroni and Vienna sausages</title_en>
         <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-03-07/ed-1/seq-5/</url>
-        <Heading16/>
-        <Heading17/>
-        <Heading18/>
     </row>

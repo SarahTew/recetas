@@ -226,8 +226,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/cebolla/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/cebollas/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/cerdo/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/chayote/</loc>
@@ -276,18 +274,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://recetas.domains.uflib.ufl.edu/ingredientes/chorizo/"
-                />
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/chorizos/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/chorizos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/ingredientes/chorizos/"
                 />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/recetas/r31/</loc>
@@ -520,18 +506,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/gelatina/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/etiquettas/gluten-free/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/etiquettas/gluten-free/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/etiquettas/gluten-free/"
-                />
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/grasa/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/guindas/</loc>
@@ -546,7 +520,7 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/h%C3%ADgado/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/h%C3%ADgados-de-ave/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/h%C3%ADgados/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/hoja-de-laurel/</loc>
   </url><url>
@@ -650,8 +624,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/lechuga/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/limon/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/lim%C3%B3n/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/macarrones/</loc>
@@ -722,8 +694,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pan/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pan-tostado/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/panap%C3%A9n/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/panetela/</loc>
@@ -775,8 +745,6 @@
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/perejil/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pimienta/</loc>
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pimienta-en-grano/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pimienta-negra/</loc>
   </url><url>
@@ -896,8 +864,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/queso/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/list/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/recetas/</loc>
     <xhtml:link
                 rel="alternate"
@@ -980,8 +946,6 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/sal-gruesa/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/salchicas/</loc>
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/salchicha/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/recetas/r56/</loc>
@@ -1039,6 +1003,16 @@
     <loc>https://recetas.domains.uflib.ufl.edu/etiquettas/sin-gluten/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/sobreasada/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://recetas.domains.uflib.ufl.edu/en/ingredientes/sobreasada/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://recetas.domains.uflib.ufl.edu/ingredientes/sobreasada/"
+                />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/sofrito/</loc>
     <xhtml:link

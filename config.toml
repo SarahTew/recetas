@@ -13,7 +13,7 @@ languageName = "English"
 weight = 2
 [languages.es]
 title = "Recetas"
-languageName = "español"
+languageName = "Español"
 weight = 1
 [taxonomies]
 category = 'categories'

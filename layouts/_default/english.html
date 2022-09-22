@@ -6,9 +6,9 @@
 		<div class="row">
 			<div class="catalogue col">
 				<div>
-					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Busca..." title="Type a string"></div>
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Type a string"></div>
 				<div id="filterlist">
-					<h3 class="subhead">tags</h3>
+					<h3 class="subhead">dietary restrictions</h3>
 					<ul class="container-fluid filterlist">
 						{{ range $taxonomyname, $taxonomy := .Site.Taxonomies.etiquettas }}
 						<li class="button"><button type="checkbox" name="{{ replace $taxonomyname "-" " " }}" id="d{{ replace $taxonomyname "-" " " }}" onclick="filter3({{ replace $taxonomyname "-" " " }})">{{ replace $taxonomyname "-" " " }}</button>
@@ -61,7 +61,7 @@
 						{{ end }}
 						
 					</div>	
-					<h4>Tags</h4>
+					<h4>Dietary Restrictions</h4>
 					<div class="tags">
 						
 						{{ range $item, $list := .tags_en }}

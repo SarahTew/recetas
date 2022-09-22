@@ -5,7 +5,7 @@
         <course>plato principal</course>
         <course_en>main</course_en>
         <tags>mariscos</tags>
-        <tags_en>seafood</tags_en>
+        <tags_en>shellfish</tags_en>
         <ingredients>langosta; mantequilla; sal; pimienta</ingredients>
         <ingredients_en>lobster; butter; salt; pepper</ingredients_en>
         <ingredient_list>1 langosta de 3 libras; mantequilla; sal y pimienta a gusto</ingredient_list>
@@ -16,7 +16,4 @@
         <title>langosta a la parilla</title>
         <title_en>grilled lobster</title_en>
         <url>https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-02/ed-1/seq-5/</url>
-        <Heading16/>
-        <Heading17/>
-        <Heading18/>
     </row>
