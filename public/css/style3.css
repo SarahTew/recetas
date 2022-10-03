@@ -76,7 +76,7 @@ button {
 .black {
     color: black;
 }
-.welcome {
+.welcome, .about {
     font-size: 14pt;
 }
 
@@ -218,6 +218,9 @@ footer {
 .card-gallery {
   display: flex;
 }
+.nolink {
+    color: black;
+}
 img {
 width: 20em;
 }
@@ -254,4 +257,12 @@ display: inline;
 .catalogue {
     font-size: 14pt;
     display: inline-block;
+}
+
+.footerimage {
+    max-height: 10em; 
+    max-width: 10em;
+}
+.logos {
+    max-height: 1em;
 }

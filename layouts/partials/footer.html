@@ -1,4 +1,9 @@
 		<footer>
-			<p><span>
-			&copy; <time datetime="{{ now }}">{{ now.Format "2006" }}</time> {{ .Site.Author.name }}. {{ i18n "generator" | safeHTML }}</span></p>
+			
+			<div class="logos"><img class ="footerimage" src="https://recetas.domains.uflib.ufl.edu/images/logos/LOC.png" alt="Library of Congress logo">
+				<img class ="footerimage" src="https://recetas.domains.uflib.ufl.edu/images/logos/NEH.jpg" alt="NEH logo">
+				<img class ="footerimage" src="https://recetas.domains.uflib.ufl.edu/images/logos/UF.png" alt="UF logo">
+				<p><span>
+					&copy; <time datetime="{{ now }}">{{ now.Format "2006" }}</time> {{ .Site.Author.name }}. {{ i18n "generator" | safeHTML }}</span></p>
+			</div>
 		</footer>

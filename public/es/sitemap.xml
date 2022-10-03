@@ -8,7 +8,7 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/acelga/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/achote/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/achiote/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/plato/acompa%C3%B1amiento/</loc>
   </url><url>
@@ -210,21 +210,11 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/carne-de-cerdo/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/categories/"
-                />
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/cebada/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/cebolla/</loc>
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/cebollas/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/cerdo/</loc>
   </url><url>
@@ -275,6 +265,8 @@
                 hreflang="es"
                 href="https://recetas.domains.uflib.ufl.edu/ingredientes/chorizo/"
                 />
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/chorizos/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/recetas/r31/</loc>
     <xhtml:link
@@ -342,18 +334,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://recetas.domains.uflib.ufl.edu/recetas/r25/"
-                />
-  </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/categories/documentary/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/categories/documentary/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/categories/documentary/"
                 />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/dulce-de-coco/</loc>
@@ -520,7 +500,7 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/h%C3%ADgado/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/h%C3%ADgados/</loc>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/h%C3%ADgados-de-ave/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/hoja-de-laurel/</loc>
   </url><url>
@@ -676,23 +656,13 @@
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/naranja/</loc>
   </url><url>
-    <loc>https://recetas.domains.uflib.ufl.edu/categories/newspaper/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://recetas.domains.uflib.ufl.edu/en/categories/newspaper/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://recetas.domains.uflib.ufl.edu/categories/newspaper/"
-                />
-  </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/nuez-moscada/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/or%C3%A9gano/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pan/</loc>
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pan-tostado/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/panap%C3%A9n/</loc>
   </url><url>
@@ -745,6 +715,8 @@
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/perejil/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pimienta/</loc>
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pimienta-en-grano/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/pimienta-negra/</loc>
   </url><url>
@@ -889,6 +861,16 @@
                 />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://recetas.domains.uflib.ufl.edu/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://recetas.domains.uflib.ufl.edu/about/"
+                />
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/recetas/r53/</loc>
     <xhtml:link
@@ -945,6 +927,8 @@
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/sal-de-cebolla/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/sal-gruesa/</loc>
+  </url><url>
+    <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/salchica/</loc>
   </url><url>
     <loc>https://recetas.domains.uflib.ufl.edu/ingredientes/salchicha/</loc>
   </url><url>

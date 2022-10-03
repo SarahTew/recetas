@@ -8,7 +8,6 @@ sectionPagesMenu = "main"
 [languages]
 [languages.en]
 title = "Recipes"
-custom_title = "Recipes"
 languageName = "English"
 weight = 2
 [languages.es]
@@ -16,7 +15,6 @@ title = "Recetas"
 languageName = "Español"
 weight = 1
 [taxonomies]
-category = 'categories'
 sources = "source"
 ingredients = "ingredientes"
 course = "plato"
@@ -28,30 +26,47 @@ weight = 100
 name = 'source'
 weight = 100
 [menu]
-[[languages.es.menu.main]]
+[[languages.es.menu.main2]]
 name = 'Inicio'
 pre = "<i class='fa fa-heart'></i>"
 url = '/'
 weight = -110
 
-  [[languages.es.menu.main]]
+  [[languages.es.menu.main2]]
   name = 'Filtro'
   post = "<span class='alert'></span>"
 pre = "<i class='fa fa-road'></i>"
 url = '/filtro/'
 weight = -100
 
-  [[languages.en.menu.main]]
+[[languages.es.menu.main2]]
+name = 'Recetas'
+post = "<span class='alert'></span>"
+pre = "<i class='fa fa-road'></i>"
+url = '/recetas/'
+weight = -100
+
+  [[languages.en.menu.main2]]
   name = 'Home'
   pre = "<i class='fa fa-heart'></i>"
 url = '/'
 weight = -110
 
-[[languages.en.menu.main]]
+[[languages.en.menu.main2]]
 name = 'Filter'
 post = "<span class='alert'></span>"
 pre = "<i class='fa fa-road'></i>"
 url = '/filtro/'
 weight = -100
 
+[[languages.en.menu.main2]]
+name = 'About'
+pre = "<i class='fa fa-heart'></i>"
+url = '/about'
+weight = -100
 
+[[languages.en.menu.main2]]
+name = 'Recipes'
+pre = "<i class='fa fa-heart'></i>"
+url = '/recetas'
+weight = -100

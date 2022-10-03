@@ -1,8 +1,7 @@
 {{ define "main" }}
 
 <main>
-    
-    
+       
     <div class="welcome">
         <h1>Welcome to Recipes From the Americas</h1>
          
@@ -22,31 +21,32 @@
         
     </div>
     <div class="card-gallery">
-    <div class="card">
-        <img src="../images/homepage/sarah.jpg" alt="Avatar">
-        <div class="caption">
-            <h4><b>Name (optional)</b></h4>
-            <p>Receta with link</p>
-        </div>
-    </div>
         <div class="card">
-            <img src="../images/homepage/jerome.jpg" alt="Avatar">
-            <div class="caption">
-                <h4><b>Name (optional)</b></h4>
-                <p>Receta with link</p>
-            </div>
+            <a href="https://recetas.domains.uflib.ufl.edu/en/recetas/r38">
+                <img src="../images/userphotos/p01.jpg" alt="rice croquettes on a plate">
+                <div class="caption">
+                    <p><b>Rice Croquettes</b></p>
+                    <p class="nolink">Submitted by John and Laura</p>
+                </div></a>
+        </div>
+        <div class="card">
+            <a href="https://recetas.domains.uflib.ufl.edu/en/recetas/r02">
+                <img src="../images/userphotos/p03.png" alt="frothed coffee in a glass">
+                <div class="caption">
+                    <p><b>Frothed Coffee</b></p>
+                    <p class="nolink">Submitted by Melissa</p>
+                </div></a>
+        </div>
+        <div class="card">
+            <a href="https://recetas.domains.uflib.ufl.edu/en/recetas/r34">
+                <img src="../images/userphotos/p02_2.png" alt="potato fritters on a plate">
+                <div class="caption">
+                    <p><b>Potato Fritters</b></p>
+                    <p class="nolink">Submitted by Melissa</p>
+                </div></a>
         </div>
     </div>
-    
-    <div class="pagination">
-        {{- if .PrevPage }}
-        <a href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8592;</a>
-        {{- end }}
-        {{- if .NextPage }}
-        <a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
-        {{- end }}
-        
-    </div>
+   
 </main>
 
 {{ end }}

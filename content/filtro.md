@@ -11,4 +11,3 @@ categories: ["documentary", "newspaper"]
 tags: ["recetas"]
 
 ---
-{{< readFile file="./html/about.html">}}
