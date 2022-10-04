@@ -47,7 +47,7 @@ button {
     text-align: center;
     margin-top: 0;
     margin-bottom: .5vw;
-    font-size: 2.5vw;
+    font-size: max(2.5vw, 16px);
     padding-top: .5vw;
 }
 .pagination {
@@ -69,7 +69,8 @@ button {
     text-align: center;
     display: inline;
     columns: 1;
-    font-size: 1.5vw;
+    font-size: max(1.5vw, 14px);
+    
     flex-flow: row wrap;
 }
 .black {
