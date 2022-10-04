@@ -11,7 +11,7 @@
         </li>
     {{ end }}
     {{ range $.Site.Home.AllTranslations }}
-    <li class="menupage"><a class="black" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+    <li class="menupage language" id="{{ .Language.LanguageName}}"><a class="black" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
             {{ end }}
     
 

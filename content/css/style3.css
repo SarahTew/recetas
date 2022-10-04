@@ -65,13 +65,12 @@ button {
     border-bottom: 1em;
 }
 
-
 .nav-bar {
     text-align: center;
-    padding-bottom: .2em;
     display: inline;
     columns: 1;
-    font-size: 16pt;
+    font-size: 1.5vw;
+    flex-flow: row wrap;
 }
 .black {
     color: black;
@@ -79,7 +78,6 @@ button {
 .welcome, .about {
     font-size: 14pt;
 }
-
 
 body {
     padding: 0;
@@ -91,18 +89,27 @@ main {
     margin: 0;
 }
 .menupage {
-    display: flex; justify-content: center;
-    padding: 0em 2em 0em 2em;
-    
+    display: flex; 
+    justify-content: center;
+    padding: 0em 1em 0em 1em; 
+}
+
+.menupage.language {
+    padding: 0em 1em 0em 1em;
+}
+
+#Español {
+    padding-left: 5em;
 }
 
 .nav-menu.row {
     columns: 1;
     align-items: center;
     justify-content: center;
+    margin-bottom: .5em;
 
 }
-.nav-menu.col {}
+
 .language-list {
     text-align: center;
     padding-left: 5em;
@@ -116,14 +123,11 @@ main {
  width: 90%;
  }
  
-
- 
 .selected {
     background:#440d4f;
     color: #ffffff;
     font-weight: normal;
 }
-
 
  h2 {
      text-transform: capitalize;
@@ -192,7 +196,6 @@ li {
     border-bottom: 5px solid black;
 }
 
-
 .row {
   display: flex;
 }
@@ -217,6 +220,7 @@ footer {
    
 .card-gallery {
   display: flex;
+  flex-flow: row wrap;
 }
 .nolink {
     color: black;
@@ -262,7 +266,4 @@ display: inline;
 .footerimage {
     max-height: 10em; 
     max-width: 10em;
-}
-.logos {
-    max-height: 1em;
 }
