@@ -1,5 +1,5 @@
 ---
-layout: letters
+layout: acerca
 identifier: Recetas
 title: Recetas del Diario las Américas
 author: Diario las Américas

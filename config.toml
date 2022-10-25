@@ -46,6 +46,12 @@ pre = "<i class='fa fa-road'></i>"
 url = '/recetas/'
 weight = -100
 
+[[languages.es.menu.main2]]
+name = 'Acerca'
+pre = "<i class='fa fa-heart'></i>"
+url = '/about'
+weight = -100
+
   [[languages.en.menu.main2]]
   name = 'Home'
   pre = "<i class='fa fa-heart'></i>"
