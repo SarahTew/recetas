@@ -41,7 +41,7 @@
 			<div class="col recipeslist">
 				
 				<div id="testdiv"></div>
-				{{ range .Site.Data.recipes }}
+				{{ range .Site.Data.recetas_json }}
 				<div class="recipe-card" id= "{{ .id }}">
 					<h2><a href="../recetas/{{.id}}">{{ .title_en }}</a></h2>
 					

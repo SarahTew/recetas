@@ -23,7 +23,7 @@
                 "state": ["FL"],
                 "course": ["bebida"],
                 "course_en": ["beverage"],
-                "tags": ["vegetariano", "vegano", "\nsin gluten"],
+                "tags": ["vegetariano", "vegano", "sin gluten"],
                 "tags_en": ["vegetarian", "vegan", "gluten free"],
                 "ingredients": ["café", "azúcar", "vainilla"],
                 "ingredients_en": ["coffee", "sugar", "vanilla"],
