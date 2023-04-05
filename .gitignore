@@ -1,2 +1,4 @@
 # oXygen project files
 *.xpr
+#public html files
+public/
