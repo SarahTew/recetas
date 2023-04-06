@@ -46,7 +46,7 @@
         <xsl:text>&#10;</xsl:text>
         <xsl:text>pdf: </xsl:text>
         <xsl:value-of select="id"/>
-        <xsl:text>.en.pdf</xsl:text>
+        <xsl:text>_en.pdf</xsl:text>
         <xsl:text>&#10;</xsl:text>
           <xsl:text>---</xsl:text>
         <xsl:text>&#10;</xsl:text>
