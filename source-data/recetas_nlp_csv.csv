@@ -1,5 +1,5 @@
-﻿raw_text,title,url,,,
-"4 chayotes
+﻿id,raw_text,title,url,,,
+r01,"4 chayotes
 4 cucharadas de maicena
 3-4 taza de azúcar
 2 yemas de huevo
@@ -21,7 +21,7 @@ crema. Rellene las cortezas con
 la crema y espolvoree canela por
 encima. Ponga al horno por diez
 minutos.",chayote a la crema,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-02-13/ed-1/seq-4/,,,
-"Receta Básica: Se llena el re
+r02,"Receta Básica: Se llena el re
 ceptáculo de la ablandadora
 eléctrica hasta la mitad de su
 capacidad, con hielo bien pica
@@ -47,7 +47,7 @@ do de vainilla a la recela básica
 y no usar vainilla. Si desea pue
 de adornar el refresco con crema
 batida.",refresco espumoso de café,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-06-19/ed-1/seq-4/,,,
-"1 pollo tierno (de unos 1-1-2
+r03,"1 pollo tierno (de unos 1-1-2
 kilos), partido en 4 pedazos
 1-2 taza de aceite de oliva
 3 cucharadas de coñac
@@ -100,7 +100,7 @@ adorna con crotones de pan tos
 tado y más perejil picado. Sír
 valo en bandeja plana. La para 4
 porciones.",pollo a la marengo,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-10-06/ed-1/seq-5/,,,
-"6 tazas de caldo.
+r04,"6 tazas de caldo.
 1-2 libra de calabaza partida
 en pedazos.
 2 cucharadas de harina.
@@ -114,7 +114,7 @@ ponga al fuego, moviendo cons
 tantemente y añada el resto del
 caldo. Sazone a gusto y sirva ca
 líente.",pure de calabaza,https://chroniclingamerica.loc.gov/lccn/sn82001257/1960-11-13/ed-1/seq-5/,,,
-"1 pollo de 3 lbs. cortado en
+r05,"1 pollo de 3 lbs. cortado en
 pedazos
 Harina de trigo, sal y pimien
 ta
@@ -154,7 +154,7 @@ horno moderado (350? F., 175?
 Centígrado), por 1 hora, o has
 ta que la masa suba y se dore.
 Sírvalo caliente.",pollo asado  al nido,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-12-16/ed-1/seq-5/,,,
-"1 pollo.
+r07,"1 pollo.
 Sal a gusto.
 Pimienta.
 Cogñac,
@@ -180,7 +180,7 @@ con la pimienta y la nuez moscada, poniéndolas en una fuente
 de horno, espolvoréa con el queso restante, rociándola con un poquito de mantequilla derretida e introdúzcala al horno bien
 ealiente para gratinar.
 Una vez el nollo esté al punte, sírvalo en presas con el puré a la duquesa",pollo al horno con puré duquesa,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-02-28/ed-1/seq-5/,,,this recipe is divided into two: explains making chicken and the puree
-"6 tomates 1 cebolla 3 berenjenas 1 ajo 1 taza de vino blanco 3 yemas de huevo perejil 1 taza queso rallado polvo de galletas sal SE dividen los tomates en dos y se vacian, se sazonan con sal y pimienta. Se fríen con la cebolla cortada en pedacitos pequeños -la berenjena en rodajas finas. Se rocían con vino blanco. Se añade la sal a gusto, perejil y el queso rallado. Se deja enfriar
+r08,"6 tomates 1 cebolla 3 berenjenas 1 ajo 1 taza de vino blanco 3 yemas de huevo perejil 1 taza queso rallado polvo de galletas sal SE dividen los tomates en dos y se vacian, se sazonan con sal y pimienta. Se fríen con la cebolla cortada en pedacitos pequeños -la berenjena en rodajas finas. Se rocían con vino blanco. Se añade la sal a gusto, perejil y el queso rallado. Se deja enfriar
 y se agregan ¡as tres yemas de
 huevo. Se rellenan los tomates y
 se espolvorean con el polvo de
@@ -189,8 +189,8 @@ se rocían con queso parmesano
 rallado y se «ratinan al horno
 durante 5 minutos.
 Se sirven en su mismo jugo",tomates a la mireille,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-10-13/ed-1/seq-5/,,,
-"1 libra de habichuelas 2 chorizos desmenuzados 3 huevos batidos 1 cucharadita de cebolla rallada 1-4 cucharadita de pimienta Manteca Ablande las habichuelas y maletas. Agregue los demás ingredientes y mezcle. Ponga suficiente manteca en la sartén para cubrir el fondo. Eche en la sar- tén, tape y cueza a fuego lento, vuelva y dore por ambos lados.",torta de habichuelas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-01/ed-1/seq-5/,,,
-"2 tazas de panapén hervido.
+r11,"1 libra de habichuelas 2 chorizos desmenuzados 3 huevos batidos 1 cucharadita de cebolla rallada 1-4 cucharadita de pimienta Manteca Ablande las habichuelas y maletas. Agregue los demás ingredientes y mezcle. Ponga suficiente manteca en la sartén para cubrir el fondo. Eche en la sar- tén, tape y cueza a fuego lento, vuelva y dore por ambos lados.",torta de habichuelas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-01/ed-1/seq-5/,,,
+r12,"2 tazas de panapén hervido.
 2 cucharadas de mantequilla.
 1-2 cucharadita de sal.
 2 cucharadas de queso rallado.
@@ -200,7 +200,7 @@ sal y la mantequilla y mezcle
 bien. Incorpore el huevo, la sal
 y el queso. Déle forma de tortas
 pequeñas y fría en manteca ca- liente y abundante.",tortitas de panapén,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-07-27/ed-1/seq-5/,,,
-"8 ancas de ranas bien frescas
+r13,"8 ancas de ranas bien frescas
 Sal a gusto
 Pimienta a gusto
 Aceite
@@ -210,8 +210,8 @@ Jugo de limón (en abundancia)
 Se sazonan bien las ancas y se saltean con el aceite. Se le añade después el tomate fresco picado y el vino blanco y jugo de
 limón. Déjense enfriar con la
 cocción algunas finas hierbas picadas. Sírvanse en conchas.",ancas de rana a la bearnesa,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-02-03/ed-1/seq-5/,,,
-"4 amarillos (plátanos maduros) 1-2 libra de queso partido en tajadas al largo Mantequilla Se monda el amarillo. Una vez mondado se le dá un corte en el medio. Póngase al horno, después de rellenar con el queso, en un molde con mantequilla. Una vez dorados prepárese un almíbar blanco y sírvase.",amarillo al horno,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-03-21/ed-1/seq-5/,,,
-"Sofrito
+r14,"4 amarillos (plátanos maduros) 1-2 libra de queso partido en tajadas al largo Mantequilla Se monda el amarillo. Una vez mondado se le dá un corte en el medio. Póngase al horno, después de rellenar con el queso, en un molde con mantequilla. Una vez dorados prepárese un almíbar blanco y sírvase.",amarillo al horno,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-03-21/ed-1/seq-5/,,,
+r15,"Sofrito
 5 butifarras partidas
 1 1-2 libras de arroz
 1 cucharadita de sal
@@ -221,7 +221,7 @@ Añada las butifarras, el arroz y la manteca al sofrito y cueza por dos minutos.
 y sazone a gusto. Cueza hasta
 que el arroz esté un poco seco,
 baje el fuego, revuelva dos o tres veces y conserve tapado hasta el momento de servirlo.",arroz con butifarras,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-24/ed-1/seq-5/,,,
-"1 libra de bacalao
+r16,"1 libra de bacalao
 1 cebolla rebanada
 Aceitunas a gusto
 2 tomates rebanados
@@ -230,7 +230,7 @@ Ponga el bacalao en agua por
 algunas horas para quitarle un poco de la sal. Hierva, quite el
 pellejo y las espinas y corte en pedazos pequeños. Coloque el bacalao en una fuente y adorne
 coh las ruedas de tomate, cebollas y las aceitunas. Vierta la salsa francesa. Sirva con otras viandas hervidas: plátano, batata, papas, etc.",serenata,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-27/ed-1/seq-5/,,,
-"1 seso grande
+r18,"1 seso grande
 200 Grs. de harina
 2 yemas
 Leche
@@ -240,7 +240,7 @@ yemas y leche en cantidad suficiente como para formar una
 preparación blanda; mezcle bien,
 agréguele los seos, fríalos por
 cucharadas en aceite caliente y a fuego moderado.",bocadillos de seso,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-30/ed-1/seq-5/,,,
-"INGREDIENTES
+r19,"INGREDIENTES
 2 tazas de arroz Sal gruesa
 5 tazas de agua caliente
 1 hoja de laurel
@@ -271,7 +271,7 @@ que los hígados no se endurez- can. Presente en una fuente
 grande, colocando la salsa de
 hígados en el centro y el arroz
 como borde.",arroz con higados de pollo a la salvadorena,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-09-21/ed-1/seq-5/,,,
-"1 libra de macarrones 8 tazas de agua
+r20,"1 libra de macarrones 8 tazas de agua
 2 cucharadas de sal
 1-4 de libra de jamón partido
 1-2 taza de aceite
@@ -283,7 +283,7 @@ como borde.",arroz con higados de pollo a la salvadorena,https://chroniclingamer
 Hierva los macarrones en agua con sal y escúrralos después de
 cocidos. Fría el jamón en el aceite y agregue los demás ingredientes. Cueza a fuego lento por
 15 minutos. Añada los macarro- nes y revuelva. Sirva caliente.",macarrones con sobreasada,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-07-06/ed-1/seq-5/,,,
-" pollo ae 4 libras
+r21," pollo ae 4 libras
 3 cucharaditas ae sal
 3 dientes de ajo machacado
 Media cucharadita de orégano
@@ -304,7 +304,7 @@ un molde destapado y cuando
 esté dorado cubra con la tapa
 y cueza a'fuego lento por espacio
 de 2 horas.",pollo relleno,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-02-23/ed-1/seq-5/,,,
-"INGREDIENTES: ”
+r22,"INGREDIENTES: ”
 2 libras de carne de res molida
 1 cebolla rallada
 1/4 cucharada de sal ,
@@ -321,7 +321,7 @@ cada uno. Se añade galleta en polvo hasta darle consistencia a la masa, pero qu
 bolea cada parte y se aplasta hasta dejarla de Vi pulgada de
 espesor. Se pasan por migas de pan o galleta en polvo, por
 huevos batidos y por galleta otra vez. Se fríen en grasa caliente, hasta que se doren. Se escurren. Se colocan so- bre el medallón de pan y se les vierte la salsa. Se sirven ca- llentes. Si se deseá se adornan con rueditas de limón pol- voreadas de paprika. *",medallones de carne empanizados,https://chroniclingamerica.loc.gov/lccn/sn82001257/1960-08-14/ed-1/seq-5/,,,
-"1 cebolla picada
+r23,"1 cebolla picada
 1-4 taza de aceite
 4 dientes de ajo picado
 1 taza de salsa de tomate
@@ -336,7 +336,7 @@ Añada los demás ingredientes y
 cueza a fuego lento hasta que
 espese, como por media hora.
 Maje y euele.",salsa sencilla para espaghetti,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-03-23/ed-1/seq-5/,,,
-"(Este postre helado es una creación típica de la cocina norteña
+r25,"(Este postre helado es una creación típica de la cocina norteña
 del Brasil)
 Ingredientes:
 1-2 litro de leche.
@@ -357,8 +357,8 @@ Echela dentro de un recipiente
 de cristal o porcelana, que l abra humedecido con leche fria y
 colóquela en la refrigeradora
 hasta qué se congele.",delicia de chocolate,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-06-22/ed-1/seq-5/,,,
-1-2 taza de almendras 1-Vt tazas de agua caliente 2 tazas de agua tibia 1-2 taza de azúcar Ponga las almendras en el agua caliente 5 minutos para quitarles la cáscara. Proceda como en la receta anterior. Sirva bien fría y adorne con una cereza.,horchata de almendras,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-14/ed-1/seq-4/,,,
-"2 mazos de acelgas
+r26,1-2 taza de almendras 1-Vt tazas de agua caliente 2 tazas de agua tibia 1-2 taza de azúcar Ponga las almendras en el agua caliente 5 minutos para quitarles la cáscara. Proceda como en la receta anterior. Sirva bien fría y adorne con una cereza.,horchata de almendras,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-14/ed-1/seq-4/,,,
+r27,"2 mazos de acelgas
 2 tazas de agua
 1 cucharada de sal % taza de aceite
 Va taza de vinagre
@@ -366,7 +366,7 @@ Va taza de vinagre
 Va cucharadita de pimienta
 Lave y hierva las acelgas ligeramente, no más de 5 minutos, pártalas en pedazos, mezcle ei
 aceite, el vinagre, la sal y pimienta y vierta sobre las acelgas. Adorne con ruedas de ce- bolla y tomate.",ensalada de acelgas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-10-29/ed-1/seq-5/,,,
-"Pasar por un cernidor 300 gramos de harina, 150 de azúcar,
+r29,"Pasar por un cernidor 300 gramos de harina, 150 de azúcar,
 2 cucharaditas llenas de polvo de
 hornear, media de sal y media
 de bicarbonato de soda.
@@ -383,7 +383,7 @@ en publicar esta receta a petición de tres lectoras argentinas
 que me han pedido en carta firmada por ellas, que ineluya de
 vez en cuando en mi recetario,
 platos con ingredientes en gramos y no en onzas y libra*. Quadan complacidas las gentiles lectoras y aseguradas que se repetirá.",tortas de naranjas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-01-11/ed-1/seq-4/,,,
-"1-2 libra de macarrones. 1-2 libra de queso americano ra- llado.
+r30,"1-2 libra de macarrones. 1-2 libra de queso americano ra- llado.
 2 tazas de salsa blanca.
 2 latas de salchichas estilo
 Viena.
@@ -401,7 +401,7 @@ en el centro, como ilustra la foel centro, con unas hojitas de perejil como ador
 de al horno y téngalo cocinando
 por 10 minutos más. Cantidad
 para seis personas.",macarrones con salchichas a lo viena,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-03-07/ed-1/seq-5/,,,
-"2 tazas de dulce de coco 2 cucharadas de mantequilla
+r31,"2 tazas de dulce de coco 2 cucharadas de mantequilla
 derretida
 2 huevos batidos
 2 onzas de almendras peladas
@@ -409,7 +409,7 @@ Añada la mantequilla y los
 huevos al dulce de coco. Vierta en -un molde llano engrasado.
 Adorne con las almendras. Hornée a fuego moderado por 20
 minutos.",cocada,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-28/ed-1/seq-5/,,,
-" panetela
+r32," panetela
 1 copa de ron
 8 cucharadas de coco rallado.
 10 guindas confitadas
@@ -420,7 +420,7 @@ forma de nuevo y se cubre por
 encima y alrededor con el mis- mo dulce. Se pega coco rayado
 alrededor y se decora por en- cima con el resto de dulce.
 Adórnese con guindas confitadas partidas por la mitad.",panetela portena,https://chroniclingamerica.loc.gov/lccn/sn82001257/1959-04-14/ed-1/seq-4/,,,
-"Seis raciones
+r33,"Seis raciones
 12 huevos cocidos duros
 1 cucharadita de sal
 1/4 cucharadita de pimienta
@@ -432,7 +432,7 @@ Maje las yemas. Fría la tocineta y
 parta en pedazos pequeños. Añada a las yemas majadas, sazone con
 sal y pimienta y rellene las mitades
 de huevos. Mezcle la salsa blanca con el queso, vierta sobre los hue- vos rellenos y sirva.",huevos rellenos con tocineta,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-02-02/ed-1/seq-4/,,,
-"(4 raciones).
+r34,"(4 raciones).
 ~
 1 1-2 libras de papas
 1 cucharada de sal
@@ -441,7 +441,7 @@ de huevos. Mezcle la salsa blanca con el queso, vierta sobre los hue- vos rellen
 1-2 libra de manteca
 Hierva y maje las papas. Añádale los huevos y el queso y fría
 en manteca.",frituras de papa,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-02-03/ed-1/seq-4/,,,
-"6 raciones
+r35,"6 raciones
 2 libras de papas
 1 cucharadita de sal
 2 huevos batidos
@@ -454,7 +454,7 @@ todo el molde. Eche el picadillo
 y extiéndalo y rubra con el resto de las papas. Cueza en horno
 moderado a 350 grados F. por
 30 o 40 minutos.",pastelon de papas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-03-12/ed-1/seq-4/,,,
-"6 vasos
+r36,"6 vasos
 4 tazas de agua caliente
 4 cucharadas de cebada en polvo
 1 taza de azúcar
@@ -464,7 +464,7 @@ Mezcle la cebada con un poco
 de agua fría, añada el agua caliente e hierva por algunos minutos, moviendo constantemente,
 j Cuele la' cebada, añada el azú- car y el jugo de limón. Sirvo
 bien frío.",refresco de cebada,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-01/ed-1/seq-5/,,,
-"1 taza de garbanzos
+r37,"1 taza de garbanzos
 1 taza de guisantes
 3 chorizos colorados
 1 cucharadila de orégano
@@ -484,7 +484,7 @@ aceite con una pizca de sal y se
 les añade esto junto con los chorizos en trozos. Se revuelve, se
 deja reducir bien la salsa y se
 sirve muy caliente.",potaje campesino,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-05/ed-1/seq-5/,,,
-"2 tazas de arroz blanco cocido.
+r38,"2 tazas de arroz blanco cocido.
 1/4 cucharadita de sal
 1 huevo batido.
 1/4 cucharadita de pimienta.
@@ -494,7 +494,7 @@ sirve muy caliente.",potaje campesino,https://chroniclingamerica.loc.gov/lccn/sn
 Ai arroz cocido añádale el huevo, la pimienta, sal, perejil, y leche. Forme las croquetas y espolvoréelas con el polvo de galletas.
 Fríalas en manteca caliente y
 abundante y escúrralas sobre papel absorbente. Puede usarse queso en lugar de perejil.",croquetas de arroz,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-08-17/ed-1/seq-5/,,,
-"1 diente de ajo
+r39,"1 diente de ajo
 1-4 cucharadita de pimienta fti
 grano
 1-2 cucharadita de sal
@@ -509,7 +509,7 @@ Muela el ajo junto con la pimienta, la sal y añada el aceite,
 el agua y el vinagre. Cuele y agregue a las hortalizas picadas. Ponga en la nevera por varias horas y
 añada cuadritos de pan antes de
 servirlo.",gaspacho,https://chroniclingamerica.loc.gov/lccn/sn82001257/1955-07-28/ed-1/seq-5/,,,
-"1 1/2 libras de carne de bisté
+r40,"1 1/2 libras de carne de bisté
 (beefsteak)
 2 dientes de ajo
 1 cucharadita de sal
@@ -538,7 +538,7 @@ dore por uno de los lados, luego vírelo por el otro, y déjelo
 otros 15 minutos, o hasta que
 esté completamente marrón y
 tierna. Para 4 raciones.",carne a la parisienne,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-02-16/ed-1/seq-5/,,,
-"1 seso 2 huevos batidos
+r41,"1 seso 2 huevos batidos
 4 cucharadas de pan rallado
 6 cucharadas de queso rallado
 2 cucharadas de mantequilla
@@ -551,7 +551,7 @@ queso, la mantequilla, la sal y la
 pimienta. Sazónelo a gusto y échelo en un molde engrasado.
 Hornee a una temperatura de
 350 grados F. por 30 minutos.",budin de seso,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-05/ed-1/seq-5/,,,
-"BACALAO A LA VIZCAINA
+r42,"BACALAO A LA VIZCAINA
 1 libra de bacalao
 1-2 taza de aceite de oliva
 2 cebollas rebanadas
@@ -566,7 +566,7 @@ Ponga el bacalao en agua caliente, quite el pellejo y las es- pinas y corte en p
 ponga camadas de bacalao, cebollas y papas, las salsa de tomate,
 las aceitunas, las alcaparras y las
 pasas, el ajo y tiras de pimientos. Vierta el aceite y cueza a juego lento durante 30 minutos. Puede conocerse en el hor-no.",bacalo a la vizcaina,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-20/ed-1/seq-5/,,,
-"1 taza de apio con sus hojas,
+r43,"1 taza de apio con sus hojas,
 cortado
 2 cucharadas de mantequilla
 2Vi tazas de tomate picado
@@ -584,13 +584,13 @@ Agregue el arroz y hierva durante
 30 minutos más, siempre con la
 cacerola tapada. Tiempo: 1 hora
 15 minutos.",creole beef gumpo,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-25/ed-1/seq-5/,,,
-"6 yemas de huevo
+r44,"6 yemas de huevo
 1 taza de azúcar
 4 tazas de jugo de naranja
 6 claras batidas
 Bata juntos las yemas y el azú- car. Añada el jugo a las yemas; mezcle bien y cuele. Sirva
 bien frío adornado con las claras batidas a punto de merengue.",ponche de naranjas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-16/ed-1/seq-5/,,,
-"2 tazas de harina de maís
+r45,"2 tazas de harina de maís
 4 tazas de agua
 1 cucharadita de sal
 1 libra de carne de cerdo
@@ -612,7 +612,7 @@ de relleno en el centro y doble en dos afirmando las orillas para
 que se unan. Fría en manteca
 caliente y escurra sobre papel
 absorbente.",pastelillos de maiz,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-25/ed-1/seq-5/,,,
-"1 libra de batata hervida y majada
+r46,"1 libra de batata hervida y majada
 1-2 taza de azúcar
 1-4 cucharadita de canela
 1-4 taza de harina de trigo
@@ -626,14 +626,14 @@ arden que aparecen, bata para
 inirlos bien. Vierta en un molde éngrasado y cueza en horno
 de calor moderado de 20 a 30
 minutos.",budin de batata,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-12-06/ed-1/seq-5/,,,
-"2 paquetes de gelatina con sa- bor de naranja
+r47,"2 paquetes de gelatina con sa- bor de naranja
 2 tazas de agua hirviendo
 1 3-4 taza de jugo de naranja
 Fruta fresca
 Disuelva la gelatina en el agua
 hirviendo. Añada el jugo de naranja. Eche en un molde de rosca de 1 litro de capacidad y en- fríe hasta que quede firme. Saque del molde y vierta en un plato de servir. En el centro del
 molde, coloque fruta fresca.",rosca de naranja y fruta fresca,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-12-08/ed-1/seq-5/,,,
-"6 tazas de papas cocidas y
+r48,"6 tazas de papas cocidas y
 cortadas en dados
 1 1/2 taza de apio picado
 6 cucharadas de pimiento,
@@ -653,7 +653,7 @@ arreglada en un plato.
 Se guarnece la ensalada con lechuga y se acomodan los huevos en forma de concha.
 Disponga rebanadas de salchichón en forma de barquillos, re- llene éstos de aderezo de tomate
 y colóquelos en torno de la en- salada.",ensalada de papas a la etiqueta,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-05/ed-1/seq-5/,,,
-"1-2 libra de cebollas picadas 4 cucharadas de manteca
+r49,"1-2 libra de cebollas picadas 4 cucharadas de manteca
 4 onzas de jamón partido
 3 tomates partidos
 3 anchoas partidas
@@ -667,7 +667,7 @@ y sofría. Agregue el arroz, re- vuelva y sofría. Agregue el caldo y la gallina
 revuelva, vierta en un molde en- grasado y espolvoree con galleta
 molida. Ponga en un horno de
 calor moderado por 15 minutos, o sobre la hornilla con brasas en la tapa.",arroz a la italiana,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-11/ed-1/seq-5/,,,
-"6 cucharadas de mantequilla
+r50,"6 cucharadas de mantequilla
 2 cucharaditas de sal
 1-4 cucharadita de pimienta
 3 cucharadas de harina de trigo.
@@ -679,21 +679,21 @@ la sal, la pimienta y la harina
 y mueva hasta formar uná pasta. Eche la leche caliente y la
 cebolla y mueva constantemente.
 Cuando hierva agregue las papas majadas. Sirva caliente.",sopa de papa a la crema,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-02-15/ed-1/seq-5/,,,
-"COCINA HUNGARA Cortar unos filetes de hígado
+r51,"COCINA HUNGARA Cortar unos filetes de hígado
 tacándole la telita y los nervios y pasarlos por harina; con- dimentar con sal.
 Poner en una sartén media
 tacita de aceite, calentar bien y
 dorar los bises; agregarles después una hoja de laurel, 50 gramos de manteca, un vaso de vi- no Marsala, tapar y dejar hervir despacito hasta que los filetes estén cocidos y la salsa reducida. \
 Servirlos acompañados con es- pinacas cocidas y rociadas con
 manteca y papas cocidas.",filetes de higado,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-05/ed-1/seq-5/,,,
-"3 tazas de calabaza majada
+r52,"3 tazas de calabaza majada
 3 tazas de salsa blanca
 1 cebolla pequeña, rallada
 Añada a la calabaza majada, la
 cebolla y la salsa blanca. Deje
 hervir y sazone a gusto. Cuele y
 o caldo. Sirva callente con galletas saladas o tostadas de pan.",sopa de calabaza a la crema,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-27/ed-1/seq-5/,,,
-"3-4 taza de avena 7 tazas de agua
+r53,"3-4 taza de avena 7 tazas de agua
 1 taza de azúcar
 1 cucharadita de vainilla
 Ponga la avena en el agua
@@ -701,7 +701,7 @@ por inedia hora y cuele. Endulce
 y añada la vainilla. Sirva bien
 frío adornado con ruedas de
 limón.",refresco de avena,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-28/ed-1/seq-5/,,,
-"1 langosta de 3 libras
+r54,"1 langosta de 3 libras
 Mantequilla
 Sal y pimienta a gusto
 Corte la langosta a lo largo
@@ -713,7 +713,7 @@ con pimienta a gusto. Cueza a
 fuego lento durante 40 minutos.
 Sirva caliente con mantequilla
 derretida.",langosta a la parilla,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-02/ed-1/seq-5/,,,
-"COCINA ESPAÑOLA
+r55,"COCINA ESPAÑOLA
 HUEVOS ALPLATO A LA
 GITANILLA Proporciones para tres personas. En una cantidad regular de
 aceite empezaremos por freir dos
@@ -734,7 +734,7 @@ el horno, se rompen 7 huevos y
 se cuajan en el horno; sírvase
 con la yema blanda. Pueden decorarse con pan frito puesto en
 el borde de la fuente.",huevos a la gitanila,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-12/ed-1/seq-5/,,,
-"Una libra de salchicha fina se corta en pedazos de más o me- nos 25 centímetros, se arrollan
+r56,"Una libra de salchicha fina se corta en pedazos de más o me- nos 25 centímetros, se arrollan
 formando unos redondeles, se prenden con dos palillos de dientes y se frien en aciete. »
 Aparte sé cocinan en agua y
 sal tres cuartos de libra de papas cortadas y peladas; se es- curren una vez cocidas y se apias
@@ -745,7 +745,7 @@ el 'calor.
 Se fríe un huevo por cada redondel de salchicha. Una vez todo listo se acomodan en una
 fuente los redondeles de salchicha, se les ponen encima los
 huevos fritos y alrededor el puré.",salchichas a la veneciana,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-23/ed-1/seq-5/,,,
-"1 lata de Salmón
+r57,"1 lata de Salmón
 3 papas cocidas
 2 huevos duros
 6 aceitunas verdes y 6 negras
@@ -759,8 +759,8 @@ Ponga en una fuente, las hojas de lechuga, encima las papas
 cortadas en rodajas finas, la ce- bolla, el salmón; condimente con sal, aceite y limón y adorne con
 tomate, rodajas de huevo duro
 y las aceitunas.",ensalada marinera,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-08/ed-1/seq-5/,,,
-"3 cucharadas al ras de Maizena 3-4 litro de leche Esencia de vainilla 4 claras batidas a nieve 4 yemas 1-2 taza de azúcar Si prefiere la crema más aguada prepárela con más leche. Batir las claras a punto de merengue consistente. Hervir la leche con la vainilla. Echar la preparación de las claras por cu- charadas y dejar que se cocinen unos minutos. Sacar los copos de merengue y escurrirlos sobre un colador. Colar la leche, batir las yemas con el azúcar y agregarle la leche tibia y la Maicena disuelta previamente. Cocinar la crema revolviendo has- ta que hierva y se espese. Servirla en una compota colocando los copos y decorarlos con trocí- tos de jalea o frutas. Enfriar bien antes de servir.",isla flotante,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-07-18/ed-1/seq-5/,"Recurs but other recipe directions are slightly different, not exactly the same text but basically the same recipe and definitely the same ingredients",,
-"INGREDIENTES 3-4 libra
+r58,"3 cucharadas al ras de Maizena 3-4 litro de leche Esencia de vainilla 4 claras batidas a nieve 4 yemas 1-2 taza de azúcar Si prefiere la crema más aguada prepárela con más leche. Batir las claras a punto de merengue consistente. Hervir la leche con la vainilla. Echar la preparación de las claras por cu- charadas y dejar que se cocinen unos minutos. Sacar los copos de merengue y escurrirlos sobre un colador. Colar la leche, batir las yemas con el azúcar y agregarle la leche tibia y la Maicena disuelta previamente. Cocinar la crema revolviendo has- ta que hierva y se espese. Servirla en una compota colocando los copos y decorarlos con trocí- tos de jalea o frutas. Enfriar bien antes de servir.",isla flotante,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-07-18/ed-1/seq-5/,"Recurs but other recipe directions are slightly different, not exactly the same text but basically the same recipe and definitely the same ingredients",,
+r59,"INGREDIENTES 3-4 libra
 de carne de res molida
 3-4 libra de carne de puerco
 molida
@@ -790,7 +790,7 @@ también una cucharada de sal.
 Pasado el tiempo de la cocción se escurre y se deja enfriar a la
 temperatura ambiente. Se enfría en el refrigerador y después se le quita la tela y se sirve cortado
 en ruedas finas. Si se desea se acompaña con unas ciruelas pasas.",embutido relleno,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-10-17/ed-1/seq-5/,,,
-"1 libra de espagueti
+r60,"1 libra de espagueti
 1 libra de tocineta en lonjas
 2 tazas de maíz en grano co- cido
 4 cucharadas de mantequilla
@@ -805,7 +805,7 @@ mantequilla. Repita esto mismo
 hasta que haya usado todos los
 ingredientes. Ponga al horno a fuego moderado, 350 grado F.
 por 25 minutos.",espagueti con maiz y tocineta,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-09/ed-1/seq-5/,,,
-"1-3 taza de mantequilla
+r61,"1-3 taza de mantequilla
 1 1-3 tazas de azúcar mascabado.
 3 yemas batidas
 1 cucharadita de vainilla.
@@ -823,7 +823,7 @@ Ablande la mantequilla. Añada el azúcar poco a poco y ba- ta por un rato. Agre
 y la nuez moscada, y añada a la
 mantequilla alternando con la
 leche. Añada las pasas y las claras. Eche en un molde engrasado y cueza en un horno moderado.",bizcocho de especia,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-09-09/ed-1/seq-4/,,,
-"INGREDIENTES:
+r62,"INGREDIENTES:
 1-2 taza de salsa de tomate
 de mesa o salsa ehile
 3 cucharadas de jugo de limón
@@ -833,7 +833,7 @@ Unas gotas de Tabasco
 1-4 eucharadita de sal
 PREPARACION Se mez- clan bien todos los ingredientes v se enfrian Se debe guardar
 la salsa en un fraseo de cris","salsa para ""Cocktail"" de Mariscos",https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-10-15/ed-1/seq-4/,,,
-"RECETA TOMADA DEL LIBRO
+r65,"RECETA TOMADA DEL LIBRO
 “COCINE A GUSTO"" CORTESIA
 DE SUS AUTORAS.
 1 1-2 taza de claras
@@ -854,8 +854,8 @@ y cocoa cuatro veces y agregue
 poco a poco revolviendo. Vierta en un molde con tubo en el cen- tro sin engrasar y cueza en un
 horno lento (325 F) durante una
 hora.",bizcocho moreno,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-12-08/ed-1/seq-5/,,,
-"Coloque en un molde engrasado con mantequilla. Cubra las batatas (boniato) con el azúcar y la mantequilla. Cueza en horno de calor moderado hasta que el azúcar se derrita y forme caramelo. Si desea coloque los ""marshmallows"" sobre la batata. Ponga de nuevo en la parte de arriba del horno por unos minutos para que los ""marshmallows” se doren.","batata o boniato ""Glace""",https://chroniclingamerica.loc.gov/lccn/sn82001257/1962-07-22/ed-1/seq-7/,,,
-"5 huevos duros
+r66,"Coloque en un molde engrasado con mantequilla. Cubra las batatas (boniato) con el azúcar y la mantequilla. Cueza en horno de calor moderado hasta que el azúcar se derrita y forme caramelo. Si desea coloque los ""marshmallows"" sobre la batata. Ponga de nuevo en la parte de arriba del horno por unos minutos para que los ""marshmallows” se doren.","batata o boniato ""Glace""",https://chroniclingamerica.loc.gov/lccn/sn82001257/1962-07-22/ed-1/seq-7/,,,
+r67,"5 huevos duros
 Salsa blanca
 Mantequilla
 queso rallado
@@ -864,12 +864,12 @@ blanca en una fuentecita resistente al calor del horno y encima los 5 huevos dur
 resto de la salsa Rocíese con
 m antequilla y espolvoréese oon
 queso rallado, póngase al horno y déjese dorar.",huevos reina carlota,https://chroniclingamerica.loc.gov/lccn/sn82001257/1962-07-22/ed-1/seq-7,,,
-"Se baten las yemas con el azúcar hasta que estén espumosas, se les añade la esencia y se deja de batir. Se le agregan las claras batidas a nieve revolviendo suavemente con cuchara de madera. Se tamizan juntos la harina y el Polvo Royal y se agregan a la mezcla anterior revolviendo despacio, nada más que
+r68,"Se baten las yemas con el azúcar hasta que estén espumosas, se les añade la esencia y se deja de batir. Se le agregan las claras batidas a nieve revolviendo suavemente con cuchara de madera. Se tamizan juntos la harina y el Polvo Royal y se agregan a la mezcla anterior revolviendo despacio, nada más que
 para unir. Se vierte la preparación en un molde enmantecado y enharinado y se cuece en
 horno moderado durante 30 minutos. Una vez cocido se desmolda sobre rejilla y se deja enfriar.
 Se corta el bizcocho en tres capas, que se untan abundantemente con el dulce. Se vuelve a armar y se decora con el merengue. Se termina de adornar con higos.",bizcocho merengado,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-02-02/ed-1/seq-5/,,,
-"Se colocan en una cacerola las claras y el azúcar. Se baten sobre calor suave hasta que queden blanca y espesa. Se retira del calor, se agrega la esencia y se bate hasta que enfríe. Se conoce el punto cuando queda con consistencia.",merengue al fuego,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-02-02/ed-1/seq-5/,,,
-"Se escoge el lomo, se abre por
+r69,"Se colocan en una cacerola las claras y el azúcar. Se baten sobre calor suave hasta que queden blanca y espesa. Se retira del calor, se agrega la esencia y se bate hasta que enfríe. Se conoce el punto cuando queda con consistencia.",merengue al fuego,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-02-02/ed-1/seq-5/,,,
+r70,"Se escoge el lomo, se abre por
 la mitad a lo largo y se aplasta
 con mucho cuidado para que se estire la carne.
 Se muelen carne de res, de
@@ -886,13 +886,13 @@ correspondiente y se sirve muy
 caliente rodeándolo de berenjenas asadas.
 Puede también seryirge frío,
 con salsa mayonesa.",lomo de cerdo relleno a la parisiense,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-01/ed-1/seq-5/,,,
-"Se limpian las chuletas, se sa- zonan con sal, se pasan por migas de pan blanco, con algo de
+r71,"Se limpian las chuletas, se sa- zonan con sal, se pasan por migas de pan blanco, con algo de
 queso rallado, por huevo batido y
 por último por la miga de pan
 mezclada con la cantidad deseada de queso. Se fríen bien doradas.
 Sírvanse adornadas con limón
 y salsa de tomate.",chuletas de ternera a la milanesa,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-26/ed-1/seq-5/,,,
-"1 1-2 libras de papas
+r72,"1 1-2 libras de papas
 1 cuchara dita de sal
 3 cucharadas de mantequilla
 5 huevos
@@ -900,7 +900,7 @@ y salsa de tomate.",chuletas de ternera a la milanesa,https://chroniclingamerica
 Hierva y maje las papas. Añadale la mentequilla y los huevos uno a uno y bata al agregarlos.
 Fría en manteca caliente por cu- charadas. Escurra y sírvalos en
 almíbar o espolvoree con azú- car.",buñuelos de papas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-11-03/ed-1/seq-5/,,,
-"1-2 lata de Leche Condensada
+r73,"1-2 lata de Leche Condensada
 1 taza de agua
 3 huevos
 1-2 cucharada de harina
@@ -912,7 +912,7 @@ caliente se añaden, por cucharadas, las claras ya consistentes,
 previo su batido, bañándolas bien
 para que se cuezan las claras. Sacarlas luego con la espumadera y
 colocarlas en una fuente. Las yemas ligeramente batidas se agregan a la leche caliente; se le da a ésta una ligera cocción y se va- cia todo sobre las claras.",huevos a la nieve,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-10-20/ed-1/seq-5/,,,
-"(20 pedacitos)
+r74,"(20 pedacitos)
 2 onzas de chocolate
 2 tazas, de azúcar.
 2 cucharadas de mantequilla.
@@ -928,7 +928,7 @@ un poco y se forme una bola
 blanda al echar unas gotas en agua fría. Retire del fuego y deje enfriar un poco. Añada la vainilla y bata continuamente hasta que empiece a endurecer.
 Vierta en un plato engrasado y
 marque en cuadros.",fudge,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-03-02/ed-1/seq-5/,,,
-"(Cocina Argentina)
+r75,"(Cocina Argentina)
 Batir 6 huevos y 2 cucharadas de azúcar, entibiar al baño
 de maría, retirar y batir hasta espesai; agregar despacio 200
 gramos de harina, revolviendo sal
@@ -942,7 +942,7 @@ pe Tapar con la cuarta capa, e brir todo con mayonesa, pegar
 alrededor huevo picado y deco- rar la tapa con perejil picado,
 pimientos morrones picados y
 huevo. Rodear con un colchoneito de lechuga rizadita.",torta fiambre de atun en aceite,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-09-26/ed-1/seq-5,,,
-"6 raciones
+,"6 raciones
 4 tazas de habichuelas tiernas
 hervidas
 4 tazas de salsa blanca
@@ -952,7 +952,7 @@ las habichuelas tiernas. Agregue
 la salsa y espolvoréelas con el
 queso. Cueza en horno de calor
 moderado por 20 minutos.",habichuela tiernas au gratin,https://chroniclingamerica.loc.gov/lccn/sn82001257/1953-11-26/ed-1/seq-4/,,,
-"(6 raciones)
+,"(6 raciones)
 3 plátanos verdes.
 1 libra de yautia.
 3 cucharadas de manteca con
@@ -967,7 +967,7 @@ eche dos cucharaditas del relleno
 y doble en forma de pastelillo.
 Fría en manteca caliente hasta
 que dore por ambos lados.",alcapurrias,https://chroniclingamerica.loc.gov/lccn/sn82001257/1953-12-18/ed-1/seq-4/,,,
-"8 raciones
+,"8 raciones
 4 berenjenas
 2 tazas de picadillo para relleno
 2 cucharadas de harina de trigo
@@ -976,7 +976,7 @@ Manteca
 Parta las berenjenas a k» largo, cueza hasta que ablanden.
 Saque la pulpa con cuidado y mez- cle con el picadillo. Rellene las
 berenjenas. Una el huevo, la harina y la sal y cúbralas. Frialas.",berejena rellena,https://chroniclingamerica.loc.gov/lccn/sn82001257/1953-12-19/ed-1/seq-4/,,,
-"(4 raciones).
+,"(4 raciones).
 1 1-2 libras de papas
 1 cucharada de sal
 2 huevos
@@ -984,7 +984,7 @@ berenjenas. Una el huevo, la harina y la sal y cúbralas. Frialas.",berejena rel
 1-2 libra de manteca
 Hierva y maje las papas. Añádale los huevos y el queso y fría
 en manteca.",frituras de papas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-02-03/ed-1/seq-4/,,,
-"(10 a 12 raciones)
+,"(10 a 12 raciones)
 2 libras de tomates maduros.
 1 litro de agua.
 1 librg de azúcar.
@@ -996,7 +996,7 @@ tomates. Añada el azúcar y la ca- nela y hierva por unos minutos.
 Añada los tomates y cueza basta
 que el almíbar esté espesa.
 Retire del fuego.",dulce de tomate,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-02-04/ed-1/seq-4/,,,
-"Seis croquetas.
+,"Seis croquetas.
 4 cucharadas de mantequilla
 8 cucharadas de harina de
 trigo
@@ -1015,7 +1015,7 @@ Prepare una salsa blanca espesa
 usando los primeros cinco ingredientes y añádale las yemas y el
 queso. Cuando esté fría déle forma
 de choquetas y reboce. Fríalas en manteca caliente y abundante y escurra en papel absorbente- Sirva",croquetas de queso,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-02-05/ed-1/seq-4/,,,
-"(20 buñuelos)
+,"(20 buñuelos)
 1.1-2 libras de papas.
 1 cucharadita de sal.
 3 cucharadas de mantequilla.
@@ -1026,7 +1026,7 @@ la mantequilla y los huevos uno a
 uno y bata al agregarlos. Fría en
 manteca caliente por cucharadas.
 Escurra y sírvalos en alm",buñuelos de papas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-02-06/ed-1/seq-4/,,,
-"6 RACIONES
+,"6 RACIONES
 1 libra de bacalao
 12 taza de aceite de oliva
 2 cebollas rebanadas
@@ -1042,7 +1042,7 @@ y corte en pedazos de tamaño mediano. En una cazuela ponga camadas de bacalao, 
 ajo y tiras de pimientos. Vierta el
 aceite y cueza a fuego lento durante 30 minutos. Puede cocerse en el
 horno.",bacalao a la vizcaina,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-02-07/ed-1/seq-4/,,,
-"(10 Raciones)
+,"(10 Raciones)
 1 taza de arroz
 4 tazas de leche
 1 cucharadita de sal
@@ -1055,7 +1055,7 @@ lento. Mueva constantemente.
 Cuando el arroz haya absorbido
 la mayor parte de la leche, añada
 el azúcar. Retire del fuego cuando el grano esté blando.",arroz con leche,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-02-11/ed-1/seq-4/,,,
-"6 raciones
+,"6 raciones
 6 chuletas
 1 cucharada de sal
 4 cucharadita de pimienta
@@ -1068,7 +1068,7 @@ las chuletas. Adobe con sal y
 pimienta. Echelas en una sartén,
 añada una taza de agua y deje
 cocer a fuego lento por 15 mi- nutos. Reboce cada chuleta y tríalas en manteca caliente. Si desea, pueden hacerse en el horno.",chuletas rebozadas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-03-23/ed-1/seq-4/,,,
-"6 raciones
+,"6 raciones
 12 huevos cocidos duros
 1 cucharadita de sal
 3 lonjas de tocineta
@@ -1082,7 +1082,7 @@ y rellene las mitades de huevos.
 Mezcle la salsa blanca con el
 queso y vierta sobre los huevos
 rellenos.",huevos rellenos con tocineta,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-03-24/ed-1/seq-4/,,,
-"40 mantecadas
+,"40 mantecadas
 1/2 tasas de harina de trigo
 1/2 cucharadita de sal
 1/2 taza de azúcar
@@ -1094,7 +1094,7 @@ coloque sobre el molde. Con el
 cuchillo marque ligeramente dos
 lineas en forma de cruz. Espolvoree con azúcar con color y
 cueza en horno de calor moderado (350 F) por 30 minutos.",mantecadas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-03-26/ed-1/seq-5/,,,
-"6 raciones
+,"6 raciones
 6 tazas de caldo
 1-2 libra de calabaza partida
 en pedazos
@@ -1106,7 +1106,7 @@ caldo frío, añada la mantequilla
 y ponga al fuego, moviendo constantemente y añada el resto del
 caldo. Sazone a gusto y sirva
 caliente.",pure de calabaza,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-03-28/ed-1/seq-8/,,,
-"6 raciones
+,"6 raciones
 1 1-2 libras de babilla
 1-4 taza de harina de trigo
 1 cucharada de sal
@@ -1120,7 +1120,7 @@ vez. Dore y agregue la salsa de tomate y el agua. Cueza a fuego
 lento hasta que la carne esté
 blanda. Añádale más agua si es
 necesario.",biftec a la suiza,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-03-30/ed-1/seq-5/,,,
-"6 raciones
+,"6 raciones
 I chacotes
 1-4 libra de jamón picado
 1-2 taza de sofrito
@@ -1131,7 +1131,7 @@ rebanadas finas. Añada el sofrito
 y el jamón y sazone. Agregue el
 agna y cueza a fuego lento hasta
 que los chayóles estén cocidos.",chayote guisado,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-02/ed-1/seq-5/,,,
-"6 duraznos
+,"6 duraznos
 6 ciruelas
 Azúcar al gusto
 Vino blanco
@@ -1143,7 +1143,7 @@ fruta. Condimente el vino con la esencia de vainilla (algunas
 gotas apenas) échelo sobre la en- salada, upe con una servilleta
 y deje reposar en la refrigeradora un par de horas, más o
 menos. Antes de servir revuelva un poco. Si gusta, puede añadirle crema o helado.",ensalada lency,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-04/ed-1/seq-5/,,,
-"*
+,"*
 1 taza de garbanzos
 1 taza de guisantes
 3 chorizos colorados
@@ -1164,7 +1164,7 @@ aceite con una pizca de sal y se
 les añade esto junto con los chorizos en trozos. Se revuelve, se
 deja reducir bien la salsa y se
 sirve muy caliente.",potaje campesino,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-05/ed-1/seq-5/,,,
-"12 a 14 raciones
+,"12 a 14 raciones
 1 taza de harina de maíz
 4 tazas de agua
 1 cucharadita de sal
@@ -1175,7 +1175,7 @@ esté cocida y se forme una masa que se despegue de los lados
 de la cacerola. Añada el queso
 rallado y deje enfriar. Forme
 los rollitos y fríalos.",rollitos de maiz con queso,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-06/ed-1/seq-5/,,,
-"3 libras de pargo
+,"3 libras de pargo
 1 1-2 cucharadas de sal
 2 cucharadas de jugo de limón
 1-4 cucharadita de pimienta
@@ -1187,7 +1187,7 @@ Corte en filetes gruesos y adobe con sal, pimienta y limón. Deje en sitió fres
 pedazo de pescado frito en huevo batido y envuelva en polvo
 de galleta. Fría en aceite hasta
 que esté dorado.",pescado a la minuta,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-07/ed-1/seq-5/,,,
-"6 raciones
+,"6 raciones
 2 libras de berenjenas
 1-2 taza de aceite de oliva
 Sal
@@ -1207,7 +1207,7 @@ berenjenas, otra de queso rallado y vierta parte del sofrito.
 Repita hasta llenar el molde. Espolvoree con queso. Cueza en
 horno de calor moderado o en un caldero a fuego lento por 45
 minutos.",berenjenas a la parmesana,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-08/ed-1/seq-5/,,,
-"2 patitos tiernos
+,"2 patitos tiernos
 mantequilla
 sal
 pimienta
@@ -1225,7 +1225,7 @@ Cuando estén a punto escúrralas
 y báñelas en mantequilla derretida, sálpiquelas con perejil picado, póngales algunas rodajas
 de limón y sírvalas caliente
 acompañando los patos",pato asado a la maitre,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-09/ed-1/seq-5/,,,
-"3 tazas
+,"3 tazas
 2 tazas de leche caliente
 1 raja de canela
 1 cáscara de limón
@@ -1235,7 +1235,7 @@ acompañando los patos",pato asado a la maitre,https://chroniclingamerica.loc.go
 Hierva juntos la leche, la canela y la cáscara de limón. Bata
 las yemas con el azúcar y añada la sal. Agregue la leche caliente poco a poce a las yemas
 y mezcle bien.",ponche de la reina,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-11/ed-1/seq-5/,,,
-"8 a 10 raciones
+,"8 a 10 raciones
 1 1-2 libras de bacalao
 1 taza de aceite de oliva
 1 cebolla rebanada
@@ -1253,7 +1253,7 @@ Sofría las cebollas y los dientes
 de ajo en el aceite. Añada el vinagre, las hojas de laurel y la
 pimienta y sofría por unos minutos. Retire del fuego y vierta
 sobre el bacalao.",bacalao en escabeche,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-12/ed-1/seq-5/,,,
-"10 croquetas
+,"10 croquetas
 3 tazas de batatas majadas
 1-2 taza de mantequilla
 1 cucharadita de sal
@@ -1268,7 +1268,7 @@ hasta que esté suave. Déle forma
 a las croquetas con un molde o
 en la palma de la mano. Reboce las croquetas. Fría en manteca abundante y caliente. Escurra
  en papel absorbente. Sirva caliente.",croquetas de batata,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-13/ed-1/seq-5/,,,
-"8 a 10 vasos
+,"8 a 10 vasos
 3-4 taza de avena
 7 tazas de agua
 1 taza de azúcar
@@ -1277,7 +1277,7 @@ Ponga la avena en el agua por
 media hora y cuele. Endulce y
 añada la vainilla. Sirva bien frío
 adornado con ruedas de limón",refresco de avena,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-15/ed-1/seq-5/,,,
-"1 queso de Holanda
+,"1 queso de Holanda
 1 pollo de 2 libras
 1 diente de ajo machacado
 1 taza de salsa de tomate
@@ -1302,7 +1302,7 @@ el queso con el pollo y ponga la
 tapa, engrasándolo por fuera.
 Cueza a fuego lento o en horno
 moderado.",queso relleno a la reina,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-16/ed-1/seq-5/,,,
-"1/4 libra de queso americano
+,"1/4 libra de queso americano
 6 huevos batidos
 1 cucharadita de sal
 1/8 cucharadita de pimienta
@@ -1314,7 +1314,7 @@ mantequilla en la sartén y
 vierta el huevo. Cueza a fuego
 lento revolviedo de vez en cuando. Retire del fuego ruando el
 huevo esté cocido. Sirva caliente.",revoltillo de queso,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-05-18/ed-1/seq-5/,,,
-"1-2 taza de almendras
+,"1-2 taza de almendras
 1 1-2 tazas de agua caliente
 2 tazas de agua tibia
 1-2 taza de azúcar
@@ -1323,7 +1323,7 @@ Añada el agua tibia y extraiga la leche. Endulce y sirva bien
 fría con hiele picado. Adorne coja
 hojas de yerbabuena o ruedas de
 limón.",horchata de almendras,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-06-23/ed-1/seq-5/,,,
-"6 Raciones
+,"6 Raciones
 1 1/2 libras de riñones
 1 cebolla picada
 4 cucharadas de mantequilla o aceite
@@ -1333,7 +1333,7 @@ limón.",horchata de almendras,https://chroniclingamerica.loc.gov/lccn/sn8200125
 trigo 1/2 taza de vino Jerez
 Limpie los riñones. Parta en pedacitos. Dore la cebolla en la
 mantequilla o el aceite y añada los riñones, la sal y la pimienta. Cueza a fuego lento por 20 minutos. Añada el vino. Sirva tan pronto estén.",riñones al jerez,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-08-06/ed-1/seq-5/,,,
-"2 tazas de harina de trigo
+,"2 tazas de harina de trigo
 1 1/2 cucharadita de sal
 2 cucharadas de azúcar
 4 cucharaditas de polvo de hor- near
@@ -1348,7 +1348,7 @@ de espesor. Corte en forma de
 triángulos, unte encima clara batida y espolvoree con azúcar.
 Cueza en horno caliente (450’ F)
 por 10 ó 15 minutos.",panecillos para chocolate,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-08-07/ed-1/seq-5/,,,
-"3 libras de robalo
+,"3 libras de robalo
 2 cucharadas de sal
 ti cucharadita de pimienta
 2 cucharadas de jugo de limón
@@ -1363,7 +1363,7 @@ el aceite en una cazuela, y coloque los pescados. Ponga encima
 las cebollas, los ajos y los toma- tes. Cueza a fuego lento por 20
 minutos. Entonces añada el vino
 y tape. Deje cocer como por me- dia hora hasta que el pescado es- té blando.",pescado a la cazuela,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-08-11/ed-1/seq-5/,,,
-"2 tazas de arroz blanco cocido.
+,"2 tazas de arroz blanco cocido.
 1/4 cucharadita de sal
 1 huevo batido.
 1/2 cucharadita de pimienta.
@@ -1373,7 +1373,7 @@ y tape. Deje cocer como por me- dia hora hasta que el pescado es- té blando.",p
 Al arroz cocido añádale el huevo, la pimienta, sal, perejil, y leche. Forme las croquetas y espolvoréelas con el polvo de galletas.
 Fríalas en manteca caliente y
 abundante y escúrralas sobre papel absorbente. Puede usarse queso en lugar de perejil.",croquetas de arroz,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-08-17/ed-1/seq-5/,,,
-"2 mazos de acelgas
+,"2 mazos de acelgas
 2 tazas de agua
 1 cucharada de sal % taza de aceite
 1/4 taza de vinagre
@@ -1381,7 +1381,7 @@ abundante y escúrralas sobre papel absorbente. Puede usarse queso en lugar de p
 1/4 cucharadita de pimienta
 Lave y hierva las acelgas ligeramente, no más de 5 minutos, pártalas en pedazos, mezcle el
 aceite, el vinagre, la sal y pimienta y vierta sobre las acelgas. Adorne con ruedas de ce- bolla y tomate.",ensalada de acelgas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1954-10-29/ed-1/seq-5/,,,
-"1 merluza
+,"1 merluza
 3 rodajas de limón
 4 yemas de huevo
 1/2 taza de agua fría
@@ -1402,7 +1402,7 @@ María continuando el batido hasta
 que esté espumosa. Agregar entonces la mantequilla derretida,
 continuar batiendo y añadir el jugo de limón, la sal y pimienta,
 batir hasta que espese bien.",merluza con salsa holandesa,https://chroniclingamerica.loc.gov/lccn/sn82001257/1955-05-05/ed-1/seq-5/,,,
-"3 claras
+,"3 claras
 1/3 tara de arúcar en polvo 3 yemas
 1/2 rucharadita de vainilla
 1/3 tara de harina de trigo
@@ -1416,7 +1416,7 @@ ancho por 4 pulgadas de largo.
 Espolvoréelas con azúcar en polvo
 y ponga en un horno de calor mo- derado por 12 minutos. Sgquelas
 del papel usando un cuchillo.",plantillas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1955-05-25/ed-1/seq-5/,,,
-"plato típico
+,"plato típico
 puertorriqueño
 1-2 taza -de harina de trigo
 1-4 taza de agua
@@ -1435,7 +1435,7 @@ los polvos de hornear. La leche se
 le echa poco a poco y solamente
 la que sea necesaria. Eche por cucharadas en manteca caliente y
 abundante.",almojabanas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1955-07-06/ed-1/seq-5/,,,
-"12 papas de regular tamaño
+,"12 papas de regular tamaño
 1-2 taza de aceite
 S dientes de ajo cortados en rodajas finas
 1 1-2 tazas de caldo
@@ -1450,7 +1450,7 @@ de perejil. Termine de cocer (de
 15 a 20 minutos más) y si hay demasiado líquido déjeio destapado para que se consuma un po- co. Ponga en la fuente y espol- voree con el resto de perejil.
 Tiempo: 50 minutos. Cantidad:
 para 6 personas.",papas provenzal,https://chroniclingamerica.loc.gov/lccn/sn82001257/1955-09-24/ed-1/seq-5/,,,
-"1 libra de espaguetti
+,"1 libra de espaguetti
 2 litros de agua
 2 cucharadas de sal , 2 tazas de salsa para espaguetti
 2 tazas de queso palmesano
@@ -1458,7 +1458,7 @@ rallado.
 Hierva los espaguettis en agua
 con sal. Escúrralos. Agregue la
 salsa caliente y mezcle. Espolvorée con el queso rallado.",espaguetti a la italiana,https://chroniclingamerica.loc.gov/lccn/sn82001257/1955-12-07/ed-1/seq-5/,,,
-"1 libra de espagueti
+,"1 libra de espagueti
 1 libra de tocineta en lonjas
 2 tazas de maíz en grano co- cido
 4 cucharadas de mantequilla
@@ -1473,7 +1473,7 @@ mantequilla. Repita esto mismo
 hasta que haya usado todos los
 ingredientes. Ponga al horno a fuego moderado, 350 grado F.
 por 25 minutos.",espagueti con maiz y tocineta,https://chroniclingamerica.loc.gov/lccn/sn82001257/1958-03-02/ed-1/seq-5/,,,
-"Se toman las sardinas, se limpian y se pintan de huevo. Se
+,"Se toman las sardinas, se limpian y se pintan de huevo. Se
 toman grandes hojas de acelga
 cocida y se pintan de huevo, extendiéndolas sobre la mesa. En una sartén con aceite se
 fríen tomates bien picados; ya
@@ -1492,7 +1492,7 @@ y huevo batido, friéndolas a bonito color. Al momento de servirlas se colocan e
 servilleta y se guarnecen de rodajas de limón rizado y perejil.","COCINA DE ESPAÑOLA
 PAQUETES DE SARDINAS A
 LA MARIFLOR",https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-08/ed-1/seq-5/,,,
-"1 libra de gandulea
+,"1 libra de gandulea
 6 tazas de agua
 1 taza de sofrito
 1 taza de arroz 1 libra de papas partidas
@@ -1502,7 +1502,7 @@ Cueza los gandules a fuego
 lento. Cuando estén blandos
 añada el sofrito, el arroz, la ca- labaza y las papas, Sazone y deje hervir. Baje el fuego y cueza hasta que el arroz esté blando.
 Retire del fuego y sirva caliente.",sopon de gandules,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-18/ed-1/seq-5/,,,
-"6 tazas de caldo
+,"6 tazas de caldo
 1-2 libra de calabaza partida
 en pedazos
 2 cucharadas de harina
@@ -1513,8 +1513,8 @@ la harina con un poco de caldo
 frío, añada la mantequilla y
 ponga al fuego moviendo cons- tantemente y añada el resto del
 caldo. Sazone a gusto y sirva caliente.",pure de calabaza,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-19/ed-1/seq-5/,,,
-1 cucharada de sal 14 cucharadita de pimentón 2 granos de pimienta 3 cucharadas de vinagre 6 cucharadas de aceite dé oliva 1 encurtido picado 1-2 pimiento picado 1 ramita de perejil picado Mezcle todos los ingredientes en el orden que están.,salsa vinagreta,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-21/ed-1/seq-5/,,,
-"2 libras de tomates maduros
+,1 cucharada de sal 14 cucharadita de pimentón 2 granos de pimienta 3 cucharadas de vinagre 6 cucharadas de aceite dé oliva 1 encurtido picado 1-2 pimiento picado 1 ramita de perejil picado Mezcle todos los ingredientes en el orden que están.,salsa vinagreta,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-21/ed-1/seq-5/,,,
+,"2 libras de tomates maduros
 1 litro de agua
 1 libra de azúcar
 1 raja de canela
@@ -1524,9 +1524,9 @@ del agua, en que se hirvieron los
 tomates. Añada el azúcar y la ca- nela y hierva por unos minutos.
 Añada los tomates y cueza hasta
 que el almíbar esté espeso. Retire del fuego.",dulce de tomate,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-22/ed-1/seq-5/,,,
-"Bacalao a La Provenzal con parte de puré de patatas. Se mar- can en placas en forma de bollitos un poco ovalados, déjense,
+,"Bacalao a La Provenzal con parte de puré de patatas. Se mar- can en placas en forma de bollitos un poco ovalados, déjense,
 enfirar por completo, luego se envuelven con pasta de freír ligera, friéndose de momento a bonito color dorado. Sírvanse en fuente con servilleta.",BUÑUELOS A LA BENEDICTINA,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-23/ed-1/seq-5/,,,
-"1 piña rallada (3 libras)
+,"1 piña rallada (3 libras)
 2 limones rebanados
 3 naranjas rebanadas
 Azúcar
@@ -1536,8 +1536,8 @@ ablanden; añada la piña rallada. Mida por tazas y por cada
 taza de pulpa, agregue 3-4 taza
 de azúcar. Cueza a fuego lento
 hasta que la pulpa esté transparente y el amíbar espeso Vierta en frascos de crista!.",mermelada tropical,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-25/ed-1/seq-5/,,,
-"6 tazas de caldo 1-2 plátano verde rallado Ralle el plátano por el lado fino del rallador y añádalo al caldo moviendo rápidamente. Cueza a fuego lento, cuele y sirva caliente.",sopa de platano,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-30/ed-1/seq-5/,,,
-"2 tazas de habichuelas tiernas
+,"6 tazas de caldo 1-2 plátano verde rallado Ralle el plátano por el lado fino del rallador y añádalo al caldo moviendo rápidamente. Cueza a fuego lento, cuele y sirva caliente.",sopa de platano,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-09-30/ed-1/seq-5/,,,
+,"2 tazas de habichuelas tiernas
 hervidas
 1 taza de maíz en grano
 1 taza de zanahorias en ouadritos
@@ -1552,7 +1552,7 @@ hondo engrasado, espolvoree con
 queso palmesano y añada el resto de las hortalizas, y el queso.
 Cueza en horno de calor moderado por 20 minutos, o hasta que
 el queso se derrita.",hortalizas al plato,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-06/ed-1/seq-5/,,,
-"2 libras de papas
+,"2 libras de papas
 1 cucharadita de sal
 2 huevos batidos
 4 cucharadas de harina
@@ -1562,7 +1562,7 @@ ga una parte en un molde engrasado de manera que cubra todo el molde. Eche el pi
 extiéndalo y cubra con el resto
 de las papas. Cueza en horno moderado a 350 grados F. por 30 ó
 40 minutos.",pastelon de papas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-07/ed-1/seq-5/,,,
-"6 ruedas de colirubia
+,"6 ruedas de colirubia
 Sal al gusto
 Jugo de limón
 Pimienta al gusto'
@@ -1576,7 +1576,7 @@ Envuelva en pan y queso ra- llado. Mezcle el huevo batido con
 perejil picado y sal y reboce el
 pescado. Envuelva de nuevo en
 pan y queso rallado y fría en aceite caliente.",pescado a la milanese,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-10/ed-1/seq-5/,,,
-"1 pollo de 4 libras
+,"1 pollo de 4 libras
 2 cucharadas de sal
 1-2 cucharadita de pimienta
 2 huevos batidos
@@ -1584,7 +1584,7 @@ pan y queso rallado y fría en aceite caliente.",pescado a la milanese,https://c
 Parta el pollo en presas. Adóbelo con la sal y la pimienta.
 Reboce el pollo y colóquelo en un molde engrasado. Cueza en horno de calor moderado (350
 grados F) por 40 minutos. Untele mantequilla derretida dos ve- ces antes de sacarlo del horno.",pollo al horno,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-12/ed-1/seq-5/,,,
-"3 conejos de 2 a 2 1-2 libras
+,"3 conejos de 2 a 2 1-2 libras
 2 naranjas agrias
 3 ajos
 1 cucharadita de pimienta
@@ -1596,7 +1596,7 @@ presas. Machaque o muela el ajo
 y mezcle con la sal y la pimienta. Adobe las presas, horas antes de cocerlas. Fría en manteca
 caliente para dorarlas. Reduzca
 el fuego, tape y cueza por 45 minutos.",conejo frito,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-13/ed-1/seq-5/,,,
-"1 taza de mantequilla
+,"1 taza de mantequilla
 2 tazas de azúcar
 6 yemas batidas
 5 cucharaditas de polvo de
@@ -1614,7 +1614,7 @@ y por último incorpore el ron.
 Añada las claras al batido. Vierta en un molde engrasado y cueza
 en un horno de calor moderado
 por 40 minutos.",bizcocho con ron,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-17/ed-1/seq-5/,,,
-"1 libra de bacalao
+,"1 libra de bacalao
 1 cebolla rebanada
 Aceitunas a gusto
 t tomates rebanados
@@ -1624,7 +1624,7 @@ algunas horas para quitarle un
 poco la sal. Hieva, quite el pellejo y las espinas y corte en pedazos pequeños. Coloque el bacalao en una fuente y adorne
 eon las ruedas de tomate, cebollas y las aceitunas. Vierta el
 aceite. Sirva con viandas hervidas—plátano, batata, papas, etc.",serenata,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-18/ed-1/seq-5/,,,
-"6 huevos
+,"6 huevos
 1 cucharadita de sal
 1 taza de guisantes frescos
 3 lonjas de jamón o salchichón
@@ -1634,8 +1634,8 @@ Eche un huevo en cada uno y
 espolvoree con sal. Cubra con guisantes y salsa y ponga encima tiras de jamón o salchichón.
 Ponga en horno de calor moderado por unos minutos, o en una sartén a fuego lento, con brasas
 en In tapa.",HUEVOS A LA MALAGUEÑA,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-19/ed-1/seq-5/,,,
-"1 taza de casabe molido 2 tazas de azúcar mascabado 1 taza de agua 1 pedazo de jengibre machacado 1-4 taza de casabe molido Mezcle, el casabe, el azúcar, el agua y el jengibre. Cueza a fuego lento hasta que la pasta se se- pare de los lados de la valija. Saque el jengibre y extienda la pasta en una tabla. Marque en cua- dros y espolvorée casabe molido por encima.",alfajor,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-24/ed-1/seq-5/,,,
-"1-2 libra de pan de agua
+,"1 taza de casabe molido 2 tazas de azúcar mascabado 1 taza de agua 1 pedazo de jengibre machacado 1-4 taza de casabe molido Mezcle, el casabe, el azúcar, el agua y el jengibre. Cueza a fuego lento hasta que la pasta se se- pare de los lados de la valija. Saque el jengibre y extienda la pasta en una tabla. Marque en cua- dros y espolvorée casabe molido por encima.",alfajor,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-24/ed-1/seq-5/,,,
+,"1-2 libra de pan de agua
 1 taza de leche
 1-2 taza de vino dulce
 1-2 cucharadita de vino dulce
@@ -1651,7 +1651,7 @@ Fría y dore por ambos lados. Con
 el azúcar, el agua y la canela,
 prepare un almíbar y deje en- friar. Vierta el almíbar sobre las
 torrejas.",torrejas gallegas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-26/ed-1/seq-5/,,,
-"INGREDIENTE 18 langostinos cocinados
+,"INGREDIENTE 18 langostinos cocinados
 6 papas cocinadas con cáscara
 1 taza de salsa de camarones 1 latica de petit-pois
 Perejil, picadito
@@ -1662,7 +1662,7 @@ langostinos pelados y picados a
 la mitad a lo largo se cubren
 con la salsa de camarones mez- clada con los petit-pois bien
 escurridos. Se salpica con perejil, picadito y se sirve frío.",langostinos con salsa de camarones,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-10-27/ed-1/seq-5/,,,
-"1 lata de jamón “Sp»m”
+,"1 lata de jamón “Sp»m”
 1 cabeza de lechuga
 ó aceitunas negras
 6 aceitunas verdes
@@ -1680,7 +1680,7 @@ mientras se va agregando el aceite muy poquito a poco, hasta que
 espese. Condimente con sal, pimienta, mostaza y limón, y por
 último póngale el agua para hacerla más liviana. Sirva con el
 jamón y coloque alrededor la lechuga cortada fina y las aceitunas negras y verdes. (Para 6 per",jamon con mayonesa de limon,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-01/ed-1/seq-5/,,,
-"1% libra de carne 4 cebollas % cucharaditas de sal
+,"1% libra de carne 4 cebollas % cucharaditas de sal
 1 cucharadita de aceite
 Se limpia bien la carne de to-
 do pellejo, se parten trozos y se | muele junto con la cebolla. Se
@@ -1697,9 +1697,9 @@ que éstos no se enfríen. Si se
 quiere se les agrega un poquito
 de mantequilla a medida que se vayan sacando del sartén. Pue
 den servirse fríos.",biftec molido,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-04/ed-1/seq-5/,,,
-"3 huevos 1-2 litro de agua 1-1-2 de azúcar 2 cucharadas de brandy t En una cacerola se echa el agua y el azúcar, se monta al fuego y se deja hacer un almí bar gruesa. Los huevos, se baten primero las claras a punto de suspiro y se le agregan las yemas batiéndose bien. Se baja del fuego la cacerola y se le echa el batido de huevos sin revolverlos. Se monta al fuego y se deja un minuto. Con un tenedor se levanta de un lado el batido y se ve si tiene consistencia para darle la vuelta a esta especie de tortilla que está encima del almíbar. Al darle la vuelta se deja apenas 2 minutos. Se baja del fuego y se le agrega el brandy y con el tenedor se rompe un poco el batido del huevo mezclándolo con el almíbar. Mucho cuidado de no dejarlo pasar de tiempo, pues si se coci> na mucho el huevo, éste postre queda duro y feo. Se sirve frío.",dulce de huevos,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-09/ed-1/seq-5/,,,
-"1-2 libra de chocolate rallado 8 tazas de leche caliente 1 lata de leche evaporada de 1/4 onzas 2 yemas'batidas 4 cucharadas de mantequilla Mezcle el chocolate y la leche, hierva por unos minutos. Agregue la leche evaporada y con- tinúe cociendo en baño de María. Minutos antes de hervir, añada las yemas y la mantequilla. Bata con un batidor por dos minutos.",chocolate de bodas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-14/ed-1/seq-5/,,,
-"Sofrito
+,"3 huevos 1-2 litro de agua 1-1-2 de azúcar 2 cucharadas de brandy t En una cacerola se echa el agua y el azúcar, se monta al fuego y se deja hacer un almí bar gruesa. Los huevos, se baten primero las claras a punto de suspiro y se le agregan las yemas batiéndose bien. Se baja del fuego la cacerola y se le echa el batido de huevos sin revolverlos. Se monta al fuego y se deja un minuto. Con un tenedor se levanta de un lado el batido y se ve si tiene consistencia para darle la vuelta a esta especie de tortilla que está encima del almíbar. Al darle la vuelta se deja apenas 2 minutos. Se baja del fuego y se le agrega el brandy y con el tenedor se rompe un poco el batido del huevo mezclándolo con el almíbar. Mucho cuidado de no dejarlo pasar de tiempo, pues si se coci> na mucho el huevo, éste postre queda duro y feo. Se sirve frío.",dulce de huevos,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-09/ed-1/seq-5/,,,
+,"1-2 libra de chocolate rallado 8 tazas de leche caliente 1 lata de leche evaporada de 1/4 onzas 2 yemas'batidas 4 cucharadas de mantequilla Mezcle el chocolate y la leche, hierva por unos minutos. Agregue la leche evaporada y con- tinúe cociendo en baño de María. Minutos antes de hervir, añada las yemas y la mantequilla. Bata con un batidor por dos minutos.",chocolate de bodas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-14/ed-1/seq-5/,,,
+,"Sofrito
 5 butifarras partidas
 1% libras de arroz 1 cucharadita de sal
 2 ajíes dulces molidos
@@ -1709,7 +1709,7 @@ den servirse fríos.",biftec molido,https://chroniclingamerica.loc.gov/lccn/sn82
 Añada las butifarras, el arroz y la manteca al sofrito y cueza por dos minutos. Agregue el_
 agua y sazone a gusto. Cueza hasta que el arroz esté un poco seco, baje el fuego, revuelva 2 ó tres veces y conserve tapado hasta el
 momento de servirlo.",arroz con butifarras,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-17/ed-1/seq-5/,,,
-"1 pavo de 8 a 10 libras
+,"1 pavo de 8 a 10 libras
 1-2 libra de jamón hervido > nuevos 1-2 cucharada de pimienta
 2 cucharaditas de sal
 1 cucharadita de núes mosca- cada
@@ -1730,7 +1730,7 @@ Reboce, envuelva los rollos en
 una servilleta y amarre los ex- tremos. Hierva en caldo por
 una hora. Ponga en la nevera y
 sirva frío.",embutido de pavo,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-24/ed-1/seq-5/,,,
-"1-2 libra de azúcar
+,"1-2 libra de azúcar
 1-2 libra de harina de trigo
 2 cucharadas de brandy
 1-4 libra de manteca
@@ -1740,7 +1740,7 @@ la harina a la manteca, cortando la manteca con dos cuchillos
 o amasando con los dedos. Cuando esté bien unido añada el brandy. Forme bolitas y coloque en
 un molde; aplaste para darle una forma redonda. Cueza en horno
 caliente (400 F). por 10 minutos.",mantecados con brandy,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-27/ed-1/seq-5/,,,
-"2 tasas de calabaza majada
+,"2 tasas de calabaza majada
 1-2 taza de harina de trigo
 1 cucharadita de sal
 1-4 cucharadita de clavos de
@@ -1749,14 +1749,14 @@ especie
 Manteca
 Una todos los ingredientes en el orden en que aparecen. Friólos por cucharadas en manteca
 caliente. Escurra en papel absorbente y sirva caliente.",frituras de calabaza,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-28/ed-1/seq-5/,,,
-"2 tazas de pollo cocido picado
+,"2 tazas de pollo cocido picado
 1-2 taza de mayonesa
 1-2 cucharadita de pimienta
 1 cucharada de cebolla rallada
 Sal a gusto
 Mezcle todos los ingredientes y
 sazone a gusto.",emparedados de pollo,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-11-30/ed-1/seq-5/,,,
-"1 taza de casabe molido
+,"1 taza de casabe molido
 2 tazas de azúcar mascabado
 1 taza de agua
 1 pedazo de jengibre machacado
@@ -1766,7 +1766,7 @@ agua y el jengibre. Cueza a fuego lento hasta que la pasta se separe de los lado
 Saque el jengibre y extienda la
 pasta en una tabla. Marque en
 cuadros y espolvorée casabe mo- lido por encima.",alfajor,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-12-01/ed-1/seq-5/,,,
-"1 pollo de 3 libras
+,"1 pollo de 3 libras
 1 libra de cebollas
 1 taza de aceite
 Sal
@@ -1776,7 +1776,7 @@ el aceite en el caldero y sobre
 el aceite coloque la cebolla y el
 pollo. Tape y cueza a fuego lento por una hora. Revuelva dos
 veces.",pollo encebollado,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-12-02/ed-1/seq-5/,,,
-"1 libra de batata hervida y ma- jada
+,"1 libra de batata hervida y ma- jada
 1 libra de azúcar
 Canela en polvo.
 Clavos de especie
@@ -1784,7 +1784,7 @@ Mezcle la batata con el azúcar y cueza a fuego lento, hasta
 que la pasta se despegue de los
 lados de la vasija. Enfrie y forme en bolitas. Envuelva en cane- la en polvo y ponga un clavo de
 especie para imitar el tallo.",nisperos de batata,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-12-07/ed-1/seq-5/,,,
-"1 taza de agua
+,"1 taza de agua
 2 tazas de azúcar
 3 tazas de jugo de uvas % taza de jugo de limón
 3 tazas de jugo de naranjas
@@ -1792,7 +1792,7 @@ Mezcle el agua con el azúcar
 y caliente hasta que el azúcar se
 disuelva. Enfríe y añádale los
 jugos antes de servirlo.",ponche de jugo de uvas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-12-09/ed-1/seq-5/,,,
-"6 claras- batidas
+,"6 claras- batidas
 6 yemas batidas
 1 taza de azúcar
 Ralladura de limón
@@ -1803,13 +1803,13 @@ azúcar poco a poco. Incorpore
 la harina y bata hasta que esté
 suave. Vierta en seguida en un molde de tubo y cueza en un horno de'calor moderado durante
 40 minutos o hasta que e lbizcocho se separe del molde.",bizcocho esponjoso,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-12-11/ed-1/seq-5/,,,
-"1 onza de jengibre machado
+,"1 onza de jengibre machado
 1/4 onza de cáscara de canela
 5 tazas de agua
 1 1/2 tazas de melao
 Hierva el jengibre y la canela con el agua y deje enfriar. Endulce con el melao y sirva bien
 frío.",agua loja,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-12-18/ed-1/seq-5/,,,
-"2 tazas de dulce de coco
+,"2 tazas de dulce de coco
 2 cucharadas de mantequilla
 derreterida
 2 huevos batidos
@@ -1817,7 +1817,7 @@ derreterida
 Añada la mantequilla y oís hue- vos al dulce de coco. Vierta en
 un molde llano engrasado. Adorne con las almendras. Hornée a
 fuego moderado por 20 minutos.",cocada,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-12-19/ed-1/seq-5/,,,
-"1/2 taza de mantequilla
+,"1/2 taza de mantequilla
 1 taza de azúcar
 2 huevos
 1 lata de melocotones
@@ -1835,7 +1835,7 @@ preparada. Cúbralo entonces con el resto de las plantillas y póngalo en la ref
 vez bien helado adórnelo con el
 resto de los melocotones que le
 hayan quedado.",bizcocho helado de melocoton,https://chroniclingamerica.loc.gov/lccn/sn82001257/1956-12-29/ed-1/seq-5/,,,
-"1 libra de mantequilla
+,"1 libra de mantequilla
 1 libra de azúcar
 10 yemas batidas
 1 libra de harina de trigo
@@ -1849,7 +1849,7 @@ tres veces y añada la mantequilla, luego el brandy. Incorpore
 las claras batidas revolviendo,
 para que quede bien mezclado.
 Cueza en un horno de calor moderado (350?F) durante una hora.",ponque,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-06/ed-1/seq-5/,,,
-"1 libra de habichuelas blancas
+,"1 libra de habichuelas blancas
 1-2 taza de aceite
 2 cebollas en rebanadas
 3 dientes de ajo
@@ -1863,9 +1863,9 @@ dejarlos dorar. Añada el vinagre
 y los demás ingredientes. Vierta
 esta salsa sobre las habichuelas
 y revuélvalas bien.",habichuela escabechadas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-08/ed-1/seq-5/,,,
-1 libra de batata hervida 3 cucharadas de mantequilla derretida 1/2 taza de azúcar mascabado 1 cuacharada de ralladura de limón 1/2 taza de jugo de naranja 1/4 cucharadita de sal A la batata majada agregue los demás ingredientes y mezcle bien. Vierta en un molde engrasado y cueza en horno de calor moderado por 30 minutos.,"BUDIN DE BATATA Y
+,1 libra de batata hervida 3 cucharadas de mantequilla derretida 1/2 taza de azúcar mascabado 1 cuacharada de ralladura de limón 1/2 taza de jugo de naranja 1/4 cucharadita de sal A la batata majada agregue los demás ingredientes y mezcle bien. Vierta en un molde engrasado y cueza en horno de calor moderado por 30 minutos.,"BUDIN DE BATATA Y
 NARANJA",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-09/ed-1/seq-5/,,,
-"2 tazas de harina de maíz
+,"2 tazas de harina de maíz
 1 taza de harina de trigo
 5 cucharaditas de polvo de hornear
 2 cucharaditas de sal
@@ -1878,7 +1878,7 @@ Cierna juntos las harinas, la
 sal, el polvo de hornear y el
 azúcar. Mezcle la leche, el hue- vo batido y la mantequilla y
 añada a la harina. Engrase un molde para pan y eche la masa. Cueza en horno a 350? F. de 40 a 60 minutos.",pan de maiz esponjoso,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-12/ed-1/seq-5/,,,
-"3/4 de litro de leche
+,"3/4 de litro de leche
 Esencia de vainilla
 4 claras batidas a punto de
 merengue
@@ -1889,14 +1889,14 @@ de maíz
 Bata las claras a punto de me- rengue. Hierva la leche con la
 esencia de vainilla. Eche la preparación de las claras por cucharadas y deje que se cuezan en la leche unos minutos.
 Cuele la leche, bata las yemas",isla flotante,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-15/ed-1/seq-5/,,,
-"4 tazas de leche
+,"4 tazas de leche
 Cáscara de 1-2 limón
 5 claras batidas .
 1- 1-4 taza de azúcar
 Hierva la leche con la cásca- ra de limón. Añada el azúcar y
 las claras poco a poco. Cueza
 en baño de María por 5 minutos. Cuele y enfríe. Cuaje.",leche merengada,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-16/ed-1/seq-5/,,,
-"1 libra de espagueti
+,"1 libra de espagueti
 2 litros de agua
 2 cucharadas de sal
 2 tazas de salsa para espagueti
@@ -1905,7 +1905,7 @@ rallado
 Hierva los espaguetis en agua
 con sal. Escúrralos. Agregue la
 salsa caliente y mezcle. Espolvoree con el queso rallado.",espagueti a la italiana,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-18/ed-1/seq-5/,,,
-"Sofrito
+,"Sofrito
 5 butifarras partidas
 1 1-2 libras de arroz 1 cucharadita de sal
 3 cucharadas de manteca con achote
@@ -1913,7 +1913,7 @@ salsa caliente y mezcle. Espolvoree con el queso rallado.",espagueti a la italia
 Añada las butifarras, el arrox y la manteca al sofrito y cueza por dos minutos. Agregue el
 agua y sazone a gusto. Cueza hasta que el arroz esté un poco se- co, baje el fuego, revuelva dos o
 tres veces y conserve tapado hasta el momento de servirlo.",arroz con butifarras,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-19/ed-1/seq-5/,,,
-"2 tazas de piña rallada
+,"2 tazas de piña rallada
 2 tazas de piña rallada
 14 onzas de queso rallado
 1 cucharadita de jugo de limón
@@ -1929,8 +1929,8 @@ Liqueurs. (Crema de cacao,
 de menta o de piña, cointreau,
 anís del Mono, benedictine, kirsh o kummel, drambuie).","RELLENO PARA EMPAREDADOS
 PINA Y QUESO",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-20/ed-1/seq-5/,,,
-"1 1-2 libras de papas 1 cucharada de sal 4 cucharadas de harina 2 tazas de picadillo para relle- no 1 huevo batido Hierva las papas y mójelas. Añada la sal, el huevo y la harina. Divida en 8 o 10 partes. Espolvorée las manos con harina y coja una parte de papa y extienda en forma circular Eche una cucharada de relleno. Cubra el relleno con la papa y forme botas o dele forma alargada si desea. Fríalas en manteca callente.",relleno de papas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-25/ed-1/seq-5/,,,
-"1 taza de crema de leche
+,"1 1-2 libras de papas 1 cucharada de sal 4 cucharadas de harina 2 tazas de picadillo para relle- no 1 huevo batido Hierva las papas y mójelas. Añada la sal, el huevo y la harina. Divida en 8 o 10 partes. Espolvorée las manos con harina y coja una parte de papa y extienda en forma circular Eche una cucharada de relleno. Cubra el relleno con la papa y forme botas o dele forma alargada si desea. Fríalas en manteca callente.",relleno de papas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-01-25/ed-1/seq-5/,,,
+,"1 taza de crema de leche
 1 cucharada de salsa mayonesa
 1-1-2 tazas de gajos de naran- jas partidos
 1 taza de piña en cuadritos
@@ -1945,7 +1945,7 @@ revuelva. Ponga en una gaveta
 de la nevera y deje endurecer
 lo suficiente para cortarla en rue- das y servirla sobre hojas de lechuga. Adorne con mayonesa •
 crema batida.",ensalada de frutas helada,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-02-02/ed-1/seq-5/,,,
-"Una serie de platos muy agrasbles pueden ser preparados con sobrantes de carne. Si un plato
+,"Una serie de platos muy agrasbles pueden ser preparados con sobrantes de carne. Si un plato
 de carne se prepara con una can- tidad suficiente que permita re- servar de él una porción, tendremos con muy poca tarea un pequeño plato muy apetitoso
 para completar un menú con el
 mínimo de gastos y forma agradable. A continuación damos un ejemplo de lo que puede hacerse: Los restos de “roast-beef” se cortan en tajaditas muy finas y
@@ -1956,7 +1956,7 @@ También las tajadas finas de carne se pasan por harina, después
 por huevo batido y se fríen, se
 acompañan con papas y verduras
 hervidas.",carne de roast-beef,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-02-06/ed-1/seq-5/,"This has the receta del dia heading but it s not a recipe, just a list of things you can do with leftover roast beef",,
-"Después de limpias y bien sa- zonadas se saltean las chuletas con manteca de vaca; una vez salteadas se colocan en una fuente, cubriéndolas con una salsa
+,"Después de limpias y bien sa- zonadas se saltean las chuletas con manteca de vaca; una vez salteadas se colocan en una fuente, cubriéndolas con una salsa
 española entomatada en la cual se habrá incluido una gran
 cantidad de champiñones cortados en tiritas.
 La fuente para este plato deberá ser ovalada y las chuletas
@@ -1964,9 +1964,9 @@ colocadas en el centro de ella;
 a los lados la guarnición, que
 consiste en tomate mondado cortado en trozos y fritos, en un lado de las chuletas y en el otro
 pimientos mondados, cortados en tiritas fritas en aceite.",chuletas a la murillo,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-02-19/ed-1/seq-5/,,,
-6 huevos 1 cebolla picada en pedacitos menudos 1 pimiento verde picado en pedacitos menudos 2 tomates picados en pedacitos menudos Bata los huevos bien y añada los ngredientes arriba mencionados. Fría en mantequilla o aceite revolviéndools.,"JARDINERA
+,6 huevos 1 cebolla picada en pedacitos menudos 1 pimiento verde picado en pedacitos menudos 2 tomates picados en pedacitos menudos Bata los huevos bien y añada los ngredientes arriba mencionados. Fría en mantequilla o aceite revolviéndools.,"JARDINERA
 REVOLTILLO A LA",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-02-21/ed-1/seq-5/,title unfinished in paper,,
-"2 huevos
+,"2 huevos
 1-4 cucharadita de sal
 2 cucharaditas de azúcar
 1-2 cucharadita de cáscara de
@@ -1981,8 +1981,8 @@ canela y seis cucharadas de aceite de oliva. Se le agrega la harina cernida y cu
 deja reposar 30 minutos. Se la
 extiende, se la corta en cuadrados y luego de envolverlos ligeramente, se los fríe en aceite muy
 caliente y se los recubre de azúcar.",festinos,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-02-22/ed-1/seq-5/,,,
-"1-2 kilo de harina 3 huevos Agua tibia previamente salada 1 cebolla bien picada 1 cucharada de mantequilla 1 lata de maíz desgranado 1 taza de caldo Salsa blanca condimentada y con sal. Forme una masa blanda con la harina, dos huevos y el agua tibia. Estire la masa y corte cua- drados de diez centímetros. Cocínelos uno a uno en agua hirviendo, hasta que estén a punto. Prepare el siguiente relleno: fría una cebolla bien picada en una cucharada de mantequilla. Coloque luego el contenido de una lata de maíz desgranado, una tasa de caldo, condimente y deje hervir unos minutos. Retírelo del fuego y agréguele dos hue- vos duros desmenuzados y sal- sa blanca. Rellene con esta preparación los canelones y enróllelos. Colóquelos en una fuente y cúbralos con una salsa de tomates, en la cual se han cocinado chorizos españoles desmenusados.",canelones con maiz,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-02-23/ed-1/seq-5/,,,
-"2 libras de manchego
+,"1-2 kilo de harina 3 huevos Agua tibia previamente salada 1 cebolla bien picada 1 cucharada de mantequilla 1 lata de maíz desgranado 1 taza de caldo Salsa blanca condimentada y con sal. Forme una masa blanda con la harina, dos huevos y el agua tibia. Estire la masa y corte cua- drados de diez centímetros. Cocínelos uno a uno en agua hirviendo, hasta que estén a punto. Prepare el siguiente relleno: fría una cebolla bien picada en una cucharada de mantequilla. Coloque luego el contenido de una lata de maíz desgranado, una tasa de caldo, condimente y deje hervir unos minutos. Retírelo del fuego y agréguele dos hue- vos duros desmenuzados y sal- sa blanca. Rellene con esta preparación los canelones y enróllelos. Colóquelos en una fuente y cúbralos con una salsa de tomates, en la cual se han cocinado chorizos españoles desmenusados.",canelones con maiz,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-02-23/ed-1/seq-5/,,,
+,"2 libras de manchego
 1 libra de tomates rebanados
 2 cebollas rebanadas
 1-2 taza de aceite
@@ -1995,7 +1995,7 @@ ponga el pescado, luego encima
 las rebanadas de tomates y las
 de cebolla y los ajos. Tape la ca- zuela y cueza a fuego lento. Si
 desea, puede cocer el pescado en un horno.",pescado entomatado,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-02-26/ed-1/seq-5/,,,
-"1 coco seco grande 1/4 taza de agüe caliente < yemas de huevos
+,"1 coco seco grande 1/4 taza de agüe caliente < yemas de huevos
 2 tazas de azúcar
 1-2 taza de agua
 1 raja de canela
@@ -2007,7 +2007,7 @@ de leche. Bata lee yemas y añádale la leche del coco, el almíbar y la canela.
 de María o a fuego lento, moviendo constantemente, haeta que
 espese un poco. Vierta sobre el
 biacoche.",bienmesabe,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-01/ed-1/seq-5/,,,
-"1 libra de batata hervida ..
+,"1 libra de batata hervida ..
 3 cucharadas de mantequilla
 derretida
 1-2 taza de azúcar mascabado
@@ -2020,7 +2020,7 @@ los demás ingredientes y mezcle bien. Vierta en un molde
 engrasado y cueza en horno de
 calor moderado por 30 minutos.","BUDIN DE BATATA Y
 NARANJA",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-02/ed-1/seq-5/,,,
-"COCINA HUNGARA
+,"COCINA HUNGARA
 FILETES DE HIGADO
 A LA MARSALA Cortar unos filetes de hígado
 tacándole la telita y los nervios y pasarlos por harina; con- dimentar con sal.
@@ -2029,7 +2029,7 @@ tacita de aceite, calentar bien y
 dorar los bises; agregarles después una hoja de laurel, 50 gramos de manteca, un vaso de vi- no Marsala, tapar y dejar hervir despacito hasta que los filetes estén cocidos y la salsa reducida. \
 Servirlos acompañados con es- pinacas cocidas y rociadas con
 manteca y papas cocidas",filetes de higado a la marsala,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-05/ed-1/seq-5/,recipe duplicated but has slightly different title,,
-"4 tazas de agua
+,"4 tazas de agua
 1 taza de'harina de maíz
 1 cucharadita de sal
 1 cucharada de manteca de
@@ -2038,7 +2038,7 @@ Una el agua, la harina y la sal
 y cueza a fuego'lento, moviendo
 constantemente hasta que espe- se. Añada la manteca de cerdo
 y revuelva. Sirva caliente.",funche,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-06/ed-1/seq-5/,,,
-"3 tazas de harina de trigo
+,"3 tazas de harina de trigo
 1-8 cucharadita de sal
 1 taza de azúcar
 1 taza de manteca vegetal
@@ -2055,7 +2055,7 @@ y coloque en el molde; aplaste
 un poco para darle forma redonda. Cueza en horno de calor
 moderado <350 grado F) por 10
 minutos.",polvorones,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-10/ed-1/seq-5/,,,
-"2 tazas de arroz cocido
+,"2 tazas de arroz cocido
 1 huevo batido 1/4 cucharadita de sal
 1/4 cucharadita de pimienta
 2 cucharadas de perejil picado
@@ -2065,7 +2065,7 @@ minutos.",polvorones,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-
 1/4 cucharadita de sal 1/2 libra de manteca
 Al arroz cocido añádale el
 huevo, la pimienta, la sal, el perejil y la leche y forme las croquetas. Reboce. Fría en manteca caliente y abundante y escurra sobre papel absorbente.",croquetas de arroz,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-12/ed-1/seq-5/,,,
-"1-4 libra de queso americano
+,"1-4 libra de queso americano
 6 huevos batidos
 1 cucharadita de sal
 1-3 cucharadita de pimienta
@@ -2077,7 +2077,7 @@ el huevo. Cueza a fuego lento
 revolviendo de vez en cuando.
 Retire del fuego cuando el huevo
 esté cocido. Sirva caliente.",revoltillo de queso,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-13/ed-1/seq-5/,,,
-"2 tazas de harina de trigo
+,"2 tazas de harina de trigo
 3-4 cucharadita de sal
 1-2 taza de mantequilla
 Agua con hielo
@@ -2087,7 +2087,7 @@ Corte círculos pequeños y acomo- de en moldecitos individuales.
 Pinche la masa del fondo. Ponga
 el horno a 450 grados F durante
 10 minutos. Rellene con frutas o crema.",pastelillos de frutas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-14/ed-1/seq-5/,,,
-"6 ruedas de colirubia
+,"6 ruedas de colirubia
 Sal a gusto
 Jugo de limón
 Pimienta a gusto
@@ -2100,7 +2100,7 @@ con sal, jugo de limón y pimienta. Guárdelas en sitio fresco. Envuelva en pan 
 Mezcle el huevo batido con perecado. Envuelva de nuevo en pan
 y queso rallado y fría en aceite
 caliente.",pescado a la milanese,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-15/ed-1/seq-5/,,,
-"2 libras de papas hervidas
+,"2 libras de papas hervidas
 3 cucharadas de mantequilla
 1 huevo batido
 1 cucharada de sal
@@ -2112,7 +2112,7 @@ en un molde engrasado y haga
 un hoyo en el centro. Parta y
 eche un huevo en cada hoyo. Espolvoree con sal y ponga en un horno de calor moderado hasta
 que el huevo esté cocido.",huevos en nido,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-16/ed-1/seq-5/,,,
-"2 mazos de acelgas
+,"2 mazos de acelgas
 2 tazas de agua
 1 cucharada de sal
 1-2 taza de aceite
@@ -2121,7 +2121,7 @@ que el huevo esté cocido.",huevos en nido,https://chroniclingamerica.loc.gov/lc
 1-4 cucharadita de pimienta
 Lave y hierva las acelgas ligeramente,. no más de cinco minutos. Escurra y pártalas en pedazos. Mezcle el aceite, el vinagre
 la sal y la pimienta y vierta sobre las acelgas. Adorne con rue- das de cebolla y tomate.",ensalada de acelgas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-17/ed-1/seq-5/,,,
-"4 yemas
+,"4 yemas
 3-4 taza de azúcar
 1-2 cucharadita de sal
 6 cucharadas de maicena
@@ -2135,14 +2135,14 @@ Agregue el limón y la leche poco a poco a las yemas. Cueza
 en baño de María o a fuego lento. Cuando esté, vierta en platillos hondos. Bata las claras,
 añada el azúcar y adorne la cre- ma. En vez de merengue, se
 vierte un poco de caramelo en- cima o se espolvorea canela.",crema,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-22/ed-1/seq-5/,,,
-"4 tazas de leche
+,"4 tazas de leche
 Cáscara de 1-2 limón
 5 claras batidas
 1 1-4 taza de azúcar
 Hierva la leche con cáscara
 de limón. Añada el azúcar y las
 claras poco a poco. Cueza en baño de María por 5 minutos. Cuele y enfrie.",leche merengada,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-23/ed-1/seq-5/,,,
-"1-1-2 libras de riñones
+,"1-1-2 libras de riñones
 1 cebolla picada
 4 cucharadas de mantequilla o aciete
 1-2 cucharada de tal
@@ -2154,7 +2154,7 @@ mantequilla o el aceite y añada
 los riñones, la sal y la pimienta.
 Cueza a fuego lento por 20 minutos. Añada el vino. Sirva tan
 pronto estén.",riñones al jerez,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-03-29/ed-1/seq-5/,,,
-"Sofrito .
+,"Sofrito .
 5 butifarras partidas
 1 1/2 libra de arroz
 1 cucharadita de sal
@@ -2165,8 +2165,8 @@ y sazone a gusto. Cueza hasta
 que el arroz esté un poco seco,
 baje el fuego, revuelva dos o
 tres veces y conserve tapado hasta el momento de servirlo.",arroz con butifarras,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-02/ed-1/seq-5/,,,
-"2 cebollas grandes 2 tazas de picadillo para relle- no 1-4 cucharadita de sal 1 huevo batido Hierva las cebollas. Sáquelas del agua cuando estén un poco blandas y deje enfriar. Separe las capas empujándolas por debajo y sacando las del centro primero. Tenga cuidado que éstas no se partan. Para que las capas salgan con facilidad, corte una rebanada muy fina en la parte que corresponde al tallo y a la raíz. Con una cucharita rellene cada capa y reboce los etxremos de modo que el huevo los cubra y la carne no se salga. Fría en manteca caliente.",cebolla a la reina,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-03/ed-1/seq-5/,,,
-"1-2 taza de caldo de pollo
+,"2 cebollas grandes 2 tazas de picadillo para relle- no 1-4 cucharadita de sal 1 huevo batido Hierva las cebollas. Sáquelas del agua cuando estén un poco blandas y deje enfriar. Separe las capas empujándolas por debajo y sacando las del centro primero. Tenga cuidado que éstas no se partan. Para que las capas salgan con facilidad, corte una rebanada muy fina en la parte que corresponde al tallo y a la raíz. Con una cucharita rellene cada capa y reboce los etxremos de modo que el huevo los cubra y la carne no se salga. Fría en manteca caliente.",cebolla a la reina,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-03/ed-1/seq-5/,,,
+,"1-2 taza de caldo de pollo
 1-2 taza de vinagre
 5 yemas huevo
 2 cucharadas de mostaza pre
@@ -2179,7 +2179,7 @@ mostaza, la sal, la pimienta y el
 vinagre. Añada el caldo de pollo y cueza en baño de Maria
 moviendo constantemente hasta
 que espese. Cuele, añada la mantequilla y crema de leche, y deje enfriar.",salsa para ensalada de pollo,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-04/ed-1/seq-5/,,,
-"6 rebanadas de pan viejo
+,"6 rebanadas de pan viejo
 Queso rallado
 Tocineta (Bacon)
 Corte las seis rebanadas de pan
@@ -2188,7 +2188,7 @@ de tocineta y caliente en el horno para que el queso se derrita
 y el pan se tueste un poco. Sirva en -
 uartos (esto debe hacerse antes de ponerle el queso y la
 tocineta y meterla al horno).",tostadas de queso,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-05/ed-1/seq-5/,,,
-"COCINA ARGENTINA
+,"COCINA ARGENTINA
 SALPICON DE PESCADO CON
 MAYONESA
 1 hilo de pescado
@@ -2212,7 +2212,7 @@ Con la mayonesa se cubre el
 pescado decorándolo al mismo
 tiempo; se adorna con laminas
 de trufas y gelatina de carne congelada y picada",SALPICON DE PESCADO CON MAYONESA,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-12/ed-1/seq-5/,,,
-"1 lata de caballa en aceite
+,"1 lata de caballa en aceite
 (tún)
 3 papas cociadas
 2 huevos duros
@@ -2231,14 +2231,14 @@ cortado en trocitos, la cebolla,
 la caballa condimentar con sal,
 aceite y limón y adornar con tomate, rodajas de huevo duro y
 las aceitunas.",ensalada marinera,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-16/ed-1/seq-5/,,,
-"Una molleja de ternera o va- rias de cordero cortadas a peda- citos, salteadas a fuego vivo con
+,"Una molleja de ternera o va- rias de cordero cortadas a peda- citos, salteadas a fuego vivo con
 manteca, cebolla picada, sal, pimienta y un poco de Jérez y perejil picado. En una sartén se
 ffíe un poco de cebolla picada
 y jamón, en seguida que se do- re algo, se echan 6 huevos batidos c#n sal, perejil picado y algo de queso rallado. Darle for- ma redonda y plana, dorada por
 ambos lados. Puesta la tortilla en medio de la fuente encima
 de ella y formando Un grupo
 se popen las mollejas con su jugo, y en cada extremo de la fuente una cucharada de tomate picado y frito, bien sazonado.",Tortilla Madrid-Goyesco,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-21/ed-1/seq-5/,,,
-"4 pepinillos
+,"4 pepinillos
 1 Pimiento verde picado
 1 Pimiento maduro picado
 1 cebolla picada
@@ -2249,7 +2249,7 @@ Lave y parta los pepinillos a lo largo. Saque la pulpa sin romperlos. Mezcle los
 cebolla con el aliño. Rellene los
 botecitos y sívalos sobre hojas
 de lechuga.",botecitos de pepinillos,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-23/ed-1/seq-5/,,,
-"Cortado el hígado en pedacitos
+,"Cortado el hígado en pedacitos
 pequeños y delgadísimos, momen- tos antes de servir, se saltea al
 fuego muy vivo en un sartén con aceite o manteca, y un poco
 de cebolla trinchada, pasados
@@ -2260,7 +2260,7 @@ buen chorro de vino blanco, tinto o jerez, un poquito de salsa
 de tomate o champiñones. Se retira del fuego, se sirve enseguida ccfa guarnición de costrones
 por el borde de la fuente, papas
 fritas servidas aparte.",HIGADO DE TERNERA SALTEADO AL VINO BLANCO,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-24/ed-1/seq-5/,,,
-"1 taza de agua
+,"1 taza de agua
 1 taza de azúcar
 I taza de jugo de limón
 1-2 taza de jugo de toronja
@@ -2269,7 +2269,7 @@ Caliente el agua y disuelva el
 azúcar Enfríe, añada los jugos el
 agua y la cerveza en el momento
 de servirse.",ponche de limon y cerveza,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-25/ed-1/seq-5/,,,
-"1-2 taza de almendras
+,"1-2 taza de almendras
 1 1-2 tazas de agua caliente
 2 tazas de agua tibia
 1-2 taza de azúcar
@@ -2277,7 +2277,7 @@ Ponga las almendras en el
 agua caliente 5 minutos para
 quitarles la cáscara. Proceda como en la receta anterior. Sirva
 bien fría y adorne con una cere- ta.",horchata de almendras,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-04-26/ed-1/seq-5/,,,
-"4 tazas de arroz cocido
+,"4 tazas de arroz cocido
 1 taza de tomates majados
 1 taza de queso rallado (Holandés o americano)
 1 taza de pimientos picados
@@ -2286,7 +2286,7 @@ Sal a gusto
 Una todo bien y póngalo en un molde engrasado Cueza por
 20 minutos en horno de calor
 moderado (350 grados F.)",arroz con tomate y queso,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-01/ed-1/seq-5/,,,
-"1 taza de azúcar
+,"1 taza de azúcar
 1-3 taza de agua
 1 cucharada de mantequilla
 1 cucharada de jugo de limón
@@ -2294,7 +2294,7 @@ Hierva el agua con el azúcar
 hasta que el sirope esté espeso.
 Añada la mantequilla y el jugo
 de limón.",salsa de limon,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-04/ed-1/seq-5/,,,
-"4 cucharadas de mantequilla
+,"4 cucharadas de mantequilla
 8 cucharadas de harina de trigo
 2 tazas de queso partido en cuadritos
 1-2 taza de queso parmesano
@@ -2312,13 +2312,13 @@ forma de croquetas y reboce.
 Fríalas en manteca caliente y
 abundante y escurra en papel
 absorbente. Sirva caliente.",croquetas de queso,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-05/ed-1/seq-5/,,,
-"En un tazón poner 500 gramos
+,"En un tazón poner 500 gramos
 de harina una taza de nueces picadas algo grandes, una pizca de
 sal. 4 cucharadas de azúcar molida. 4 cucharadas de polvo de
 levadura, mezclar todo bien.
 Aparte, batir ligeramente 1 hue- vo agregarle taza y media de leche v unir coa los otros ingre-
 dientes, revolver con una cuchara de madera y colocar en un molde enmantecado y enharinada, cocinando a fuego lento durante 1 hora y cuarto más o menos",pan de nueces,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-07/ed-1/seq-5/,,,
-"COCINA ARGENTINA
+,"COCINA ARGENTINA
 BROTOLA A I,A HOLANDESA
 Limpiar bien una brótola,
 (abrirla a lo largo por la parte
@@ -2332,7 +2332,7 @@ durante 20 minutos.
 Una vez cocinada, se coloca en la fuente, se cubre con salsa
 holandesa y se adorna alrededor con rodajas de limón y perejil
 crespo.",BROTOLA A LA HOLANDESA,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-08/ed-1/seq-5/,,,
-"1/4 libra de mantequilla
+,"1/4 libra de mantequilla
 1/4 libra de azúcar
 2 bananas maduras majadas
 1 huevo batido
@@ -2346,7 +2346,7 @@ mezcle bien. Eche la masa por
 cucharaditas en un molde engrasado y cueza en horno de calor
 moderado (356 grados F) por II
 minutos.",galletitas de banana,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-10/ed-1/seq-5/,,,
-"En una olla de boca ancha se pone aceite crudo, media hoja de laurel y bastante cebolla
+,"En una olla de boca ancha se pone aceite crudo, media hoja de laurel y bastante cebolla
 picada. También en crudo se hedían papas cortadas en pedazos.
 Cuando estén bien rehogadas
 y un poco doradas se añaden dos
@@ -2355,7 +2355,7 @@ crudos en una taza con agua, y
 se tapa. Luego se hace una picada de perejil con pimienta y
 se deja cocer hasta que tome
 punto para servirlo.",bacalao zaragozano,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-11/ed-1/seq-5/,,,
-"6 raciones
+,"6 raciones
 Pasta
 4 tazas deharina de trigo
 1 1-2 cucharadita de sal
@@ -2409,7 +2409,7 @@ cueza a luego lento y tapado hasta que el pollo esté blando. Ehe
 las papas un poco antes de re- tirar el pollo del fuego. Separe
 la carne de los huesos y rellene
 el pastelón.",pastelon de pollo,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-14/ed-1/seq-5/,,,
-"3 huevos
+,"3 huevos
 1-2 taza de azúcar
 1-4 curharadita de esencia de
 vainilla
@@ -2421,7 +2421,7 @@ tamizan juntos la harina y el
 polvo de hornear revolviéndolos
 lentamente al agregarlos. Se mez- cla bien y se vierte en una asa- dera forrada con papel enman- tecado Se cuece en horno ca- liente durante 8 minutos. Se desmolda sobre un repasador espolvoreado con azúcar, se quita rápidamente el papel y se corta en 12 cuadros que se doblan por
 los dos extremos opuestos y se sujetan con un palillo hasta que se enfríen. Una vez fríos se rellenan con crema Chantilly.",panuelitos de crema,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-15/ed-1/seq-5/,,,
-"INGREDIENTES.— 1 lata de
+,"INGREDIENTES.— 1 lata de
 leche evaporada.
 2 cucharaditas de vainilla
 1-8 cucharadita de sal.
@@ -2437,7 +2437,7 @@ en el batido. Se añade una yema
 de huvo bien fría y cuando se ligue bien se añade la segunda.
 Se vierte el batido en ais gavetas para helado previamente en- friadas. Se enfría hasta que esté
 firme",helado de vainilla,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-16/ed-1/seq-5/,,,
-"Creación del Jefe de Cocina
+,"Creación del Jefe de Cocina
 Antoine Guirod, del célebre
 restaurante Café de París,
 de París
@@ -2458,10 +2458,10 @@ salsa uniéndoles las patitas mondas, llenénse ahora con la carne de la langost
 que penetre bien al interior, es- polovorése este salseado con
 abundante queso palmesano ra- llado.
 entrar e",langosta thermidor,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-18/ed-1/seq-5/,,,
-"Los filetes, bien cortados se aplastan y se sazonan con sal, se humedecen con mantequilla y se pasan por encima de pan rallado. Se asan a la parilla 10 o 12 minutos antes de servirlos. Se les sigue rebozando con mantequilla. Se parten berenjenas por la mitad, a lo largo, y se vacían. Se fríen en aceite la parte que se extrajo de la berenjena, cebolla, ajo, filetes de anchoa, hue- vo duro cortado por la mitad, perejil, sal y pimienta, Luego se llenan, se les pone queso rallado por encima y se ponen al horno. Se sirven rodeando los filetes de carnero.","A LA MARSELLESA
+,"Los filetes, bien cortados se aplastan y se sazonan con sal, se humedecen con mantequilla y se pasan por encima de pan rallado. Se asan a la parilla 10 o 12 minutos antes de servirlos. Se les sigue rebozando con mantequilla. Se parten berenjenas por la mitad, a lo largo, y se vacían. Se fríen en aceite la parte que se extrajo de la berenjena, cebolla, ajo, filetes de anchoa, hue- vo duro cortado por la mitad, perejil, sal y pimienta, Luego se llenan, se les pone queso rallado por encima y se ponen al horno. Se sirven rodeando los filetes de carnero.","A LA MARSELLESA
 FILETES DE CARNERO CON
 BERENJENAS",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-22/ed-1/seq-5/,,,
-"Preparar 8 berenjenas, sacar- les el tronquito, y ponerlas a cocinar en agua con 1 cucharada
+,"Preparar 8 berenjenas, sacar- les el tronquito, y ponerlas a cocinar en agua con 1 cucharada
 de sal. Una vez cocinadas pasarlas por el colador, sacarles la
 cascarita fina y cortarlas en rodajas a lo largo.
 Poner en una cartén Vi taza
@@ -2474,16 +2474,16 @@ En otra sartén se fríen en aceite las berenjenas, cuando estén
 listas se colocan en una fuente
 y se les pone encima la salsa
 de la otra sartén.",berenjenas a la napolitana,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-24/ed-1/seq-5/,,,
-"Poner en un tazón tres cucharadas de harina, 300 gramos de
+,"Poner en un tazón tres cucharadas de harina, 300 gramos de
 azúcar molido, dos barras de chocolate rallado, 1 cucharada de
 esencia de vainilla y 5 yemas de
 huevo, revolver todo con el batidor y agregarle 1-2 litro de leche: poner a fuego lento mien- tras se continúa revolviendo hasta espesar. Se retira del fuego,
 se deja enfriar 10 minutos, y se le añaden 5 claras batidas a nieve, se mezcla revolviendo suave- mente y se vacía en un molde en- grasado. 'Se coloca en horno
 de calor moderado durante 40 o 45 minutos.","POSTRE ARGENTINO
 SOPLADO DE CHOCOLATE",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-25/ed-1/seq-5/,,,
-"Para dos personas pondremos una cacerola pequeña sobre fuego con manteca, 4 6 6 cebollas pequeñitas, medio cocidas antes con agua, 50 gramos de jamón a pedacitos, rehogúese y mójese con un vasito de vino blanco, perejil picado, unos guisantes co- cidos, que le aumente un poco la salsa o jugo de carne guisada, un poquitín de caldo, y tres o cuatro huevos duros cortados por la mitad a lo largo. En con- junto con una salsilla corta. Los huevos unirlos al guiso cuando esté todo bien cocido.","HUEVOS DUROS A LA BUENA
+,"Para dos personas pondremos una cacerola pequeña sobre fuego con manteca, 4 6 6 cebollas pequeñitas, medio cocidas antes con agua, 50 gramos de jamón a pedacitos, rehogúese y mójese con un vasito de vino blanco, perejil picado, unos guisantes co- cidos, que le aumente un poco la salsa o jugo de carne guisada, un poquitín de caldo, y tres o cuatro huevos duros cortados por la mitad a lo largo. En con- junto con una salsilla corta. Los huevos unirlos al guiso cuando esté todo bien cocido.","HUEVOS DUROS A LA BUENA
 MUJER",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-28/ed-1/seq-5/,,,
-"34 de kg. de carne picada
+,"34 de kg. de carne picada
 1-2 taza de cebolla picada fina,
 2 cucharadas de harina
 1-2 cucharada de vinagre
@@ -2502,26 +2502,26 @@ Póngalo a cocer a horon fuerte
 (240 grado C.) de 45 minutos a
 1 hora (depende del grosor que
 le haya dado). Sírvalo en la mis- ma fuente. Cantidad para 6 per- sonas.",carne mechada a la inglesa,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-29/ed-1/seq-5/,,,
-"4 berenjenas
+,"4 berenjenas
 2 tazas de picadillo para relio- no
 2 cucharadas de harina de trigo
 2 huevos batidos
 Manteca
 Parta las berenjenas a lo largo, cueza hasta que ablanden. Saque la pulpa con cuidado y mez- cle con el picadillo. Rellene las
 berenjenas. Una el huevo, la harina y la sal y cúbralas. Frialas.",berenjena rellena,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-30/ed-1/seq-5/,,,
-"(PARA DOS PERSONAS)
+,"(PARA DOS PERSONAS)
 En una sartén con dos cucharadas, de las de sopa, de aceite
 freír dos ajos hasta que tomen color: en este punto se le
 echan 50 gramos de pan cortado en rebanadas finas, rehúguese echando un poqo de pimentón de Murcia, y mojarlas en seguida con medio liltrt» de agua,
 y la sal correspondiente: calculando una sopa papa seis personas, póngase 2 litnos de agua.","SOPA DE AJO A LA
 MADRILEÑA",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-05-31/ed-1/seq-5/,,,
-"1-1-2 libras de carne de cerdo 1 cucharada de sal 4 cucharadas de mantequilla 1-4 cucharadita de pimienta 9 cucharadas de harina de trido 1-1-2 tazas de leche 3 huevos batidos 1-2 cucharadita de sal 1-1-2 taza de polvo de galletas 1 libra de manteca Muela la carne de cerdo, añada la sal y cueza a fuego lento hasta que la carne esté cocida. Prepare una salsa blanca espesa con la mantequilla, la sal, la pimienta, la harina, y la leche. Añada la cebolla a la carne y mueva hasta que se forme una masa que se desprenda del caldero, retírela del fuego y deje enfriar. Dele forma de croqueta y reboce en el huevo batido y polvo de galleta. Fría en man- teca caliente y abundante y escurra sobre papel absorbente.",croquetas de carne de cerdo,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-04/ed-1/seq-5/,,,
-"Lasagna es una forma de pasta italiana ancha y rizada. Cocidas en su punto, estas cintas
+,"1-1-2 libras de carne de cerdo 1 cucharada de sal 4 cucharadas de mantequilla 1-4 cucharadita de pimienta 9 cucharadas de harina de trido 1-1-2 tazas de leche 3 huevos batidos 1-2 cucharadita de sal 1-1-2 taza de polvo de galletas 1 libra de manteca Muela la carne de cerdo, añada la sal y cueza a fuego lento hasta que la carne esté cocida. Prepare una salsa blanca espesa con la mantequilla, la sal, la pimienta, la harina, y la leche. Añada la cebolla a la carne y mueva hasta que se forme una masa que se desprenda del caldero, retírela del fuego y deje enfriar. Dele forma de croqueta y reboce en el huevo batido y polvo de galleta. Fría en man- teca caliente y abundante y escurra sobre papel absorbente.",croquetas de carne de cerdo,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-04/ed-1/seq-5/,,,
+,"Lasagna es una forma de pasta italiana ancha y rizada. Cocidas en su punto, estas cintas
 de pasta se pasan por agua corriente, ya bien escurridas se fríen en aceite y pasado un minuto o dos se le añade una can- tidad regular de jugo de
 de res, dejándose estofar nn poco.Se unta con matequilla un molde de hornear, y se echa la mitad de la lasagna, encima se cubre de menudos de ave y pedacitos de carne guisados. Sobre
 esta capa de menudillos, una vez espolvoreada de queso, se colocan las cintas restantes que hemos estofado y se rocía la su- perficie de éstas con un poco
 de jugo de caree y queso rallado. Se hornean hasta dorarlos.",lasagna a la romana,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-05/ed-1/seq-5/,,,
-"Un filete de tercera, sal, pimienta, 1/4 taza de aceite, harina,
+,"Un filete de tercera, sal, pimienta, 1/4 taza de aceite, harina,
 2 dientes de ajo, un ramito de
 hierbas aromáticas, (puede ser perejil), una cebolla cortada en ruedas, 2 vasos de vino seco, 3
 cucharadas de mantequilla, 4 cu- charadas de salsa de tomate, un cucharón de caldo, cebollitas
@@ -2534,7 +2534,7 @@ punto, espesar la salsa con la
 harina y servir la carne acom- pañada con las cebollas y las
 zanahorias.","TERNERA CON CEBOLLAS
 Y SALSA DE CREMA",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-07/ed-1/seq-5/,,,
-"Se fríen en manteca caliente
+,"Se fríen en manteca caliente
 (o aceite) hasta dorar.
 Se retiran del fuego y se colocan, preferiblemente en una cacerola de barro.
 En la grasa de las chuletas se
@@ -2546,7 +2546,7 @@ cortado en ruedas. Se vierte esto en el horno hasta estar cocidas.
 AI sacarlas se cubren con rue- das de chorizos cortadas muy finamente, se vuelven a meter al
 horno hasta que el chorizo se derrita un poco.","CHULETAS DE CERDO
 O DE CORDERO",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-09/ed-1/seq-5/,,,
-"Se corta en ruedas finas un
+,"Se corta en ruedas finas un
 pepino grande y se deja en agua
 de sal un par de horas. Se retira
 del agua, se corta igual cantidad de ruedas pequeñas de tomates, y se sazonan ambas cosas con aceite, vinagre y mostaza.
@@ -2559,8 +2559,8 @@ dazito de pimiento morrón so- bre la yema. Antes de servir se rocía con una sa
 aceite, vinagre, sal, pimienta
 blanca en polvo y una cucharada
 de nata de leche.",ENSALADA RAQUEL MELLER,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-11/ed-1/seq-5/,,,
-"150 gramos de mantequilla 1 1-2 tazas de azúcar 4 yemas 2 tazas de harina 2 cucharaditas de Polvo Royal 1-4 cucharadita de sal 1 taza de leche 2 1-2 barritas de chocolate 1 taza de nueces picadas 4 ciaras Se bate la mantequilla hasta que esté cremosa, se le agrega el azúcar poco a poco y se sigue batiendo, luego se añaden las yemas una a una. Aparte se tamizan juntos la harina, el Polvo Royal y la sal, y se van añadiendo en pequeñas cantidades a la primera preparación, alternando con la leche. Antes de incorporarse las últimas cucharadas de harina se agrega el chocolate derretido al baño de María, las nueces picadas y las claras batidas a nieve. Se vierte en un molde redondo enmantecado y enharinado y se cuece en horno moderado durante 1 hora y 10 mintuos. Se saca del molde dejando que se enfríe y luego se cubren los lados y la superficie con azucarado y se salpican con trocitos de chocolate.",BIZCOCHO AMERICANO,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-14/ed-1/seq-5/,,,
-"6 huevos
+,"150 gramos de mantequilla 1 1-2 tazas de azúcar 4 yemas 2 tazas de harina 2 cucharaditas de Polvo Royal 1-4 cucharadita de sal 1 taza de leche 2 1-2 barritas de chocolate 1 taza de nueces picadas 4 ciaras Se bate la mantequilla hasta que esté cremosa, se le agrega el azúcar poco a poco y se sigue batiendo, luego se añaden las yemas una a una. Aparte se tamizan juntos la harina, el Polvo Royal y la sal, y se van añadiendo en pequeñas cantidades a la primera preparación, alternando con la leche. Antes de incorporarse las últimas cucharadas de harina se agrega el chocolate derretido al baño de María, las nueces picadas y las claras batidas a nieve. Se vierte en un molde redondo enmantecado y enharinado y se cuece en horno moderado durante 1 hora y 10 mintuos. Se saca del molde dejando que se enfríe y luego se cubren los lados y la superficie con azucarado y se salpican con trocitos de chocolate.",BIZCOCHO AMERICANO,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-14/ed-1/seq-5/,,,
+,"6 huevos
 Sal a gusto
 3 cucharadas grandes de so- breasada
 1 pimiento cortado en pedacitos finos
@@ -2572,7 +2572,7 @@ añade la sal, el pimiento, la ce- bolla y el jamón. Se pone en la
 sartén una cucharadita de man- tequilla y la sobreasada y una vez que está mezclada la mante- quilla y la sobreasada se vierten
 los huevos ya batidos y unidos con los demás ingredientes.","REVOLTILLO A LA
 CASTELLANA",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-15/ed-1/seq-5/,,,
-"Preparar un conejo cortado en
+,"Preparar un conejo cortado en
 trozos, condimentar con sal, y
 pimienta y freír ligeramente en
 una sartén con un poquito de
@@ -2585,7 +2585,7 @@ y 2 tazas 'de aceite, 1-2 tomate,
 tapar la enceróla y dejar hervir v
 hasta que el conejo esté cocido
 y la salsa reducida.",conejo en escabeche,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-20/ed-1/seq-5/,,,
-"COCINA RUMANA
+,"COCINA RUMANA
 TOCANA DE CARTOFI 2 cucharadas de mantequilla
 2 cuchiaradas.de harina
 2 cucharaditas de sal
@@ -2603,7 +2603,7 @@ despacio la taza de caldo, mue- va constantemente hasta llegar
 al punto de hervor. Añada las papas y mueva. Cubra la cacerola y
 cueza con calor moderado durante 15- minutos. Añada la cre- ma y cueza 5 minutos más.","
 TOCANA DE CARTOFI",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-23/ed-1/seq-5/,,,
-"3 cucharadas ai ras de Maize- na.
+,"3 cucharadas ai ras de Maize- na.
 3-4 litro de leche
 Esencia de vainilla
 4 claras batidas a nieve
@@ -2612,9 +2612,9 @@ Esencia de vainilla
 Si prefiere la crema más floja prepárela con más leche. Bata las claras a punto de merengue consistente. Hierva la leche con la vainilla. Eche la preparación de las claras por cucharadas y deje que se cocinen unos minutos. Saque los copos de merengue y escúrralos sobre un co- lador. Cuele la leche, bata las yemas con el azúcar y agréguele la
 leche tibia y la Maizena disuelta previamente. Cocine la cre- ma, revolviendo hasta que hierva
 y se espese. Sirva en una compo- ta colocando los copos y decórelos con trocitos de jalea o frutas. Enfríe bien antes de servir.",isla flotante,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-25/ed-1/seq-5/,,,
-"6 bistecs de lomo pimienta 6 rebanadas de pan Aceite Papas y zanahorias 1-2 kilo de lentejas Remolachas Mantequilla Salsa Holandesa Prepare los bistecs de la parte del medio w de dos dedos de alto, átelos con Un cordelito, dándoles forma redonda, condiméntelos con sal y pimienta y áselos a la parrilla o plancha, o frialos en aceite. Fría (amhicn en aceite las re- banadas de pan, dejando que se doren. Cueza separadamente papas y zanahorias así como las lentejas; cueza también unas remolachas. Añádale la salsa holande- sa. j Se colocan las rebanadas de pan en una fuente, sobre ellas los bistecs sin el cordelito, se cubren con la salsa y alrededor se colocan las verduras intercaladas.","BIFTEC DE LOMO A LA
+,"6 bistecs de lomo pimienta 6 rebanadas de pan Aceite Papas y zanahorias 1-2 kilo de lentejas Remolachas Mantequilla Salsa Holandesa Prepare los bistecs de la parte del medio w de dos dedos de alto, átelos con Un cordelito, dándoles forma redonda, condiméntelos con sal y pimienta y áselos a la parrilla o plancha, o frialos en aceite. Fría (amhicn en aceite las re- banadas de pan, dejando que se doren. Cueza separadamente papas y zanahorias así como las lentejas; cueza también unas remolachas. Añádale la salsa holande- sa. j Se colocan las rebanadas de pan en una fuente, sobre ellas los bistecs sin el cordelito, se cubren con la salsa y alrededor se colocan las verduras intercaladas.","BIFTEC DE LOMO A LA
 HOLANDESA",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-26/ed-1/seq-5/,,,
-"12 perdices
+,"12 perdices
 9 dientes de ajo
 3 hojas de laurel
 6 zanahorias
@@ -2630,7 +2630,7 @@ las cebollas en rodajitas, el to- mate abierto por la mitad, el limón, la pimie
 vinagre, el vino y el aceite; con- dimiente con sal, tape la cacero- la y deje hervir a fuego lento
 hasta que las perdices estén co- cidas y la salsa algo reducida. Ei
 preferible servirlas frías.",PERDICES EN ESCABECHE,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-28/ed-1/seq-5/,,,
-"1 gallina grande
+,"1 gallina grande
 Sal a gusto
 Pimienta a gusto
 70 grs. de mantequilla
@@ -2653,9 +2653,9 @@ continúe hirviendo otro momen- to y se le agrega la batata. Se
 deja cocinar todo En la sopera
 en que ha de servirse se pone
 un huevo y 4 yemas y se revuel- ve un poco; se le agrega la cazuela caliente y se sirve.",CAZUELA CHILENA,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-06-29/ed-1/seq-4/,,,
-"6 pimientos verdes grandes 1-1-2 tazas de picadillo para relleno 1 huevo batido 1-4 cucharadita de sal Manteca Ase los pimientos, quíteles el pellejo con cuidado y saque las semillas. Rellene los pimientos con el picadillo y tape con huevo batido. Fría en manteca ca- liente.",PIMIENTOS RELLENOS,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-07-03/ed-1/seq-4/,,,
-"1 taza de harina de trigo 1 cucharadita de polvo de hornear 1/4 cucharadita de sal 1/3 taza de leche 1/2 taza de azúcar 1 huevo batido 1 taza de. avena 1/4 taza de nueces 1/2 taza de mantequilla Cierna la harina, el polvo de hornear y la sal. Muela en la máquina la avena junto con las pasas y las nueces, o parta las pasas y las nueces y mezcle con la avena. Bata la mantequilla, añada el azúcar y el huevo. Agregue las pasas a la mantequilla y luego la harina alternando con la leche. Eche la masa por cu- charaditas en un molde engrasado y cueza en horno de calor moderado (350 F) por quince minutos.",galletitas de avena y pasas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-07-09/ed-1/seq-5/,,,
-"4 huevos
+,"6 pimientos verdes grandes 1-1-2 tazas de picadillo para relleno 1 huevo batido 1-4 cucharadita de sal Manteca Ase los pimientos, quíteles el pellejo con cuidado y saque las semillas. Rellene los pimientos con el picadillo y tape con huevo batido. Fría en manteca ca- liente.",PIMIENTOS RELLENOS,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-07-03/ed-1/seq-4/,,,
+,"1 taza de harina de trigo 1 cucharadita de polvo de hornear 1/4 cucharadita de sal 1/3 taza de leche 1/2 taza de azúcar 1 huevo batido 1 taza de. avena 1/4 taza de nueces 1/2 taza de mantequilla Cierna la harina, el polvo de hornear y la sal. Muela en la máquina la avena junto con las pasas y las nueces, o parta las pasas y las nueces y mezcle con la avena. Bata la mantequilla, añada el azúcar y el huevo. Agregue las pasas a la mantequilla y luego la harina alternando con la leche. Eche la masa por cu- charaditas en un molde engrasado y cueza en horno de calor moderado (350 F) por quince minutos.",galletitas de avena y pasas,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-07-09/ed-1/seq-5/,,,
+,"4 huevos
 6 cucharadas de azúcar
 2 tazas de leche
 1-4 cucharadita de sal
@@ -2663,7 +2663,7 @@ un huevo y 4 yemas y se revuel- ve un poco; se le agrega la cazuela caliente y s
 Bata un poco los huevos, añada el azúcar, la leche y la sal.
 Cuele y agregue el café. Vierta en moldes de flan y coloque dentro de una vasija con agua ca- liente. Cueza en horno de calor
 moderado por una hora.",flan de café,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-07-10/ed-1/seq-4/,,,
-"2 riñones de ternera
+,"2 riñones de ternera
 1-2 cucharada de manteca
 3 cucharadas de aceite
 1 cebolla picada fina
@@ -2686,7 +2686,7 @@ pues es sabido que si se dejan
 mucho tiempo en coción, resultan duros y secos. Se acompaña
 con puré de papas o arroz blanco y cubiertos con su salsa.","RIÑONES DE TERNERA A LA
 “DAYRI”",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-07-12/ed-1/seq-5/,,,
-"1 libra de albarieoques secos
+,"1 libra de albarieoques secos
 1 libra de azúcar
 1 litro de agua
 Lave los albaricoques y ponga
@@ -2694,7 +2694,7 @@ en agua por 8 a 10 horas. Mida
 1 litro de agua y cuezalos por
 unos minutos, añada el azúcar","DULCE DE ALRARICOQUES
 SECOS",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-07-13/ed-1/seq-4/,,,
-"2 tazas de azúcar.
+,"2 tazas de azúcar.
 1 taza de agua.
 1—4 cucharadita de crémor.
 1 cucharadita de crémor
@@ -2707,7 +2707,7 @@ Retire del fuego, añada la
 esencia de almendras y unas gotas del color vegetal. Eche en un
 plato hondo bastante azúcar.
 Marque hoyos pequeños y en cada hoyo cierta un poco del sipep.",BOMBONES DE COLORES,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-07-16/ed-1/seq-5/,,,
-"2 libras de pescado en ruedas.
+,"2 libras de pescado en ruedas.
 Jugo de 2 limones.
 2-1-2 tazas de aceite.
 1 libra de frijoles.
@@ -2727,7 +2727,7 @@ hierven con sal por 10 minutos
 Se dejan enfriar. Se pican bien
 las cebollas y pimientos; se doran en el aceite y vinagre 10 minutos. Se añaden los demis Ingredientes formando una ensa- lada que se agrega al pescado
 frito.",PESCADO MILANES,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-07-17/ed-1/seq-4/,,,
-"1-2 taza de Leche Cnndenaeda
+,"1-2 taza de Leche Cnndenaeda
 1 taza de agua
 1-2 taza de pan rallado
 g bananas
@@ -2743,7 +2743,7 @@ ae añaden loa bananos picados
 en tajaditas finas. Se vacía torio en un molde enmantequiilado y
 ae coloca al horno a regular temperatura hasta que esté cocido
 el budín.",budin de banana,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-09-13/ed-1/seq-4/,,,
-"Preparar las claras. Hacer las
+,"Preparar las claras. Hacer las
 natillas o crema, también de la
 misma manera, pero añadiéndoles, cuando ya han espesado,
 ocho gramos de gelatina. Una
@@ -2759,7 +2759,7 @@ esté bien cuajado se vuelca sobre
 un plato cubierto con servilleta
 yse sirve acompañado de una salsa de grosella o de frambuesa
 muy fría.",huevos a la reina,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-09-14/ed-1/seq-4/,,,
-"Coloque en una cacerola tres
+,"Coloque en una cacerola tres
 tomates maduros en trozos, sálelos y déjelos cocer hasta que
 empiecen a deshacerse. Pase los
 tomates por el tamiz para obtener
@@ -2767,7 +2767,7 @@ una pulpa espesa. Caliente esa
 salsa perfumándola con laurel y
 ají picante. Si queda demasiado
 espesa, aligérela con caldo.",salsa de tomate,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-09-17/ed-1/seq-4/,,,
-"COCINA ARGENTINA
+,"COCINA ARGENTINA
 PLATO FRIO PARA UNA
 CENA DE ÑIÑOS
 Poner en un plato grande me- dio huevo relleno con el corte
@@ -2785,8 +2785,8 @@ intercalados con las aceitunas,
 pepinitos en vinagre.
 El cabello se hace con mayonesa, por medio de una manguita con boquilla calada. Para imitarlo en color castaño se le puede dar color a la mayonesa con caramelo líquido.","PLATO FRIO PARA UNA
 CENA DE ÑIÑOS",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-09-19/ed-1/seq-5/,,,
-"Preparar 500 gramos de masa de hojaldre, estirarla dejándola un poco fina, cortar 12 medallones con un cortapasta rizado de diez centímetros de diámetro, colocar 6 de éstos sobre una capa mojada con agua fría, ponerle encima a cada uno 1 cu- charada de salsa Manca ligada con una yema, sobre éstas unas ostras. Cubrirlo con otro poquito de salsa, pintar alrededor con huevo batido y tapar con los otros medallones de masa. Apretar un poquito los bordes para unir, pintar por encima con huevo batido y cocinar en horno caliente durante 49 minutos. Una vez dorados, espolvorearlos con un poco de azúcar impalpable y ponerlos 5 minutos más en el hor- no.",PETIT PATES DE OSTRAS,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-09-20/ed-1/seq-5/,,,
-"INGREDIENTES
+,"Preparar 500 gramos de masa de hojaldre, estirarla dejándola un poco fina, cortar 12 medallones con un cortapasta rizado de diez centímetros de diámetro, colocar 6 de éstos sobre una capa mojada con agua fría, ponerle encima a cada uno 1 cu- charada de salsa Manca ligada con una yema, sobre éstas unas ostras. Cubrirlo con otro poquito de salsa, pintar alrededor con huevo batido y tapar con los otros medallones de masa. Apretar un poquito los bordes para unir, pintar por encima con huevo batido y cocinar en horno caliente durante 49 minutos. Una vez dorados, espolvorearlos con un poco de azúcar impalpable y ponerlos 5 minutos más en el hor- no.",PETIT PATES DE OSTRAS,https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-09-20/ed-1/seq-5/,,,
+,"INGREDIENTES
 2 tazas de arroz Sal gruesa
 5 tazas de agua caliente
 1 hoja de laurel
@@ -2819,7 +2819,7 @@ grande, colocando la salsa de
 hígados en el centro y el arroz
 como borde.","ARROZ CON HIGADOS DE
 POLLO A LA SALVADOREÑA",https://chroniclingamerica.loc.gov/lccn/sn82001257/1957-09-21/ed-1/seq-5/,,,
-"INGREDIENTES. 1 cucharadita de gelatina simple
+,"INGREDIENTES. 1 cucharadita de gelatina simple
 1-4 taza de agua fria.
 1 1-2 tazas de azúcar
 1 1-2 tazas de agua hirviendo
